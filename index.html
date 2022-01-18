@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html>
 	<head> 
@@ -5,14 +6,29 @@
 		<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1"> 
 	</head> 
 	<body> 
-		<h1> 
-			水啊图床
-		</h1> 
-		<div>
-			Hello World! 
-		</div> 
-		<h6> 
-			Copyright &copy; 2022 水啊. 
-		</h6>  
+		<div id="wz">
+		</div>  
+          <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+function getlast(obj){
+}
+function random(){
+    	$(function(){
+	$.ajax({
+		url: 'img.txt',
+		dataType: 'text',
+		success: function(data) {
+          sz=data.split("\n")
+          m=sz.length;
+          //Github+1
+          i=Math.floor(Math.random() *m);
+          img=sz[i]	
+          window.location=img;
+		}
+	});
+   })
+   }
+      random()
+    </script>
 	</body>
 </html>
