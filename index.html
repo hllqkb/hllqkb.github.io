@@ -1,34 +1,169 @@
+---
+layout: default
+home-title: 欢迎来到水啊的博客
+description: 天若有情天亦老 人间正道是沧桑
+---
 
-<!doctype html>
-<html>
-	<head> 
-		<meta charset="UTF-8"> 
-		<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1"> 
-	</head> 
-	<body> 
-		<div id="wz">
-		</div>  
-          <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+{% include header.html %}
+<style>
+        @keyframes blink-caret { 50% { background-color: transparent; } }
+</style>
+<div
+    class="g-banner home-banner {{ site.theme-color | prepend: 'banner-theme-' }}"
+    data-theme="{{ site.theme-color }}"
+    style="{% if page.header-img %}background: url({{ page.header-img | relative_url }}) no-repeat center center; background-size: cover;{% endif %}"
+>
+    <h2>{{ page.home-title }}</h2>
+    <h3 class="container"></h3>
+</div>
+
+<main class="g-container home-content">
+    <div class="article-list">
+        {% for post in paginator.posts %}
+            <article class="article-item">
+                {% if post.cover %}
+                <div class="post-cover">
+                    <a class="post-link" href="{{ post.url | relative_url }}" title="{{ post.title }}"></a>
+                    <img src="{{ post.cover | relative_url }}" href="{{ post.url | relative_url }}" alt="">
+                </div>
+                {% endif %}
+                <section class="post-preview">
+                    <a class="post-link" href="{{ post.url | relative_url }}" title="{{ post.title }}"></a>
+                    <h2 class="post-title">{{ post.title }}</h2>
+                    {% if post.subtitle %}
+                    <h3 class="post-subtitle">{{ post.subtitle }}</h3>
+                    {% endif %}
+                    {% if post.subtitle.size==0 or post.subtitle==nil %}
+                    <p class="post-excerpt">{{ post.excerpt | strip_html | strip_newlines | truncate: 126}}</p>
+                    {% endif %}
+                </section>
+                <footer class="post-meta">
+                    <div class="post-tags">
+                        {% if post.tags.size > 0 %}
+                            {% for tag in post.tags  %}
+                            <a href={{ "tags.html#" | append: tag | relative_url }} class="post-tag">{{ tag }}</a>
+                            {% endfor %}
+                        {% endif %}
+                    </div>
+                    <time class="post-date" datetime="{{ post.date | date:"%y-%m-%d" }}">{{ post.date | date_to_string }}</time>
+                </footer>
+            </article>
+        {% endfor %}
+
+        {% if paginator.total_pages > 1 %}
+            {% include pageNav.html %}
+        {% endif %}
+
+    </div>
+
+    <aside class="g-sidebar-wrapper">
+        <div class="g-sidebar">
+            <section class="author-card">
+                <div class="avatar">
+                    <img src="{{ site.avatar | relative_url }}" alt="">
+                </div>
+                <div class="author-name" rel="author">{{ site.author }}</div>
+                <div class="bio">
+                    <p>{{ site.bio }}</p>
+                </div>
+                {% if site.sns.size > 0 %}
+                <ul id="sns-links" class="sns-links">
+                    {% for s in site.sns %}
+                    <li>
+                        <a href="{{ s[1] }}" target="_blank">
+                            <i class="iconfont icon-{{ s[0] }}"></i>
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </section>
+
+            {% if site.recommend-tags and site.tags.size>0 %}
+            <section class="tags-card">
+                {% for tag in site.tags %}
+                    {% if forloop.index > site.recommend-condition-size %}
+                        {% break %}
+                    {% endif %}
+                    <a href="{{ "tags.html#" | append: tag[0] | relative_url }}" class="tag">{{ tag[0]}}</a>
+                {% endfor %}
+            </section>
+            {% endif %}
+        </div>
+
+        {% if site.search %}
+        <div class="search-card">
+            <input id="search_input" type="text" placeholder="Search..." autocomplete="off">
+            <i class="iconfont icon-search"></i>
+            <div class="search_result"></div>
+        </div>
+        {% endif %}
+
+    </aside>
+
+</main>
+
+{% include footer.html %}
+ <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
     <script>
-function getlast(obj){
+    var s = '天若有情天亦老 人间正道是沧桑';
+    function getlast(obj){
+
+var index=obj.lastIndexOf(":");
+obj=obj.substring(index+1,obj.length);
+// console.log(obj);
+return obj;
 }
-function random(){
+function next(){
     	$(function(){
 	$.ajax({
-		url: 'https://cdn.jsdelivr.net/gh/hllqk/randomseseimg@master/urls.txt',
+		url: 'http://www.shui.tk/fun.txt',
 		dataType: 'text',
 		success: function(data) {
-          sz=data.split("\n")
-          m=sz.length;
-          //Github+1
-          i=Math.floor(Math.random() *m);
-          img=sz[i]	
-          window.location=img;
+          m=data.split("\n").length;
+          i=Math.floor(Math.random() *m+1);	
+         s=getlast(data.split("\n")[i])     
 		}
 	});
-   })
-   }
-      random()
+});
+}
     </script>
-	</body>
-</html>
+<script>         
+var length = s.length;
+var con = $('.container');
+    var index = 0;
+    var tId = null;
+    function start(){
+        con.text('');
+        con.append('<span></span>');
+        tId=setInterval(function(){
+            con.append(s.charAt(index));
+                  length = s.length;
+            if(index++ === length){
+                clearInterval(tId);
+                index = 0;
+                next()
+                
+                start()        
+            }
+        },200);
+    }
+    start();
+</script>
+    <link rel="stylesheet" type="text/css" href="/assets/waifu.css"/>
+    <div class="waifu" id="waifu">
+		<div class="waifu-tips" style="opacity: 1;"></div>
+		<canvas id="live2d" width="280" height="250" class="live2d"></canvas>
+		<div class="waifu-tool">
+			<span class="fui-home"></span>
+			<span class="fui-chat"></span>
+			<span class="fui-eye"></span>
+			<span class="fui-user"></span>
+			<span class="fui-photo"></span>
+			<span class="fui-info-circle"></span>
+			<span class="fui-cross"></span>
+		</div>
+	</div>
+	<script src="/assets/live2d.js"></script>
+	<script src="/assets/waifu-tips.js"></script>
+	<script type="text/javascript">initModel()</script>
