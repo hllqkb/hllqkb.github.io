@@ -1,0 +1,207 @@
+{
+  "posts": [
+    {
+      "slug": "blake-spot-orders",
+      "title": "幣安 3 種委託買賣現貨教學！新手圖文操作全攻略！",
+      "author": "工程师布莱克",
+      "site": "工程師布萊克",
+      "url": "https://aidaidme.com/binance-trade-category-intro/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "作者把复杂交易页拆成报价、K 线、买卖盘、委托与成交记录，再用图文讲解下单。适合先学会认区域，避免把看到价格、提交订单和真正成交混为一谈。",
+      "takeaways": [
+        "读图时先找到交易对，再确认买入或卖出的方向。",
+        "对照买卖盘、最新成交、当前委托，理解三者记录的事情不同。",
+        "看完操作图，回到自己的订单状态确认结果。"
+      ],
+      "caveats": [
+        "原文含推荐码与返佣宣传；本页不收录推广链接，费率以账户当前规则为准。",
+        "部分界面和措辞较旧。限价不保证成交，订单概念请对照官方说明。"
+      ],
+      "related": ["money", "orders", "binance-map"],
+      "official_sources": [
+        {
+          "title": "Binance：现货订单类型",
+          "url": "https://www.binance.com/en-GB/support/faq/different-order-types-in-spot-trading-8a2973eef1de429dbfad38ab878aa3eb"
+        }
+      ],
+      "exercise": {
+        "title": "本站练习：挂单是不是已经买到",
+        "prompt": "你想用 100 USDT 买币，提交限价单后看到“当前委托：100 USDT，已成交：0”。现在已经持有这批币了吗？下一步应看哪里？",
+        "answer": "还没有。订单已经提交，但成交量仍是 0。先查看订单状态、成交数量与成交记录；资金被订单占用也不代表已经买到。这个练习只核对状态，不要求真实下单。"
+      }
+    },
+    {
+      "slug": "hank-spot-workflow",
+      "title": "幣安買賣教學：現貨交易四種下單操作、閃兌換幣完整流程",
+      "author": "汉克探索中",
+      "site": "新手理財的領路者",
+      "url": "https://www.hankexploring.com/binance_spottrading/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "汉克从个人使用习惯出发，比较兑换与现货页面，再串起下单、查询和资金流转。适合用完整操作路线查漏补缺，不必死记截图里的按钮位置。",
+      "takeaways": [
+        "先问自己要完成兑换、挂单还是查记录，再选择页面。",
+        "把下单后的查询纳入流程，不在按下按钮后就停止核对。",
+        "入金与交易分开理解，原作者的地区路径不能直接照搬。"
+      ],
+      "caveats": [
+        "原文带平台优惠链接，示范也有台湾地区情境；不代表你所在地区可用。",
+        "界面名称和费率需重新核对；持有现货不保证价格会涨回买入价。"
+      ],
+      "related": ["binance-map", "transfer", "fees"],
+      "official_sources": [
+        {
+          "title": "Binance Academy：现货交易指南",
+          "url": "https://www.binance.com/en/academy/articles/your-guide-to-binance-spot-trading"
+        }
+      ],
+      "exercise": {
+        "title": "本站练习：用同一单位比较报价",
+        "prompt": "假设只比较买币成本：兑换页面显示付 100 USDT 可得 0.001 BTC；另一笔已确认的模拟现货成交同样花 100 USDT，扣完费用可得 0.00102 BTC。哪一笔每枚 BTC 的成本较低？",
+        "answer": "第二笔较低。第一笔成本是 100÷0.001＝100,000 USDT/BTC；第二笔约为 98,039.22 USDT/BTC。比较时要用同一时刻、同一投入和扣费后到手数量，不能只看“免手续费”字样。"
+      }
+    },
+    {
+      "slug": "zwdnet-grid-research",
+      "tags": ["Python", "Backtrader", "网格"],
+      "title": "量化投资学习笔记84：实现网格交易法",
+      "author": "赵瑜敏",
+      "site": "赵瑜敏的口腔医学专业学习博客",
+      "url": "https://zwdnet.github.io/2020/08/09/%E9%87%8F%E5%8C%96%E6%8A%95%E8%B5%84%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B084%E2%80%94%E2%80%94%E5%AE%9E%E7%8E%B0%E9%87%8F%E5%8C%96%E4%BA%A4%E6%98%93%E7%BB%8F%E5%85%B8%E7%AD%96%E7%95%A5-%E7%BD%91%E6%A0%BC%E4%BA%A4%E6%98%93%E6%B3%95/",
+      "language": "简体中文",
+      "topic": "策略",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "作者用 Backtrader 实现网格，再比较不同格距的历史表现。文章值得学的是把口头策略写成规则，并指出区间估错、资金不足和成本会改变结果。",
+      "takeaways": [
+        "网格不仅决定买卖时机，还决定每次使用多少资金。",
+        "价格继续下跌时，可能已经买满却没有后续买入资金。",
+        "参数变化会改变结果，历史最优格距只是待验证的候选。"
+      ],
+      "caveats": [
+        "这是较早的个人代码笔记，依赖作者的辅助模块，并非可直接照搬的币安机器人。",
+        "文中历史收益不是预期收益；网格利润还要与未平仓盈亏一起看。"
+      ],
+      "related": ["strategies", "sizing", "validation"],
+      "official_sources": [
+        {
+          "title": "Binance：现货网格的区间与停止条件",
+          "url": "https://www.binance.com/en-NZ/support/faq/detail/d5f441e8ab544a5b98241e00efb3a4ab"
+        },
+        {
+          "title": "Binance：网格总收益、网格利润与浮动盈亏",
+          "url": "https://www.binance.com/en-JP/support/faq/detail/408ab63b852e47748a9554501669bce5"
+        }
+      ],
+      "exercise": {
+        "title": "本站练习：网格赚了，账户一定赚吗",
+        "prompt": "一组教学网格的已配对买卖扣费后赚 18 USDT，但仍持有的币浮亏 65 USDT。没有其他资金进出，总盈亏是多少？",
+        "answer": "18－65＝－47 USDT。完成的买卖可以盈利，同时持仓缩水更多，所以总账户仍然亏损。停止挂新单也不会自动消除已经持有资产的价格风险。"
+      }
+    },
+    {
+      "slug": "lililib-backtest-report",
+      "title": "Freqtrade 回测结果解释",
+      "author": "煨酒小童（站点署名）",
+      "site": "煨酒小童",
+      "url": "https://lililib.github.io/freqtrade%E5%9B%9E%E6%B5%8B%E7%BB%93%E6%9E%9C%E8%A7%A3%E9%87%8A/",
+      "language": "简体中文",
+      "topic": "开发",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "这份个人笔记把 Freqtrade 报告拆成设置、收益、交易次数、退出原因和回撤等项目。它提供的是读报告的顺序，适合练习解释一份不漂亮的成绩单。",
+      "takeaways": [
+        "先看回测区间、交易模式和仓位设置，再看收益数字。",
+        "一起读胜率、平均赚亏和最大回撤，避免只挑一个指标。",
+        "退出原因和未能入场的信号，也能帮助理解策略行为。"
+      ],
+      "caveats": [
+        "文中是作者展示的回测样本，不是本项目账本，也不是已核实实盘收益。",
+        "统计口径和字段可能随版本变化；官方文档同时说明了成交模型的假设。"
+      ],
+      "related": ["backtest", "expectancy", "review"],
+      "official_sources": [
+        {
+          "title": "Freqtrade：回测报告与成交假设",
+          "url": "https://www.freqtrade.io/en/stable/backtesting/"
+        }
+      ],
+      "exercise": {
+        "title": "本站练习：胜率高为什么还亏",
+        "prompt": "某次教学回测共 10 笔：8 笔各赚 2 USDT，2 笔各亏 12 USDT。这些金额已经扣费。胜率与总利润分别是多少？",
+        "answer": "胜率是 80%，总利润是 8×2－2×12＝－8 USDT。赢得频繁和最终赚钱是两个问题，还需要看每次赚亏的大小。"
+      }
+    },
+    {
+      "slug": "stash86-dry-live",
+      "title": "Difference between dry and live run",
+      "author": "stash86",
+      "site": "Bot Academy",
+      "url": "https://botacademy.ddns.net/2026/02/12/difference-between-dry-and-live-run/",
+      "language": "英文，附中文导读",
+      "topic": "开发",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "作者用订单簿到实际下单之间的时间差解释：模拟成交可能与真实成交不同，并分享真实环境里的限制。适合回答“接了真实行情，为什么还不等于实盘”。",
+      "takeaways": [
+        "读取报价和订单抵达交易所之间，价格可能已经变化。",
+        "多次进出场的小差异，会累积成最终收益差异。",
+        "模拟模式不能完整复现真实账户的所有交易限制。"
+      ],
+      "caveats": [
+        "原文是作者经验，不要把其中的简化描述理解为所有模拟器都完全不计滑点。",
+        "当前 Freqtrade 文档明确描述了模拟成交规则；本项目另有自己的费用与滑点模型。"
+      ],
+      "related": ["demo", "paper", "api"],
+      "official_sources": [
+        {
+          "title": "Freqtrade：Dry-run 钱包与订单模拟规则",
+          "url": "https://www.freqtrade.io/en/stable/configuration/#considerations-for-dry-run"
+        }
+      ],
+      "exercise": {
+        "title": "本站练习：报价差一点，成本差多少",
+        "prompt": "教学程序按 20 USDT 模拟买入 5 个单位；假设真实订单到达时只能按 20.08 成交。暂不计其他费用，两个结果的买入成本相差多少？",
+        "answer": "模拟成本 100 USDT，后一种成交成本 100.40 USDT，相差 0.40 USDT。行情来自真实市场，也不能保证模拟器拿到的成交价在真实订单执行时仍然可得。"
+      }
+    },
+    {
+      "slug": "stash86-learning-expectations",
+      "title": "Algo Trading For Dummies",
+      "author": "stash86",
+      "site": "Bot Academy",
+      "url": "https://botacademy.ddns.net/2026/01/27/algo-trading-for-dummies/",
+      "language": "英文，附中文导读",
+      "topic": "策略",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "作者从自己的长期试错谈起，提醒读者不要期待几天写出稳定盈利机器人。他也直说文中是个人观点。适合在学习策略前，先校正时间投入和证据标准。",
+      "takeaways": [
+        "把写出程序与证明策略有效，视为不同阶段的成果。",
+        "作者的试错经历可以启发研究流程，不能替代自己的记录。",
+        "读到收益目标或经验判断时，追问依据、样本和失败情况。"
+      ],
+      "caveats": [
+        "作者明确表示其观点并无科学数据支持；本页不采纳文中的年收益目标。",
+        "任何个人声称的长期有效策略，都不能仅凭博客文字视为已获验证。"
+      ],
+      "related": ["quant-rules", "validation", "agent"],
+      "official_sources": [
+        {
+          "title": "Freqtrade：回测的限制与后续模拟",
+          "url": "https://www.freqtrade.io/en/stable/backtesting/#next-step"
+        }
+      ],
+      "exercise": {
+        "title": "本站练习：下一条证据是什么",
+        "prompt": "一个机器人连续三天模拟盈利，你能得出“以后每天都能赚钱”吗？列出下一步最有价值的两项记录。",
+        "answer": "不能。可先固定规则，继续记录每笔信号、模拟成交、费用和跳过原因；同时记录权益曲线及最大回撤，并保留未参与调参的新时段。三天只是一个观察样本，不是收益承诺。"
+      }
+    }
+  ]
+}

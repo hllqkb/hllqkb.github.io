@@ -1,0 +1,2049 @@
+{
+  "posts": [
+    {
+      "slug": "digitalyoming-binance-customer-support",
+      "title": "遇到问题，怎样找到真正的客服",
+      "original_title": "幣安真人客服在哪裡？有電話嗎？線上轉接人工客服的方法",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-customer-support/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "入门与账户",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "原文演示从站内聊天进入人工支持的过程。适合先认识求助入口，再学习怎样把问题说清楚。",
+      "takeaways": [
+        "按问题类型找到帮助内容，再追踪同一客服会话。",
+        "提供发生步骤、错误截图和订单信息，比只说“钱没了”更有帮助。"
+      ],
+      "caveats": [
+        "原文的排队时间和输入关键词次数是作者体验，不能保证重现。",
+        "客服入口应从已核对的官方 App 或官网进入；不把密码、验证码、私钥发给私聊账号。"
+      ],
+      "related": [
+        "safety",
+        "binance-map"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance 官方帮助中心与客服入口",
+          "url": "https://www.binance.com/en/support"
+        },
+        {
+          "title": "Binance Verify：核对官方来源",
+          "url": "https://www.binance.com/en/official-verification"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：遇到问题，怎样找到真正的客服",
+        "prompt": "假设充值未到账，准备向客服说明情况，应保留什么？",
+        "answer": "保留币种、网络、交易哈希、充值地址、时间和平台状态截图。不要公开账户敏感资料，也不要为了“解冻”向私聊账号转钱。"
+      }
+    },
+    {
+      "slug": "digitalyoming-binance-futures-mock-trading",
+      "title": "在币安模拟盘练习第一笔订单",
+      "original_title": "幣安模擬交易，用虛擬貨幣模擬器與 1 萬美金輕鬆練習交易",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-futures-mock-trading/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "入门与账户",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "作者介绍模拟资产、现货与合约模式切换，以及重置账户的方法。读完可对应本站的模拟交易课程。",
+      "takeaways": [
+        "先确认界面属于模拟环境，再查看虚拟余额和订单记录。",
+        "重置只是恢复练习资金，不能当作撤销真实损失的办法。"
+      ],
+      "caveats": [
+        "原文中的虚拟余额、重置频率及功能范围会改变，以官方说明为准。",
+        "模拟交易的价格、流动性和成交可能不同于实盘；地区资格仍需核对。"
+      ],
+      "related": [
+        "demo",
+        "paper",
+        "orders"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance Support：官方模拟交易说明",
+          "url": "https://www.binance.com/en/support/faq/detail/9be58f73e5e14338809e3b705b9687dd"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：在币安模拟盘练习第一笔订单",
+        "prompt": "假设模拟本金1000 U，交易亏损100 U，重置后余额又是1000 U，这次策略收益是多少？",
+        "answer": "这段交易仍然亏损100 U，即-10%。必须单独记录重置补入的100 U，不能把恢复后的余额当成盈利。"
+      }
+    },
+    {
+      "slug": "digitalyoming-binance-account-bound-token",
+      "title": "BAB 身份代币有什么用途",
+      "original_title": "幣安帳戶綁定代幣（BABT）是什麼？1 美金即可鑄造",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-account-bound-token/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "入门与账户",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "这篇介绍账户绑定代币的身份凭证用途，并展示连接钱包、签名、铸造与撤销的流程。",
+      "takeaways": [
+        "BAB 的重点是身份绑定，并非可自由买卖的投机币。",
+        "先分清平台账户、绑定钱包和链上代币各自代表什么。"
+      ],
+      "caveats": [
+        "原文的铸造费用、等待时间和活动奖励属于当时规则，操作前需重新核对。",
+        "签名前阅读请求内容；身份凭证不保证获得空投或其他收益。"
+      ],
+      "related": [
+        "safety",
+        "transfer"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：BAB 身份代币常见问题",
+          "url": "https://www.binance.com/en/support/faq/detail/adbd05fe149344d59a348f82d5bf359d"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：BAB 身份代币有什么用途",
+        "prompt": "假设某人声称能出售一个 BAB 给你，让你跳过身份验证，这和原文机制相符吗？",
+        "answer": "不相符。身份绑定代币不是用于转卖账户资格的普通代币，应通过官方说明核对自身资格。"
+      }
+    },
+    {
+      "slug": "digitalyoming-binance-academy-learn-and-earn",
+      "title": "边学边赚：先读懂奖励资格",
+      "original_title": "幣安邊學邊賺（學習賺幣），看文章/影片並完成小測驗就有獎勵！",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-academy-learn-and-earn/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "入门与账户",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "原文讲解观看课程、完成测验、查看奖励状态的流程，并提醒奖励池和参与资格有限。",
+      "takeaways": [
+        "学习完成与奖励到账是两个步骤。",
+        "报名条件、可领取名额和奖励有效期都需要分别检查。"
+      ],
+      "caveats": [
+        "旧文章的题数、发放时间和奖励数量不代表当前活动承诺。",
+        "官方 FAQ 说明奖励面向特定用户；通过测验不等于一定有奖励。"
+      ],
+      "related": [
+        "safety",
+        "demo"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：Learn & Earn 资格与奖励",
+          "url": "https://www.binance.com/en/support/faq/detail/3819c21bd5fb493fa5057c727043cb14"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：先读懂奖励资格",
+        "prompt": "假设你答题全对，却不属于活动指定用户，应把尚未到账的奖励记为收入吗？",
+        "answer": "不能。资格、审核和到账记录都没确认前，收入应记为0；课程知识仍可正常学习。"
+      }
+    },
+    {
+      "slug": "digitalyoming-binance-futures-grid-trading",
+      "title": "合约网格：自动交易为什么仍会爆仓",
+      "original_title": "幣安合約網格，做多/做空/中性策略差別，保證金與槓桿教學",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-futures-grid-trading/",
+      "language": "繁体中文",
+      "topic": "策略",
+      "category": "机器人与策略",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "作者把合约网格拆成方向、价格区间、网格间距、保证金与退出设置，便于和现货网格对照。",
+      "takeaways": [
+        "中性、做多、做空会形成不同的持仓风险。",
+        "结束网格时，要区分停止下单、撤销挂单与平掉持仓。"
+      ],
+      "caveats": [
+        "原文的网格数量、费率和界面截图可能过时。",
+        "网格利润不能抵消所有浮亏；还要计算资金费与强平风险，自动参数不保证盈利。"
+      ],
+      "related": [
+        "strategies",
+        "leverage",
+        "drawdown"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance Academy：交易机器人及各类策略",
+          "url": "https://www.binance.com/en/academy/articles/your-guide-to-binance-trading-bots"
+        },
+        {
+          "title": "Binance 官方：合约强平机制",
+          "url": "https://www.binance.com/en/support/faq/detail/360033525271"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：自动交易为什么仍会爆仓",
+        "prompt": "假设网格已实现利润20 U，持仓浮亏80 U，其他费用5 U，总结果如何？",
+        "answer": "总结果为20-80-5=-65 U。界面显示有网格利润，账户仍可能亏损；杠杆还可能使仓位先被清算。"
+      }
+    },
+    {
+      "slug": "digitalyoming-binance-futures-contract-tutorial",
+      "title": "合约入门：先分清产品，再谈开仓",
+      "original_title": "幣安合約交易教學，手續費/保證金率/U本位/爆倉 1 次搞懂",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-futures-contract-tutorial/",
+      "language": "繁体中文",
+      "topic": "策略",
+      "category": "合约与杠杆",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "原文汇总 U 本位、币本位、永续和交割合约，并介绍保证金、订单与结算费用。",
+      "takeaways": [
+        "保证金用什么币，与合约是否到期，是两种不同分类。",
+        "下单前分别看方向、名义仓位、保证金和退出条件。"
+      ],
+      "caveats": [
+        "文章中的最高倍数、费率和可用合约不是当前通用规则。",
+        "持有合约不等于持有现货；保证金不足可能触发强平，止损也不保证成交价格。"
+      ],
+      "related": [
+        "spot-futures",
+        "leverage",
+        "fees"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance Academy：加密交易中的杠杆",
+          "url": "https://www.binance.com/en/academy/articles/what-is-leverage-in-crypto-trading"
+        },
+        {
+          "title": "Binance 官方：合约强平机制",
+          "url": "https://www.binance.com/en/support/faq/detail/360033525271"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：先分清产品，再谈开仓",
+        "prompt": "假设线性合约名义仓位1000 U，用100 U作保证金，价格反向波动2%，忽略费用，损失多少？",
+        "answer": "损失约20 U，占这笔保证金的20%。实际强平还取决于标记价格、维持保证金和费用，不能只按“跌10%才爆仓”推算。"
+      }
+    },
+    {
+      "slug": "digitalyoming-binance-dual-investment-tutorial",
+      "title": "双币投资：到期拿回的币可能变了",
+      "original_title": "幣安雙幣投資教學，運作方式及高收益背後的 3 種風險",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-dual-investment-tutorial/",
+      "language": "繁体中文",
+      "topic": "策略",
+      "category": "理财与产品",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "文章从高卖、低买两种方向说明双币产品的申购与结算，并讨论换币、卖飞和平台风险。",
+      "takeaways": [
+        "选择目标价和到期日，同时是在接受特定结算条件。",
+        "收益要把利息与结算后资产的市值一起计算。"
+      ],
+      "caveats": [
+        "APR 是年化表达，不是本次到期收益率。",
+        "这类产品不保本；被换成下跌资产后，价差损失可能远大于利息。自定义自动续投也会延续风险。"
+      ],
+      "related": [
+        "expectancy",
+        "profit",
+        "spot-futures"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：双币投资结算与风险",
+          "url": "https://www.binance.com/en-NG/support/faq/detail/09911be9f5754c34806bd3ab4a427e0e"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：到期拿回的币可能变了",
+        "prompt": "假设100 U按目标价10换成10个代币，结算时市价只有8，暂忽略利息，市值是多少？",
+        "answer": "市值是80 U，较投入少20 U。即使另收到少量利息，也不能据此称为本金安全。"
+      }
+    },
+    {
+      "slug": "digitalyoming-binance-savings-stablecoin-investment",
+      "title": "稳定币活期：收益从哪里来，风险在哪里",
+      "original_title": "幣安穩定幣活存攻略，1000 U 活期額度，躺賺 5% APR 利息！",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-savings-stablecoin-investment/",
+      "language": "繁体中文",
+      "topic": "策略",
+      "category": "理财与产品",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "作者区分即时 APR 与分级奖励，并演示申购、自动申购和赎回。阅读重点是收益机制与流动性。",
+      "takeaways": [
+        "浮动收益和活动奖励有不同的计息与发放规则。",
+        "稳定币也会脱锚，急用资金时还可能遇到赎回延迟。"
+      ],
+      "caveats": [
+        "文中的利率表、币种和奖励额度属于历史快照，不作为当前报价。",
+        "“保本”通常描述代币数量，不等于法币价值安全，更不等于银行存款保障。"
+      ],
+      "related": [
+        "money",
+        "profit",
+        "safety"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：Simple Earn 活期收益与赎回限制",
+          "url": "https://www.binance.com/en/support/faq/detail/3bd1a6eba20a445da1e94bf6cfa52e80"
+        },
+        {
+          "title": "Binance Academy：什么是 USDT",
+          "url": "https://www.binance.com/en/academy/articles/what-is-tether-usdt"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：收益从哪里来，风险在哪里",
+        "prompt": "假设持有1000个稳定币，获得10个奖励，但每个市价跌到0.95美元，价值多少？",
+        "answer": "1010×0.95=959.5美元。代币数量增加了，法币计价仍较最初1000美元亏40.5美元。"
+      }
+    },
+    {
+      "slug": "digitalyoming-binance-savings-tutorial",
+      "title": "旧版币安宝：用它认识活期、定期和定投",
+      "original_title": "幣安寶是什麼？活期/定期/活動/定投 4 種功能全介紹",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-savings-tutorial/",
+      "language": "繁体中文",
+      "topic": "策略",
+      "category": "理财与产品",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "这是一份旧产品结构导读，原文已标注币安宝并入 Simple Earn。适合比较不同资金安排方式。",
+      "takeaways": [
+        "活期、锁定期限产品和定期买入计划不能混为一谈。",
+        "申购前先看赎回条件，而不只看页面上的年化数字。"
+      ],
+      "caveats": [
+        "旧版起息时间、提前赎回方式和菜单不能直接套用当前产品。",
+        "原文把部分收益称为固定，仍须逐项看规则；加密理财不是无风险存款。"
+      ],
+      "related": [
+        "profit",
+        "fees",
+        "review"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：Simple Earn 活期收益与赎回限制",
+          "url": "https://www.binance.com/en/support/faq/detail/3bd1a6eba20a445da1e94bf6cfa52e80"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：用它认识活期、定期和定投",
+        "prompt": "假设你三天后必须用100 U，但产品只能七天后赎回，年化再高能解决吗？",
+        "answer": "不能。资金使用期限不匹配，较高年化无法保证提前取回资金。先保留需要使用的资金，再研究产品。"
+      }
+    },
+    {
+      "slug": "digitalyoming-binance-auto-invest-index-linked-plan",
+      "title": "指数组合定投：认识等权重与再平衡",
+      "original_title": "幣安指數關連定投計劃，一次佈局前 10 大加密貨幣，倉位自動再平衡",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-auto-invest-index-linked-plan/",
+      "language": "繁体中文",
+      "topic": "策略",
+      "category": "机器人与策略",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "原文介绍跟踪一篮子代币、按比例分配与定期调仓的旧指数组合计划。它可作为组合策略案例阅读。",
+      "takeaways": [
+        "等权重意味着每项分配相同比例，并非按币数平均。",
+        "调仓会改变持仓，也会产生交易成本。"
+      ],
+      "caveats": [
+        "原文已注明申购入口关闭，本页保留作历史机制案例。",
+        "一篮子加密资产不等于受监管 ETF，也不能保证市场下跌时保值。"
+      ],
+      "related": [
+        "strategies",
+        "backtest",
+        "fees"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance Academy：交易机器人及各类策略",
+          "url": "https://www.binance.com/en/academy/articles/your-guide-to-binance-trading-bots"
+        },
+        {
+          "title": "Binance：再平衡机器人常见问题",
+          "url": "https://www.binance.com/en-IA/support/faq/detail/29bbbd2e7fc24085be7a8a7d02779457"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：认识等权重与再平衡",
+        "prompt": "假设100 U分给10个资产，各占10%，其中一个翻倍、其他不变，总值和它的新权重是多少？",
+        "answer": "总值110 U，该资产价值20 U，占约18.18%。恢复10%权重需要交易，并应计入成本。"
+      }
+    },
+    {
+      "slug": "digitalyoming-binance-savings-auto-invest-plan",
+      "title": "定期定额：自动买入会怎样改变成本",
+      "original_title": "幣安定投計劃介紹，1 U 即可定期定額自動化投資",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-savings-auto-invest-plan/",
+      "language": "繁体中文",
+      "topic": "策略",
+      "category": "机器人与策略",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "这篇用固定金额和固定周期解释 DCA，并展示计划创建、扣款来源与暂停管理。",
+      "takeaways": [
+        "同样金额在低价时买到更多单位，在高价时买到更少。",
+        "自动执行节省操作时间，但选错资产仍可能持续亏损。"
+      ],
+      "caveats": [
+        "原文的最低金额、支持币种、费用及资金去向需按当前计划核对。",
+        "定投不保证盈利，也不能把不断追加资金形成的余额增长当成投资收益。"
+      ],
+      "related": [
+        "strategies",
+        "profit",
+        "review"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance Academy：交易机器人及各类策略",
+          "url": "https://www.binance.com/en/academy/articles/your-guide-to-binance-trading-bots"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：自动买入会怎样改变成本",
+        "prompt": "假设两次各买100 U，单价分别10和5，共有多少单位，平均成本多少？",
+        "answer": "第一次10个，第二次20个，共30个；平均成本200÷30≈6.67 U。若市价后来只有4，仍亏损80 U。"
+      }
+    },
+    {
+      "slug": "digitalyoming-binance-convert",
+      "title": "闪兑：免手续费也要比较到账数量",
+      "original_title": "幣安閃兌 (幣安兌換) 怎麼用？幣幣閃兌交易無手續費",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-convert/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "现货与订单",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "作者比较闪兑的即时报价与限价模式，介绍预览、确认和查看兑换记录的方法。",
+      "takeaways": [
+        "即时模式先给报价，确认后才完成兑换。",
+        "限价模式还要关注目标价格、有效期和订单是否成交。"
+      ],
+      "caveats": [
+        "“零手续费”不等于零成本，应对比同一时点的报价、价差和实际到账数。",
+        "旧版支持币种、菜单与可用账户以当前界面为准。"
+      ],
+      "related": [
+        "orders",
+        "fees",
+        "profit"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：闪兑操作与报价确认",
+          "url": "https://www.binance.com/en-IN/support/faq/detail/e8c7579382ea403aa4a4a6eec469659d"
+        },
+        {
+          "title": "Binance Academy：滑点词条",
+          "url": "https://www.binance.com/en/academy/glossary/slippage"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：免手续费也要比较到账数量",
+        "prompt": "假设同样付100 U，闪兑能拿9.8个代币，另一渠道扣完费用能拿9.9个，哪个兑换结果更好？",
+        "answer": "后者多0.1个，前提是报价同时、成交可实现且没有遗漏费用。只看手续费标签不足以比较。"
+      }
+    },
+    {
+      "slug": "digitalyoming-binance-web3-wallet",
+      "title": "交易所账户与 Web3 钱包不是一回事",
+      "original_title": "幣安 Web3 錢包教學及空投，3 分鐘摸透它！",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-web3-wallet/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "资金与安全",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "文章对照托管账户和自托管钱包，并说明旧版 Web3 钱包的 MPC、备份与 DApp 使用方式。",
+      "takeaways": [
+        "交易所账本余额与链上钱包资产需要分开理解。",
+        "钱包备份和授权管理是使用 DApp 前的重要功课。"
+      ],
+      "caveats": [
+        "官方产品名称和功能已有演变，旧版截图、支持网络及活动不能直接照搬。",
+        "MPC 不代表不会丢失访问权；不要泄露恢复资料，也不要盲签陌生授权。"
+      ],
+      "related": [
+        "safety",
+        "transfer"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance Academy：Binance Wallet 与 MPC",
+          "url": "https://www.binance.com/en/academy/articles/what-is-binance-web3-wallet-and-how-does-it-work"
+        },
+        {
+          "title": "MetaMask：助记词、密码和私钥的安全",
+          "url": "https://support.metamask.io/start/user-guide-secret-recovery-phrase-password-and-private-keys"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：交易所账户与 Web3 钱包不是一回事",
+        "prompt": "假设交易所还能登录，但钱包恢复密码已丢失，能直接认定钱包资产也能找回吗？",
+        "answer": "不能。要依据该钱包的备份与恢复方案确认可用材料。平台账户登录和钱包恢复是不同流程。"
+      }
+    },
+    {
+      "slug": "digitalyoming-binance-copy-trading-futures",
+      "title": "合约跟单：复制订单不等于复制收益",
+      "original_title": "幣安合約跟單交易好不好？手續費抽佣 10%？風險分析與操作教學",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-copy-trading-futures/",
+      "language": "繁体中文",
+      "topic": "策略",
+      "category": "合约与杠杆",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "原文展示固定金额、固定比例跟单和风险设置，并讨论带单员分润、滑点及跟随差异。",
+      "takeaways": [
+        "选带单员时应看回撤、持仓和跟随者结果，而不只看收益排名。",
+        "跟单仍然是在自己的账户承担合约盈亏。"
+      ],
+      "caveats": [
+        "旧文的分润比例、费率及功能限制可能已改变。",
+        "延迟、滑点、资金量和订单失败会使跟随结果不同；历史赢家未必持续有效。"
+      ],
+      "related": [
+        "drawdown",
+        "leverage",
+        "paper"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance Academy：跟单机制及限制",
+          "url": "https://www.binance.com/en/academy/articles/your-guide-to-binance-copy-trading"
+        },
+        {
+          "title": "Binance Academy：滑点词条",
+          "url": "https://www.binance.com/en/academy/glossary/slippage"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：复制订单不等于复制收益",
+        "prompt": "假设带单者100买入、102卖出，而你101买入、102卖出，忽略费用，两者收益率相同吗？",
+        "answer": "不同。带单者收益2%，你的收益约0.99%。分润、手续费和资金费还会进一步改变净结果。"
+      }
+    },
+    {
+      "slug": "digitalyoming-binance-registration",
+      "title": "开户教程应该先看哪些准备与限制",
+      "original_title": "【圖解】幣安註冊流程 1 分鐘，Binance KYC 身份認證開戶教學",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-registration/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "入门与账户",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "原文从邮箱、证件准备讲到身份认证与双重验证，适合用来认识账户建立的几个独立步骤。",
+      "takeaways": [
+        "创建登录账号、完成身份认证、设置账户保护是不同任务。",
+        "证件与居住资料需要真实，并只在核实后的官方流程提交。"
+      ],
+      "caveats": [
+        "原文面向特定地区读者，证件类型、界面和资格不一定适用你所在地区。",
+        "遇到所属地区不可用，向官方确认资格；不要伪造地区、借用身份或照抄推广承诺。"
+      ],
+      "related": [
+        "safety",
+        "binance-map",
+        "demo"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：个人身份认证流程",
+          "url": "https://www.binance.com/en-GB/support/faq/how-to-complete-identity-verification-360027287111"
+        },
+        {
+          "title": "Binance Academy：账户安全设置",
+          "url": "https://www.binance.com/en/academy/articles/secure-your-binance-account-in-7-simple-steps"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：开户教程应该先看哪些准备与限制",
+        "prompt": "假设账号注册成功，但某交易产品提示地区不可用，可以把注册成功当作该产品获准使用吗？",
+        "answer": "不能。账户与各产品可能有不同资格要求，应停止该产品操作并查看官方规则或询问客服。"
+      }
+    },
+    {
+      "slug": "digitalyoming-binance",
+      "title": "币安功能总览：把平台当成一张地图",
+      "original_title": "幣安最新攻略，Binance 交易所安全嗎？是詐騙嗎？內有 PTT、Dcard 網友評價與功能教學",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "入门与账户",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "文章把账户、现货、衍生品、机器人、理财和客服放在同一张功能清单里，适合建立整体认识。",
+      "takeaways": [
+        "先确定当前要做的是查看资产、交易、转账还是学习。",
+        "不同功能使用不同账户和规则，不必一次学完。"
+      ],
+      "caveats": [
+        "原文的排名、评分、费率和产品清单含历史资料，不是当前平台状态证明。",
+        "平台规模和保障基金不能推出全部资产都受无条件保障。"
+      ],
+      "related": [
+        "binance-map",
+        "safety",
+        "demo"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance Academy：现货交易入门",
+          "url": "https://www.binance.com/en/academy/articles/your-guide-to-binance-spot-trading"
+        },
+        {
+          "title": "Binance 官方帮助中心与客服入口",
+          "url": "https://www.binance.com/en/support"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：把平台当成一张地图",
+        "prompt": "假设你只想练习市价和限价订单，第一阶段需要同时开通借贷、期权和合约吗？",
+        "answer": "不需要。先学现货订单，并在可用的模拟环境练习下单、撤单和查成交，就能完成这一学习目标。"
+      }
+    },
+    {
+      "slug": "digitalyoming-coinmarketcap",
+      "title": "用 CoinMarketCap 查资料，别把排名当背书",
+      "original_title": "CoinMarketCap 是什麼？12 種用途與教學攻略",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/coinmarketcap/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "概念与工具",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "原文介绍币种数据、交易市场与排名等查询用途，也建议结合其他信息源交叉观察。",
+      "takeaways": [
+        "市值、流通量和成交量描述不同问题。",
+        "查币时还要确认官方项目链接、合约地址和交易市场。"
+      ],
+      "caveats": [
+        "排名或收录不等于平台保证项目安全。",
+        "第三方聚合价格不是你一定能成交的报价；更新延迟和流通量口径会影响比较。"
+      ],
+      "related": [
+        "data",
+        "candles",
+        "safety"
+      ],
+      "official_sources": [
+        {
+          "title": "CoinMarketCap：市值计算方法",
+          "url": "https://support.coinmarketcap.com/hc/en-us/articles/360043836811-Market-Capitalization-Cryptoasset-Aggregate"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：用 CoinMarketCap 查资料，别把排名当背书",
+        "prompt": "假设代币A单价1美元、流通1亿个，B单价100美元、流通10万个，谁市值更大？",
+        "answer": "A约1亿美元，B约1000万美元。单价低不代表估值低，还要看流通量与供应口径。"
+      }
+    },
+    {
+      "slug": "digitalyoming-market-depth",
+      "title": "市场深度：为什么同样买入会花更多钱",
+      "original_title": "市場深度 (DOM) 或交易深度是什麼？很重要嗎？它如何影響交易成本？",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/market-depth/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "概念与工具",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "作者用两份订单簿比较大额订单如何吃掉多个价位，解释市场深度与交易成本之间的关系。",
+      "takeaways": [
+        "价格附近可成交的数量，比单看最后成交价更有用。",
+        "订单越大，越可能跨档成交，平均价格随之变化。"
+      ],
+      "caveats": [
+        "静态盘口会随时变化，显示的挂单也可能撤回。",
+        "交易量大不等于任意时刻任意订单都没有滑点，应结合具体交易对和订单规模。"
+      ],
+      "related": [
+        "orders",
+        "fees",
+        "data"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance Support：订单簿与市场深度",
+          "url": "https://www.binance.com/en-NG/support/faq/detail/da311403b10347f09ff783a2525c8aa6"
+        },
+        {
+          "title": "Binance Academy：滑点词条",
+          "url": "https://www.binance.com/en/academy/glossary/slippage"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：为什么同样买入会花更多钱",
+        "prompt": "假设卖盘100元有1个、102元有2个，立即买3个且盘口不变，平均价多少？",
+        "answer": "总价100+102×2=304，平均304÷3≈101.33元。不能把3个都按最优卖价100元记入回测。"
+      }
+    },
+    {
+      "slug": "digitalyoming-binance-apple-pay-deposit-tutorial",
+      "title": "Apple Pay 买币：比较完整入金成本",
+      "original_title": "幣安 Apple Pay 入金買幣教學，實測與手續費",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-apple-pay-deposit-tutorial/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "资金与安全",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "这是一份台湾地区用 TWD 和支付卡买币的操作经验，作者还比较了实际到账与市场报价。",
+      "takeaways": [
+        "支付方式便利性与最终拿到的币数应分开衡量。",
+        "平台费用、发卡行费用和兑换报价可能同时影响成本。"
+      ],
+      "caveats": [
+        "原文为台湾地区、特定银行和当时界面的经验，不代表大陆用户可用。",
+        "费率、卡片支持与回馈规则需查当前页面和发卡行条款；本页不沿用旧报价。"
+      ],
+      "related": [
+        "fees",
+        "transfer",
+        "safety"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance 官方帮助中心与客服入口",
+          "url": "https://www.binance.com/en/support"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：比较完整入金成本",
+        "prompt": "假设支付卡扣款1030元，最终到账30个代币，真实平均成本是多少？",
+        "answer": "1030÷30≈34.33元每个。应使用实际总扣款，不能只按下单页显示的1000元计算。"
+      }
+    },
+    {
+      "slug": "digitalyoming-virtual-currency-copy-trading",
+      "title": "怎么阅读跟单员的成绩单",
+      "original_title": "虛擬貨幣跟單交易，平台有哪些？帶單員怎麼選？優缺點及風險評價",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/virtual-currency-copy-trading/",
+      "language": "繁体中文",
+      "topic": "策略",
+      "category": "机器人与策略",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "文章比较现货、合约和策略跟单，并讨论筛选交易员、风格变化、扛单与绩效分润。",
+      "takeaways": [
+        "收益率之外，还要看风险、历史长度和当前未平仓亏损。",
+        "自动跟单省去手动下单，不会替你承担风险。"
+      ],
+      "caveats": [
+        "文章列举的平台和条件不是当前可用性清单。",
+        "只看幸存赢家有选择偏差；模拟跟随要记录滑点、费用、失败订单和最大回撤。"
+      ],
+      "related": [
+        "validation",
+        "drawdown",
+        "paper"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance Academy：跟单机制及限制",
+          "url": "https://www.binance.com/en/academy/articles/your-guide-to-binance-copy-trading"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：怎么阅读跟单员的成绩单",
+        "prompt": "假设交易员已平仓赚100 U，但当前持仓浮亏300 U，只展示前者会漏掉什么？",
+        "answer": "会漏掉200 U净亏损以及持续承担的持仓风险。评价应同时纳入已实现盈亏、浮盈亏和费用。"
+      }
+    },
+    {
+      "slug": "digitalyoming-what-is-kyc",
+      "title": "KYC：为什么平台要核验身份",
+      "original_title": "KYC 是什麼意思？認證流程安全嗎？對虛擬貨幣交易所的影響？",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/what-is-kyc/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "入门与账户",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "这篇解释 Know Your Customer 的含义、资料收集与风险审查，帮助理解开户时的身份验证步骤。",
+      "takeaways": [
+        "身份核验用于了解客户及风险管理，不只是上传一张照片。",
+        "提交资料前，要确认接收方确实是官方服务。"
+      ],
+      "caveats": [
+        "文章涉及台湾制度与不同平台经验，不应直接套用到其他地区。",
+        "完成 KYC 不等于平台没有风险，也不代表所有产品或地区都可用。"
+      ],
+      "related": [
+        "safety",
+        "binance-map"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：个人身份认证流程",
+          "url": "https://www.binance.com/en-GB/support/faq/how-to-complete-identity-verification-360027287111"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：为什么平台要核验身份",
+        "prompt": "假设社群管理员让你把证件照片发给他“代办 KYC”，应该怎样处理？",
+        "answer": "不要在私聊中提交。自己从核实后的官方 App 或官网进入身份认证流程，必要时向站内客服确认。"
+      }
+    },
+    {
+      "slug": "digitalyoming-binance-fan-token",
+      "title": "粉丝代币：权益与币价要分开看",
+      "original_title": "幣安粉絲代幣是什麼？怎麼買？4 種功能用途圖解教學",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-fan-token/",
+      "language": "繁体中文",
+      "topic": "策略",
+      "category": "理财与产品",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "原文介绍粉丝代币可能对应的投票、活动及商品兑换用途，并展示平台里的操作入口。",
+      "takeaways": [
+        "持有代币获得什么权益，要查看对应团队和活动的条件。",
+        "功能型代币和 NFT 是不同概念。"
+      ],
+      "caveats": [
+        "旧文的团队名单和权益不代表当前都开放。",
+        "粉丝代币不是球队股权，也不保证因球队获胜而上涨；购买成本可能超过权益价值。"
+      ],
+      "related": [
+        "money",
+        "profit",
+        "safety"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance Academy：粉丝代币定义",
+          "url": "https://www.binance.com/en/academy/glossary/fan-tokens"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：权益与币价要分开看",
+        "prompt": "假设花100 U买代币，只为了领取价值10 U的商品，能把领取商品称为赚10 U吗？",
+        "answer": "不能忽略买入成本、代币剩余价值和交易费用。应整体计算资产变化，权益奖励本身不是净收益。"
+      }
+    },
+    {
+      "slug": "digitalyoming-binance-crypto-wodl",
+      "title": "每日一词：用猜词巩固知识",
+      "original_title": "幣安每日一詞 WOTD/WODL 猜字遊戲怎麼玩？答案是什麼？",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-crypto-wodl/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "活动与旧资讯",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "原文说明 WOTD 猜词规则、主题提示和胜场奖励，是交易之外的一种术语学习入口。",
+      "takeaways": [
+        "游戏围绕加密知识与指定主题，不同场次条件会变化。",
+        "奖励资格、完成次数与领取期限需要分别核对。"
+      ],
+      "caveats": [
+        "原文更新的主题表不是本地页面的实时活动状态。",
+        "原文题目与答案只适用于当时活动；奖励并非稳定收入，需阅读当期官方条件。"
+      ],
+      "related": [
+        "money",
+        "safety"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：Learn & Earn 资格与奖励",
+          "url": "https://www.binance.com/en/support/faq/detail/3819c21bd5fb493fa5057c727043cb14"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：用猜词巩固知识",
+        "prompt": "假设你赢了游戏，但奖池已分完，还应该在收益记录中填入预期奖励吗？",
+        "answer": "不应该。先确认资格与实际到账，再记录奖励；学习记录和资金收入分开保存。"
+      }
+    },
+    {
+      "slug": "digitalyoming-binance-loan-tutorial",
+      "title": "质押借币：看懂 LTV 和清算",
+      "original_title": "幣安質押借幣教學，好處與風險是啥？質押率怎看？利息是多少？",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-loan-tutorial/",
+      "language": "繁体中文",
+      "topic": "策略",
+      "category": "合约与杠杆",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "作者用抵押资产换取另一币种来解释借贷，并介绍利息、质押率与追加抵押品的作用。",
+      "takeaways": [
+        "LTV 比较债务与抵押物价值，价格变化会让它改变。",
+        "借到的资产不是收入，债务和利息仍然存在。"
+      ],
+      "caveats": [
+        "文章中的借款额度、初始 LTV、强平线和利率都是历史示例。",
+        "抵押物下跌或借入币上涨可能导致清算，不能只比较表面的借贷与理财利差。"
+      ],
+      "related": [
+        "leverage",
+        "sizing",
+        "fees"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：活期质押借币与清算风险",
+          "url": "https://www.binance.com/en-AU/support/faq/detail/1c9dddb774054983992b8977ae36577a"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：看懂 LTV 和清算",
+        "prompt": "假设债务60 U、抵押物价值100 U，忽略利息；抵押物跌到75 U时 LTV 是多少？",
+        "answer": "从60%升至60÷75=80%。借款数量没变，风险却上升；实际告警和清算阈值须看产品规则。"
+      }
+    },
+    {
+      "slug": "digitalyoming-binance-wallet-introduction",
+      "title": "现货账户、资金账户和理财账户怎么区分",
+      "original_title": "幣安錢包在哪？資金帳戶與現貨帳戶的差別是啥？7 種帳戶各有用途",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-wallet-introduction/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "入门与账户",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "文章按用途介绍多种交易所账户，尤其对比现货与资金账户，以及平台内部划转。",
+      "takeaways": [
+        "总资产不等于某个下单页面的可用余额。",
+        "划转是账户之间移动余额，链上提币则是另一套流程。"
+      ],
+      "caveats": [
+        "旧文列出的账户数和功能归属可能已调整。",
+        "这些托管账户不等于你独立掌握私钥的链上钱包。"
+      ],
+      "related": [
+        "binance-map",
+        "transfer",
+        "orders"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance Support：现货账户与资金账户间划转",
+          "url": "https://www.binance.com/en-NG/support/faq/detail/360034585131"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：现货账户、资金账户和理财账户怎么区分",
+        "prompt": "假设总余额100 U，其中80 U在理财账户、20 U可用于当前订单，能直接下50 U订单吗？",
+        "answer": "不能仅凭总余额判断。先看该产品可使用的资金来源、赎回与划转条件，再确认实际可用数量。"
+      }
+    },
+    {
+      "slug": "digitalyoming-binance-rebalancing-bot-tutorial",
+      "title": "再平衡机器人：把比例调回来",
+      "original_title": "幣安智能持倉，再平衡機器人幫你動態調倉 10 種代幣",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-rebalancing-bot-tutorial/",
+      "language": "繁体中文",
+      "topic": "策略",
+      "category": "机器人与策略",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "这篇说明按时间或偏离比例触发调仓的思路，并用两币组合演示卖出超配、补足低配。",
+      "takeaways": [
+        "目标是维持资产权重，而不是保证组合价格上涨。",
+        "参数设置应同时考虑触发频率与交易成本。"
+      ],
+      "caveats": [
+        "原文的资产上限、触发阈值和策略列表可能过时。",
+        "下跌资产可能持续下跌；频繁调仓还会增加费用，应和不调仓基准比较。"
+      ],
+      "related": [
+        "strategies",
+        "backtest",
+        "fees"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：再平衡机器人常见问题",
+          "url": "https://www.binance.com/en-IA/support/faq/detail/29bbbd2e7fc24085be7a8a7d02779457"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：把比例调回来",
+        "prompt": "假设组合价值1000 U，A占600、B占400，要回到各50%，忽略费用，需要怎么调？",
+        "answer": "卖出100 U的A，买入100 U的B，两者各500 U。调仓本身不会凭空增加组合总价值。"
+      }
+    },
+    {
+      "slug": "digitalyoming-binance-fees",
+      "title": "手续费全貌：每次成交都算一遍",
+      "original_title": "幣安手續費計算，3 種優惠減免方法，各項手續費比較攻略",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-fees/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "现货与订单",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "原文把现货、合约、充提及优惠方式放在一起比较，适合建立费用分类，再核对个人实际费率。",
+      "takeaways": [
+        "Maker 与 Taker 看订单是否提供流动性，不能简单等同于限价与市价。",
+        "买入、卖出、资金费与提币费用可能分别出现。"
+      ],
+      "caveats": [
+        "原文表格与折扣宣传不是你账户的当前费率；返佣可能有条件和时间限制。",
+        "折扣应按乘法计算，别把“支付60%费用”误说成“省60%”。"
+      ],
+      "related": [
+        "fees",
+        "orders",
+        "expectancy"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance Support：现货订单类型",
+          "url": "https://www.binance.com/en-GB/support/faq/different-order-types-in-spot-trading-8a2973eef1de429dbfad38ab878aa3eb"
+        },
+        {
+          "title": "Binance 官方：合约交易会产生哪些费用",
+          "url": "https://www.binance.com/en/support/faq/detail/98488a516eb84e3eb34605683dffd554"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：每次成交都算一遍",
+        "prompt": "假设买入成交额1000 U、卖出1100 U，两边费率都为0.1%，共付多少手续费？",
+        "answer": "1000×0.001+1100×0.001=2.1 U。毛利润100 U扣费后为97.9 U，尚未考虑其他成本。"
+      }
+    },
+    {
+      "slug": "digitalyoming-how-to-adjust-binance-futures-leverage",
+      "title": "调杠杆：先看仓位，再看界面倍数",
+      "original_title": "幣安合約調整槓桿教學，開倉後還能調整嗎？",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/how-to-adjust-binance-futures-leverage/",
+      "language": "繁体中文",
+      "topic": "策略",
+      "category": "合约与杠杆",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "作者展示开仓前后调整倍数的流程，并指出全仓与逐仓的保证金调整限制可能不同。",
+      "takeaways": [
+        "倍数设置关系到所需保证金和仓位额度。",
+        "调整前后应对照名义仓位、实际保证金与清算条件。"
+      ],
+      "caveats": [
+        "原文的默认倍数、最高倍数和调整限制不能视作当前统一规则。",
+        "仓位数量不变时，改单个杠杆设置不会凭空改变同一价格波动下的绝对盈亏。"
+      ],
+      "related": [
+        "leverage",
+        "sizing",
+        "spot-futures"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance Academy：加密交易中的杠杆",
+          "url": "https://www.binance.com/en/academy/articles/what-is-leverage-in-crypto-trading"
+        },
+        {
+          "title": "Binance Academy：逐仓与全仓保证金",
+          "url": "https://www.binance.com/en/academy/articles/what-are-isolated-margin-and-cross-margin-in-crypto-trading"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：先看仓位，再看界面倍数",
+        "prompt": "假设同一1000 U线性仓位，从标示10倍调整成5倍，但持仓数量没变；价格变动1%时盈亏会自动减半吗？",
+        "answer": "不会。忽略费用，仍约变动10 U。保证金需求与回报率分母可能改变，要分清设置杠杆与实际账户敞口。"
+      }
+    },
+    {
+      "slug": "digitalyoming-binance-wallet-address",
+      "title": "找充值地址：币种、网络、MEMO 一起核对",
+      "original_title": "幣安錢包地址在哪裡？怎麼看？加密貨幣充值/轉帳/入金必學",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-wallet-address/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "资金与安全",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "原文从充值页面演示如何选择币种和网络、获取地址，强调发送端与接收端网络要对应。",
+      "takeaways": [
+        "地址必须与资产、网络一起理解，不能单独复制后就发送。",
+        "部分充值还要求 MEMO 或 Tag，不能遗漏。"
+      ],
+      "caveats": [
+        "同样外观的地址不代表平台支持所有链或所有同名代币。",
+        "界面路径和网络支持会变化，发送前看当下充值状态、最小金额和确认要求。"
+      ],
+      "related": [
+        "transfer",
+        "safety"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance Support：链上充值与网络选择",
+          "url": "https://www.binance.com/en/support/faq/detail/115003764971"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：币种、网络、MEMO 一起核对",
+        "prompt": "假设两条链都显示0x开头地址，可以仅凭格式一样就跨链转账吗？",
+        "answer": "不可以。要确认发送网络、接收平台支持网络和具体资产一致；地址长相一样不代表会正确入账。"
+      }
+    },
+    {
+      "slug": "digitalyoming-binance-liquidity-farming",
+      "title": "流动性挖矿：收益要和持币结果比较",
+      "original_title": "幣安流動性挖礦收益教學，風險是什麼？添加贖回獎勵全攻略",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-liquidity-farming/",
+      "language": "繁体中文",
+      "topic": "策略",
+      "category": "理财与产品",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "这份旧产品教程解释向双币资金池添加资产、取得份额，再领取做市费用或激励的过程。",
+      "takeaways": [
+        "提供流动性与普通买币的持仓变化不同。",
+        "收益来源、份额变化和退出时拿回的资产都需要记录。"
+      ],
+      "caveats": [
+        "旧菜单、池子、奖励和费率不代表产品现在仍可用，本页用于学习 AMM 机制。",
+        "稳定币池也有脱锚风险；手续费奖励未必补偿无常损失。"
+      ],
+      "related": [
+        "strategies",
+        "profit",
+        "fees"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance Academy：无常损失",
+          "url": "https://www.binance.com/en/academy/articles/impermanent-loss-explained"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：收益要和持币结果比较",
+        "prompt": "假设直接持币最终值120 U，提供流动性拿回112 U并赚3 U费用，哪种结果更高？",
+        "answer": "流动性方案合计115 U，比直接持币少5 U。即使比初始100 U上涨，也可能落后持币基准。"
+      }
+    },
+    {
+      "slug": "digitalyoming-binance-range-bound-tutorial",
+      "title": "区间收益宝：触及边界可能损失本金",
+      "original_title": "幣安區間收益寶是什麼？破 100% 年化有什麼風險？",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-range-bound-tutorial/",
+      "language": "繁体中文",
+      "topic": "策略",
+      "category": "理财与产品",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "原文用是否触碰区间边界解释一项旧结构化产品的结算，并已提示该产品下架。",
+      "takeaways": [
+        "有些产品观察整个持有期间，并非只观察到期瞬间。",
+        "高年化伴随特定风险条件，必须先看触发后的损失。"
+      ],
+      "caveats": [
+        "这是历史产品案例，不能沿用原文申购步骤寻找当前入口。",
+        "下架文章属于历史资料，年化率还需折算到实际持有期限。"
+      ],
+      "related": [
+        "expectancy",
+        "drawdown",
+        "profit"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：Simple Earn 活期收益与赎回限制",
+          "url": "https://www.binance.com/en/support/faq/detail/3bd1a6eba20a445da1e94bf6cfa52e80"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：触及边界可能损失本金",
+        "prompt": "假设规则写“期间从未触及90或110才有奖励”，价格曾到89，最后回到100，还满足条件吗？",
+        "answer": "不满足。路径中已经越界，到期回到中间不能抹掉触发记录。实际损失按具体合同计算。"
+      }
+    },
+    {
+      "slug": "digitalyoming-binance-bnb-vault-tutorial",
+      "title": "旧版 BNB 收益池与奖励聚合",
+      "original_title": "BNB 收益池是什麼？一鍵參與多個幣安賺幣與挖礦活動",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-bnb-vault-tutorial/",
+      "language": "繁体中文",
+      "topic": "策略",
+      "category": "理财与产品",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "原文介绍把 BNB 放入收益聚合产品以参与多类奖励，并注明旧入口并入 BNB 活期产品。",
+      "takeaways": [
+        "不同奖励各有计算与发放条件，不是投入后必定同时获得。",
+        "申购币种本身的涨跌仍会影响整体资产价值。"
+      ],
+      "caveats": [
+        "旧版菜单与奖励安排需查看当前 BNB 活期规则；参与资格存在地区条件。",
+        "“保本”不能理解为 BNB 的法币价格不跌，奖励也不能抵消全部币价损失。"
+      ],
+      "related": [
+        "profit",
+        "money",
+        "review"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：Simple Earn 活期收益与赎回限制",
+          "url": "https://www.binance.com/en/support/faq/detail/3bd1a6eba20a445da1e94bf6cfa52e80"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：旧版 BNB 收益池与奖励聚合",
+        "prompt": "假设1个BNB价值100 U，获得0.01个奖励后价格跌到80 U，最终市值多少？",
+        "answer": "1.01×80=80.8 U。数量增加1%，法币价值仍比初始少19.2 U。"
+      }
+    },
+    {
+      "slug": "digitalyoming-binance-cloud-mining-tutorial",
+      "title": "云挖矿：把算力、产出与成本放在一张账里",
+      "original_title": "幣安雲端挖礦，收益成本產量預估，買 BTC 挖礦計劃輕鬆當礦工",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-cloud-mining-tutorial/",
+      "language": "繁体中文",
+      "topic": "策略",
+      "category": "理财与产品",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "文章展示购买算力计划的流程，并列出电力、算力等成本和预计产出，适合练习拆解收益表。",
+      "takeaways": [
+        "买算力不等于直接买固定数量的 BTC。",
+        "产出币值、总费用和回本周期要使用一致单位计算。"
+      ],
+      "caveats": [
+        "历史产量和静态收益率不能保证未来，算力难度、币价与计划条件都会影响结果。",
+        "原文“无需考虑电力”指不用自行运维，不代表没有电费；可售计划与地区资格需重新核对。"
+      ],
+      "related": [
+        "profit",
+        "expectancy",
+        "fees"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：云挖矿的算力、费用与收益",
+          "url": "https://www.binance.com/en-IN/support/faq/detail/45849cb6f3a84663b2ffbc5ca3dca716"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：把算力、产出与成本放在一张账里",
+        "prompt": "假设一份计划总成本100 U，最终产出折合90 U，看到每天都到账就算赚钱吗？",
+        "answer": "不算。净结果90-100=-10 U。到账是产出记录，只有扣除全部成本后才能判断是否盈利。"
+      }
+    },
+    {
+      "slug": "digitalyoming-add-custom-networks-to-metamask",
+      "title": "给 MetaMask 添加网络前先核对什么",
+      "original_title": "如何在 Metamask 新增網路？以 Polygon/Fantom/BSC 為例",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/add-custom-networks-to-metamask/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "资金与安全",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "作者示范自动添加和手动填写网络参数，帮助认识网络名称、RPC、Chain ID 与区块浏览器。",
+      "takeaways": [
+        "切换网络只改变钱包连接的链，不会自动跨链搬运资产。",
+        "手动参数应从该网络与钱包的官方文档确认。"
+      ],
+      "caveats": [
+        "原文使用旧币符号及旧 RPC 示例，不应照抄作为当前配置。",
+        "陌生 RPC 可能误导显示或收集访问数据；添加网络不需要把助记词提供给网站。"
+      ],
+      "related": [
+        "transfer",
+        "safety",
+        "api"
+      ],
+      "official_sources": [
+        {
+          "title": "MetaMask：添加网络与核对 RPC",
+          "url": "https://support.metamask.io/configure/networks/how-to-add-a-custom-network-rpc"
+        },
+        {
+          "title": "MetaMask：助记词、密码和私钥的安全",
+          "url": "https://support.metamask.io/start/user-guide-secret-recovery-phrase-password-and-private-keys"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：给 MetaMask 添加网络前先核对什么",
+        "prompt": "假设ETH在链A上，钱包改为显示链B后没余额，ETH一定丢了吗？",
+        "answer": "不能据此判断丢失。先切回链A并查原地址的链上记录；切换显示网络不会自动把资产转到链B。"
+      }
+    },
+    {
+      "slug": "digitalyoming-impermanent-loss",
+      "title": "无常损失：比直接持币少了多少",
+      "original_title": "無常損失 (Impermanent Loss) 是什麼？進行流動性挖礦可留意的風險",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/impermanent-loss/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "概念与工具",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "文章通过双币池价格变化说明 LP 持仓比例会被改变，并介绍与直接持有资产的对照方法。",
+      "takeaways": [
+        "关键比较对象是同样初始资产一直放在池外的价值。",
+        "“无常”不表示损失一定会消失或永远不会兑现。"
+      ],
+      "caveats": [
+        "原文简化模型不适用于所有 AMM，集中流动性和不同池型需要单独计算。",
+        "退出后结果还要加上手续费奖励并扣除其他成本，不能只看单一百分比。"
+      ],
+      "related": [
+        "strategies",
+        "profit",
+        "backtest"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance Academy：无常损失",
+          "url": "https://www.binance.com/en/academy/articles/impermanent-loss-explained"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：比直接持币少了多少",
+        "prompt": "假设两种方案起点相同，持币终值150 U、LP终值140 U，忽略奖励，差额和相对差距是多少？",
+        "answer": "差额10 U；相对持币少10÷150≈6.67%。这是与持币基准比较，不是直接说本金亏了6.67%。"
+      }
+    },
+    {
+      "slug": "digitalyoming-binance-spot-grid-trading",
+      "title": "现货网格：把区间、间距和停止条件说清楚",
+      "original_title": "幣安現貨網格交易，網格設定與手動創建 3 分鐘教學",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-spot-grid-trading/",
+      "language": "繁体中文",
+      "topic": "策略",
+      "category": "机器人与策略",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "原文演示手动设置区间与网格，并解释价格往返时如何形成一组组买卖。",
+      "takeaways": [
+        "等差与等比网格的间距定义不同。",
+        "创建前要知道价格离开区间后会持有什么资产。"
+      ],
+      "caveats": [
+        "推荐参数和过去网格利润不保证未来有效。",
+        "没有借贷的现货网格仍有币价下跌损失；总盈亏要包含浮盈亏及手续费。"
+      ],
+      "related": [
+        "strategies",
+        "quant-rules",
+        "backtest"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：现货网格创建与设置",
+          "url": "https://www.binance.com/en-NZ/support/faq/detail/d5f441e8ab544a5b98241e00efb3a4ab"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：把区间、间距和停止条件说清楚",
+        "prompt": "假设网格买入10个单价10的代币，卖掉2个时每个赚1，剩余8个跌到8，忽略费用，总盈亏多少？",
+        "answer": "已实现赚2 U，余下持仓浮亏16 U，总共亏14 U。单看已完成网格的2 U会误判。"
+      }
+    },
+    {
+      "slug": "digitalyoming-what-is-currency-pair",
+      "title": "交易对怎么读：你买的到底是哪一个",
+      "original_title": "交易對是什麼？怎麼看？1 分鐘學會虛擬貨幣的基礎交易知識",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/what-is-currency-pair/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "概念与工具",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "作者从货币兑换关系解释斜线前后的资产，用买卖方向说明交易后会增加或减少哪个币。",
+      "takeaways": [
+        "前面的币是基础资产，后面的币是报价资产。",
+        "同一币在不同交易对的位置不同，买卖方向也可能不同。"
+      ],
+      "caveats": [
+        "价格表示资产之间的兑换比例，不代表其中一个是无风险计价单位。",
+        "实际成交还受数量限制、费用和滑点影响。"
+      ],
+      "related": [
+        "money",
+        "orders",
+        "profit"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance Academy：现货交易入门",
+          "url": "https://www.binance.com/en/academy/articles/your-guide-to-binance-spot-trading"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：你买的到底是哪一个",
+        "prompt": "假设ETH/BTC报价0.05，买入2 ETH，忽略费用，需要付多少BTC？",
+        "answer": "2×0.05=0.1 BTC。买入增加ETH、减少BTC；这不是用USDT计价的一笔订单。"
+      }
+    },
+    {
+      "slug": "digitalyoming-binance-2022-mid-autumn-festival-gifts-skateboard",
+      "title": "历史赠礼文章：识别推广背景",
+      "original_title": "【開箱】Binance 幣安交易所 2022 中秋禮品 - 幣安訂製滑板",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-2022-mid-autumn-festival-gifts-skateboard/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "活动与旧资讯",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "这是作者记录收到币安定制滑板的开箱文章。归档它是为了呈现博文背景，不是交易技巧。",
+      "takeaways": [
+        "原文谈的是个人获赠物品的经历。",
+        "作者与平台的推广或赠礼关系，应与产品风险评价分开看。"
+      ],
+      "caveats": [
+        "这是历史赠礼记录，不是现在可报名的活动，也不是读者能获得礼物的承诺。",
+        "赠礼、邀请优惠和平台知名度都不能证明投资会盈利。"
+      ],
+      "related": [
+        "safety",
+        "review"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance Verify：核对官方来源",
+          "url": "https://www.binance.com/en/official-verification"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：识别推广背景",
+        "prompt": "假设一篇平台好评同时展示收到的礼物，阅读时需要增加哪一步？",
+        "answer": "把使用体验、赠礼事实和投资判断分开，交叉查看官方规则及风险；不要把礼物视为收益或安全保障。"
+      }
+    },
+    {
+      "slug": "digitalyoming-difference-between-centralized-and-decentralized-exchanges",
+      "title": "中心化与去中心化交易所：谁掌握资产",
+      "original_title": "加密貨幣交易平台，3 分鐘了解中心化與去中心化交易所的差別",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/difference-between-centralized-and-decentralized-exchanges/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "概念与工具",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "文章从身份验证、资产托管、链上记录和交易方式对比两类平台，适合建立钱包与交易所概念。",
+      "takeaways": [
+        "中心化平台一般维护内部账户余额，链上钱包则依赖密钥或签名权限。",
+        "平台内部成交与区块链转账不是同一动作。"
+      ],
+      "caveats": [
+        "这些是常见模式，不是所有平台都完全符合的绝对分类。",
+        "去中心化不等于没有智能合约或授权风险，中心化也不等于存款有保障。"
+      ],
+      "related": [
+        "money",
+        "safety",
+        "transfer"
+      ],
+      "official_sources": [
+        {
+          "title": "MetaMask：助记词、密码和私钥的安全",
+          "url": "https://support.metamask.io/start/user-guide-secret-recovery-phrase-password-and-private-keys"
+        },
+        {
+          "title": "Binance Academy：现货交易入门",
+          "url": "https://www.binance.com/en/academy/articles/your-guide-to-binance-spot-trading"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：谁掌握资产",
+        "prompt": "假设你在交易所买入一个代币，却找不到对应的链上买入交易哈希，一定说明没有买到吗？",
+        "answer": "不一定。托管交易所的撮合可能记在内部账本，应查成交明细；提现到链上是另一笔流程。"
+      }
+    },
+    {
+      "slug": "digitalyoming-trade-crypto-spot-on-centralized-exchanges",
+      "title": "现货交易：从持币到成交记录",
+      "original_title": "如何在交易所進行虛擬貨幣現貨交易/幣幣交易？",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/trade-crypto-spot-on-centralized-exchanges/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "现货与订单",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "这篇解释现货、现货市场和币币交易，帮助读者理解买到资产与持有衍生合约的区别。",
+      "takeaways": [
+        "现货买卖是用一种资产换另一种资产。",
+        "成交后先查数量与费用，再核对钱包余额。"
+      ],
+      "caveats": [
+        "文中列举的交易所、产品和市场机制有各自范围，不代表都适合或可用于你的地区。",
+        "普通无借贷现货没有合约强平机制，仍可能因价格下跌损失全部投入。"
+      ],
+      "related": [
+        "money",
+        "orders",
+        "spot-futures"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance Academy：现货交易入门",
+          "url": "https://www.binance.com/en/academy/articles/your-guide-to-binance-spot-trading"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：从持币到成交记录",
+        "prompt": "假设用100 U买入10个代币，之后只卖出4个，每个价格12，剩余多少币和现金？",
+        "answer": "忽略费用，得到48 U现金、还持有6个代币。只看48 U现金不能判断整笔投资最终收益。"
+      }
+    },
+    {
+      "slug": "digitalyoming-what-is-spot-futures-arbitrage",
+      "title": "期现套利：对冲了方向，还有哪些风险",
+      "original_title": "虛擬貨幣期現套利是什麼？如何透過資金費率套利？優缺點與風險評估",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/what-is-spot-futures-arbitrage/",
+      "language": "繁体中文",
+      "topic": "策略",
+      "category": "机器人与策略",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "作者比较交割合约的基差交易与永续合约的资金费率交易，说明现货和空头合约如何搭配。",
+      "takeaways": [
+        "两个市场的持仓单位和数量要能对应，才能抵消部分方向风险。",
+        "盈利来源应区分基差变化与资金费收入。"
+      ],
+      "caveats": [
+        "“套利”不等于无风险：两腿执行、基差扩大、资金费反转、强平和平台风险都可能造成亏损。",
+        "不要用当前正费率直线推算全年收入；基差符号须事先定义一致。"
+      ],
+      "related": [
+        "spot-futures",
+        "fees",
+        "sizing"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance Academy：资金费率是什么",
+          "url": "https://www.binance.com/en/academy/articles/what-are-funding-rates-in-crypto-markets"
+        },
+        {
+          "title": "Binance 官方：合约强平机制",
+          "url": "https://www.binance.com/en/support/faq/detail/360033525271"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：对冲了方向，还有哪些风险",
+        "prompt": "假设本次收到3 U资金费，但两腿开平仓共付5 U，忽略其他变化，净收益是多少？",
+        "answer": "3-5=-2 U。即使价格方向基本对冲，也可能因成本和执行问题亏损。"
+      }
+    },
+    {
+      "slug": "digitalyoming-what-is-funding-rate",
+      "title": "资金费率：谁付给谁，用什么金额算",
+      "original_title": "資金費率是什麼？正負值要怎麼看？永續合約的重要機制！",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/what-is-funding-rate/",
+      "language": "繁体中文",
+      "topic": "策略",
+      "category": "合约与杠杆",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "原文解释永续合约用多空之间的费用交换影响价格关系，并介绍正负费率与结算时点。",
+      "takeaways": [
+        "一般正费率时多头支付空头，负费率时方向相反。",
+        "计算基数通常是仓位价值，不是只拿保证金乘费率。"
+      ],
+      "caveats": [
+        "不同合约结算周期和规则可能不同，不能把旧文的八小时当通则。",
+        "费率正负不是可靠的下一步涨跌预测，持仓前应确认本合约的当期规则。"
+      ],
+      "related": [
+        "fees",
+        "spot-futures",
+        "expectancy"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance Academy：资金费率是什么",
+          "url": "https://www.binance.com/en/academy/articles/what-are-funding-rates-in-crypto-markets"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：谁付给谁，用什么金额算",
+        "prompt": "假设线性多头仓位10000 U，结算费率0.01%，按规则需要支付多少？",
+        "answer": "10000×0.0001=1 U。若这笔只用了500 U保证金，也不能改用500 U来计算费用。"
+      }
+    },
+    {
+      "slug": "digitalyoming-what-is-depth-chart",
+      "title": "深度图：看挂单，不是数人数",
+      "original_title": "深度圖是什麼？這 3 種解讀方式帶你快速了解",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/what-is-depth-chart/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "概念与工具",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "这篇把订单簿转换为图形来讲解价格、累积数量和买卖侧差异，也提醒挂单可以撤销。",
+      "takeaways": [
+        "深度图展示还在等待成交的委托，与成交量图不同。",
+        "某一价位堆积订单，只能描述当下可见盘口。"
+      ],
+      "caveats": [
+        "原文把区域大小说成买卖人数多少并不准确，应读作挂单数量或价值差异。",
+        "买墙卖墙可以撤回；坐标和中心位置依平台而异，不能保证支撑、阻力或涨跌。"
+      ],
+      "related": [
+        "orders",
+        "data",
+        "candles"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance Support：订单簿与市场深度",
+          "url": "https://www.binance.com/en-NG/support/faq/detail/da311403b10347f09ff783a2525c8aa6"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：看挂单，不是数人数",
+        "prompt": "假设一个人挂1000个买单数量，100个人各挂1个卖单数量，能说买方人数更多吗？",
+        "answer": "不能。买方显示数量更大，但这个例子里买方人数更少。盘口数据不能直接转换成参与者人数。"
+      }
+    },
+    {
+      "slug": "digitalyoming-binance-exchange-withdrawal-tutorial",
+      "title": "提币到外部钱包：先拿齐接收资料",
+      "original_title": "幣安出金提現教學，錢包轉錢包，手續費與限額是多少？",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-exchange-withdrawal-tutorial/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "资金与安全",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "文章聚焦加密资产钱包间转账，讲解币种、地址、网络和必要的 MEMO，以及提币后的确认过程。",
+      "takeaways": [
+        "先在接收方获取资料，再在发送方填写对应信息。",
+        "交易所已提交、链上已确认与接收方已入账是不同阶段。"
+      ],
+      "caveats": [
+        "原文的 MAX、ACE 等案例带有地区和历史背景，不是平台推荐。",
+        "费用、最小提币额、网络暂停和确认数需看实时提示；小额试转也须满足最小额度。"
+      ],
+      "related": [
+        "transfer",
+        "safety",
+        "fees"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance Support：链上充值与网络选择",
+          "url": "https://www.binance.com/en/support/faq/detail/115003764971"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：先拿齐接收资料",
+        "prompt": "假设接收平台规定最少到账10个币，提币12个却要扣3个费用，预计能满足吗？",
+        "answer": "预计到账9个，低于要求。应先核对费用扣法和最小到账规则，不能只看申请提币数量。"
+      }
+    },
+    {
+      "slug": "digitalyoming-binance-exchange-deposit-tutorial",
+      "title": "充值进币安：链上转账与买币不同",
+      "original_title": "幣安入金教學，錢包轉錢包，手續費與限額是多少？",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-exchange-deposit-tutorial/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "资金与安全",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "原文演示从其他钱包向币安充值资产，重点在取得正确接收资料并在发送端逐项填写。",
+      "takeaways": [
+        "充值教程讲的是资产转移，不是银行入金或信用卡购买。",
+        "网络、地址和需要填写的 MEMO 必须一起核对。"
+      ],
+      "caveats": [
+        "文中台湾交易所示例不能直接视作大陆用户适用渠道。",
+        "充值支持状态和入账条件会变；不要照抄文章截图里的地址。"
+      ],
+      "related": [
+        "transfer",
+        "safety",
+        "binance-map"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance Support：链上充值与网络选择",
+          "url": "https://www.binance.com/en/support/faq/detail/115003764971"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：链上转账与买币不同",
+        "prompt": "假设接收地址正确，但该币要求的 MEMO 漏填了，可以认为一定会自动入账吗？",
+        "answer": "不能。保留交易哈希，从接收平台的官方恢复或客服入口处理，是否能找回与费用取决于实际规则。"
+      }
+    },
+    {
+      "slug": "digitalyoming-what-is-dual-investment",
+      "title": "双币投资的本质：接受一种有条件的换币",
+      "original_title": "雙幣投資是什麼？3 大風險與 3 種使用場景通通告訴你",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/what-is-dual-investment/",
+      "language": "繁体中文",
+      "topic": "策略",
+      "category": "理财与产品",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "作者从结构化产品和期权角度解释双币，帮助理解收益为什么伴随结算币种变化。",
+      "takeaways": [
+        "到期币种由合同条件决定，不能只看利息数值。",
+        "高卖可能限制上涨收益，低买可能接到继续下跌的资产。"
+      ],
+      "caveats": [
+        "原文“保息”不应理解为法币收益保证或没有平台风险。",
+        "理解最差结算情形比选择最高 APR 更重要；资金锁定和续投规则必须逐项阅读。"
+      ],
+      "related": [
+        "spot-futures",
+        "expectancy",
+        "profit"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：双币投资结算与风险",
+          "url": "https://www.binance.com/en-NG/support/faq/detail/09911be9f5754c34806bd3ab4a427e0e"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：接受一种有条件的换币",
+        "prompt": "假设高卖目标价12，持有10个代币，到期市场价15并按12结算，忽略利息，会收到多少，和继续持币相比呢？",
+        "answer": "收到120 U；继续持币市值150 U，少了30 U上涨空间。拿到收益并不代表优于持币。"
+      }
+    },
+    {
+      "slug": "digitalyoming-stablecoin",
+      "title": "稳定币：稳定是目标，不是保证",
+      "original_title": "穩定幣是什麼？好好認識一下這 4 種穩定幣類型",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/stablecoin/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "概念与工具",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "文章按法币、加密资产、商品和算法等机制分类，帮助比较稳定币背后的储备与维持锚定方式。",
+      "takeaways": [
+        "相同的“稳定币”名称可能对应不同风险结构。",
+        "需要问清锚定对象、储备、赎回机制与发行方。"
+      ],
+      "caveats": [
+        "原文把个别币简化成每枚对应现金，实际储备构成和兑付条件应查发行方最新披露。",
+        "USDT 等代币不是美元现金；旧币种名单不代表现在仍在流通或获支持。"
+      ],
+      "related": [
+        "money",
+        "safety",
+        "data"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance Academy：什么是 USDT",
+          "url": "https://www.binance.com/en/academy/articles/what-is-tether-usdt"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：稳定是目标，不是保证",
+        "prompt": "假设100个美元稳定币跌到每个0.9美元，钱包仍显示100个，损失了吗？",
+        "answer": "数量没变，按市场估值却从100美元变为90美元，损失10美元。记账应同时保留数量与计价价值。"
+      }
+    },
+    {
+      "slug": "digitalyoming-metamask-log-out",
+      "title": "锁定 MetaMask 后，还要注意什么",
+      "original_title": "MetaMask 小狐狸錢包登出（logout）的 3 種方法，主動鎖定與自動登出",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/metamask-log-out/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "资金与安全",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "作者展示主动锁定与自动锁定等本地操作，用来减少设备暂时交给别人时的钱包访问风险。",
+      "takeaways": [
+        "离开设备前主动锁定，并设置合适的自动锁定时间。",
+        "钱包访问密码与链上地址、助记词是不同东西。"
+      ],
+      "caveats": [
+        "界面操作随版本变化；关闭扩展不能代替核验钱包确已锁定。",
+        "锁定不撤销链上代币授权，也不能保护已经泄露的私钥或助记词。"
+      ],
+      "related": [
+        "safety",
+        "transfer"
+      ],
+      "official_sources": [
+        {
+          "title": "MetaMask：锁定钱包与自动锁定",
+          "url": "https://support.metamask.io/configure/wallet/how-do-i-log-out-of-lock-my-wallet/"
+        },
+        {
+          "title": "MetaMask：助记词、密码和私钥的安全",
+          "url": "https://support.metamask.io/start/user-guide-secret-recovery-phrase-password-and-private-keys"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：锁定 MetaMask 后，还要注意什么",
+        "prompt": "假设昨天已经给恶意合约代币授权，今天锁定钱包就能取消那份授权吗？",
+        "answer": "不能。锁定只限制本地访问；需要检查链上授权并按官方安全流程处理。若助记词已泄露，还需另行保护剩余资产。"
+      }
+    },
+    {
+      "slug": "digitalyoming-how-to-identify-binance-scam-gangs",
+      "title": "验证“官方账号”：别只看头像和名字",
+      "original_title": "如何辨別幣安詐騙群組或帳號？幣安官方驗證工具 1 秒拆穿假他們！",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/how-to-identify-binance-scam-gangs/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "资金与安全",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "文章介绍用 Binance Verify 检查来源的方法，适合配合账户安全课识别冒充社群与客服。",
+      "takeaways": [
+        "验证的是具体来源字符串，不是昵称看起来像不像。",
+        "应自己打开核实后的官网，而不是点击陌生人发来的验证页。"
+      ],
+      "caveats": [
+        "官方身份验证结果也不能替某次转账或投资承诺背书。",
+        "原文对保障基金的描述不应理解为所有损失都有赔付；密码、助记词和验证码不得交给他人。"
+      ],
+      "related": [
+        "safety",
+        "api"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance Verify：核对官方来源",
+          "url": "https://www.binance.com/en/official-verification"
+        },
+        {
+          "title": "Binance Academy：账户安全设置",
+          "url": "https://www.binance.com/en/academy/articles/secure-your-binance-account-in-7-simple-steps"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：别只看头像和名字",
+        "prompt": "假设群名叫“币安官方客服”，头像也一样，但要求先转50 U解锁奖励，你应该怎么做？",
+        "answer": "停止转账，从官方入口核对来源并咨询站内客服。名称和头像容易复制，不是可信凭证。"
+      }
+    },
+    {
+      "slug": "digitalyoming-metamask-wallet-registration",
+      "title": "创建 MetaMask：先理解密码和恢复资料",
+      "original_title": "MetaMask 狐狸錢包註冊教學，3 分鐘搞定它！新手老手必備",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/metamask-wallet-registration/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "资金与安全",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "原文把自托管钱包与交易所账户对照，再展示安装、创建与备份步骤，适合钱包概念入门。",
+      "takeaways": [
+        "自托管带来控制权，也带来保管恢复资料的责任。",
+        "不要把本机解锁密码当成助记词或私钥的替代品。"
+      ],
+      "caveats": [
+        "旧版安装与创建界面可能已变，安装来源应以 MetaMask 官方为准。",
+        "助记词不能发给客服、群友或本学习站；网页要求上传恢复资料是危险信号。"
+      ],
+      "related": [
+        "safety",
+        "transfer"
+      ],
+      "official_sources": [
+        {
+          "title": "MetaMask：助记词、密码和私钥的安全",
+          "url": "https://support.metamask.io/start/user-guide-secret-recovery-phrase-password-and-private-keys"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：先理解密码和恢复资料",
+        "prompt": "假设电脑损坏，你只记得本机钱包密码，没有任何可用恢复材料，能保证在新设备找回吗？",
+        "answer": "不能保证。应在使用前理解所选钱包的正式备份与恢复机制，并安全保存对应材料，而不是等设备丢失后再找。"
+      }
+    },
+    {
+      "slug": "digitalyoming-binance-futures-quizzes",
+      "title": "合约测验：把题目变成风险自查",
+      "original_title": "幣安合約測驗的題目有哪些？答案是多少？",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-futures-quizzes/",
+      "language": "繁体中文",
+      "topic": "策略",
+      "category": "合约与杠杆",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "原文以测验主题提醒读者认识下单失败、止损、保证金、标记价格与费用，适合查漏补缺。",
+      "takeaways": [
+        "触发止损不代表以触发价成交，限价止损还可能不成交。",
+        "强平参考机制与最后成交价并不一定相同。"
+      ],
+      "caveats": [
+        "旧题库不能代表当前准入规则；应先理解保证金、强平与止损机制。",
+        "通过知识测验不能证明策略有效或适合承担真实杠杆风险。"
+      ],
+      "related": [
+        "leverage",
+        "orders",
+        "fees"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance 官方：合约强平机制",
+          "url": "https://www.binance.com/en/support/faq/detail/360033525271"
+        },
+        {
+          "title": "Binance Support：现货订单类型",
+          "url": "https://www.binance.com/en-GB/support/faq/different-order-types-in-spot-trading-8a2973eef1de429dbfad38ab878aa3eb"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：把题目变成风险自查",
+        "prompt": "假设止损触发价100，但行情跳到97才有可成交买盘，能仍按100保证平仓吗？",
+        "answer": "不能。市价止损可能在其他价格成交，限价止损可能无法成交。模拟时也应保留这种执行差异。"
+      }
+    },
+    {
+      "slug": "digitalyoming-binance-liquid-swap",
+      "title": "旧版交易挖矿：返佣不等于交易盈利",
+      "original_title": "幣安交易挖礦是什麼？有什麼好處？最高享 75% 手續費返還！",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-liquid-swap/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "活动与旧资讯",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "这篇旧教程解释在 AMM 币对池兑换资产、领取返佣和设置滑点容忍度，与提供流动性是不同动作。",
+      "takeaways": [
+        "先看兑换结果，再区分交易手续费和额外奖励。",
+        "返佣只能减少部分成本，不能自动抵消滑点或价格损失。"
+      ],
+      "caveats": [
+        "原文池子、费率、返佣比例及入口是旧产品资料，不能当作当前可用服务。",
+        "AMM 报价也会随交易规模变化，不能理解为任意数量都能无滑点成交。"
+      ],
+      "related": [
+        "fees",
+        "orders",
+        "strategies"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance Academy：无常损失",
+          "url": "https://www.binance.com/en/academy/articles/impermanent-loss-explained"
+        },
+        {
+          "title": "Binance Academy：滑点词条",
+          "url": "https://www.binance.com/en/academy/glossary/slippage"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：返佣不等于交易盈利",
+        "prompt": "假设交易费用2 U，返佣1 U，但兑换价差造成3 U成本，净成本是多少？",
+        "answer": "2-1+3=4 U。看到收到1 U奖励，仍不能称这笔交易赚了1 U。"
+      }
+    }
+  ]
+}
