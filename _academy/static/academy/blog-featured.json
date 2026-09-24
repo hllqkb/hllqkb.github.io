@@ -1,0 +1,38 @@
+{
+  "posts": [
+    {
+      "slug": "digitalyoming-spot",
+      "title": "跟着数位小帮手认识现货下单",
+      "original_title": "幣安買賣現貨教學，5 種下單方式介紹，手續費怎麼計算？怎麼省？",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-spot-trading-tutorial/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "现货与订单",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "按界面区域认识现货交易，再比较限价、市价与条件订单。适合作为操作示意，边读边对应本课程的订单知识。",
+      "takeaways": [
+        "先分清交易对、盘口、下单区和成交记录，再看订单类型。",
+        "提交订单与完成成交是两件事，操作后要核对成交明细。"
+      ],
+      "caveats": [
+        "原文有注册推广与折扣宣传，本文只链接文章，不复制推荐码。",
+        "折扣算术需纠正：假设八折再七五折，支付原费用的60%，是省40%；能否叠加另行核实。",
+        "OCO及止损限价不能保证卖出价区间；触发后可能无法成交。只做Maker也可能因会立即吃单而被拒。"
+      ],
+      "related": ["binance-map", "orders", "fees", "sizing"],
+      "official_sources": [
+        {"title": "Binance：现货订单类型与执行条件", "url": "https://www.binance.com/en-GB/support/faq/different-order-types-in-spot-trading-8a2973eef1de429dbfad38ab878aa3eb"},
+        {"title": "Binance：OCO 订单的触发与撤销", "url": "https://www.binance.com/en/support/faq/detail/360032605831"},
+        {"title": "Binance 官方 API：Maker 订单拒绝条件", "url": "https://github.com/binance/binance-spot-api-docs/blob/master/errors.md"}
+      ],
+      "exercise": {
+        "title": "原创练习：触发了，为什么还没卖掉？",
+        "prompt": "假设持有1个虚拟单位，止损触发价95、卖出限价94。价格跳跌到92，所有买家出价都不高于92。忽略费用，你的限价单能马上卖出吗？",
+        "answer": "不能。卖出限价94意味着不接受低于94的成交价，92的买单不满足条件。触发只是把订单送出，不能把没有发生的成交记到账本。这也说明“设置止损”不等于保证亏损上限。"
+      }
+    }
+  ]
+}

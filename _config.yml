@@ -17,6 +17,7 @@ baseurl: ''
 # Navigation links
 nav:
   主页: '/'
+  量化学习: '/learn/collections/digitalyoming/'
   标签: '/tags.html'
   个人: 'https://cdn.shuia.tk/'
   网盘: 'https://pan1.shuia.tk/'

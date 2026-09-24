@@ -1,0 +1,1535 @@
+{
+  "posts": [
+    {
+      "slug": "digitalyoming-okx-savings",
+      "title": "OKX 活期赚币：钱借给谁，利息怎么算",
+      "original_title": "OKX 活期簡單賺幣是什麼？出借後每小時計息，10% 活存平台獎勵上線",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/okx-savings/",
+      "language": "繁体中文",
+      "topic": "策略",
+      "category": "理财与产品",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "文章用申购、竞拍、出借三个环节解释活期赚币，适合理解收益从哪里来。",
+      "takeaways": [
+        "用户设置最低出借利率，匹配情况决定是否实际出借。",
+        "原文分别介绍普通借贷利息和有额度的推广奖励。"
+      ],
+      "caveats": [
+        "原文的利率、补贴额度和计息扣除比例属于旧快照；活期不等于银行存款，也不能假定随时都能按预计金额赎回。"
+      ],
+      "related": [
+        "money",
+        "profit",
+        "fees"
+      ],
+      "official_sources": [
+        {
+          "title": "OKX：活期简单赚币规则",
+          "url": "https://www.okx.com/en-gb/help/introduction-to-okx-simple-earn-flexible"
+        }
+      ],
+      "exercise": {
+        "title": "想一想：钱借给谁，利息怎么算",
+        "prompt": "假设1,000 U按单利年化3.65%成功借出10天，忽略费用和违约，利息多少？",
+        "answer": "1,000 × 3.65% × 10 ÷ 365 = 1 U。没有出借成功的时间不能按同样利率算收益。"
+      }
+    },
+    {
+      "slug": "digitalyoming-okx-demo-trading",
+      "title": "OKX 模拟交易：识别模拟模式与重置记录",
+      "original_title": "OKX 模擬交易功能超多！沒錢可重置領取 5000 U 模擬金",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/okx-demo-trading/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "入门与账户",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "文章展示进入模拟盘、选择交易工具和重置虚拟资产的操作。先学会认出模拟标识，再练习下单。",
+      "takeaways": [
+        "模拟资产用于练习订单与持仓管理，不能当真实资金提取。",
+        "重置能恢复虚拟余额，但研究策略时应保留重置前的记录。"
+      ],
+      "caveats": [
+        "博客称价格追踪真实行情；当前官方说明明确模拟和实盘是独立数据环境，不能交叉用作价格依据。初始额度和工具列表也须核对当前页面。"
+      ],
+      "related": [
+        "demo",
+        "paper",
+        "review"
+      ],
+      "official_sources": [
+        {
+          "title": "OKX：模拟交易及数据环境说明",
+          "url": "https://www.okx.com/help/how-to-use-demo-trading"
+        }
+      ],
+      "exercise": {
+        "title": "想一想：识别模拟模式与重置记录",
+        "prompt": "模拟账户从1,000跌到700，重置成1,000后涨到1,100，能说总共赚了100吗？",
+        "answer": "不能。重置前亏损300，重置相当于补了300；两段合计亏损200。重置不能抹掉失败记录。"
+      }
+    },
+    {
+      "slug": "digitalyoming-bingx-wealth",
+      "title": "BingX 理财：看懂分档收益",
+      "original_title": "BingX 理財教學，活期產品輕鬆賺取 10% 年利率！",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/bingx-wealth/",
+      "language": "繁体中文",
+      "topic": "策略",
+      "category": "理财与产品",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "文章对比活期、定期和不同额度的收益档位，并展示申购流程。适合练习拆分额度计算。",
+      "takeaways": [
+        "高利率通常仅覆盖一个额度区间，超过限额的部分可能按另一档计息。",
+        "币本位收益与把资产折算成法币后的盈亏需要分别看。"
+      ],
+      "caveats": [
+        "文章高年化标题是营销展示，正文表格和叙述也不能当今天的报价；确认标的是APR还是APY、期限、额度及赎回条件。"
+      ],
+      "related": [
+        "fees",
+        "profit",
+        "safety"
+      ],
+      "official_sources": [
+        {
+          "title": "BingX：Wealth 帮助与风险说明",
+          "url": "https://login.bingx.com/en/support/frequent-questions/23471495375257/"
+        }
+      ],
+      "exercise": {
+        "title": "想一想：看懂分档收益",
+        "prompt": "假设前1,000 U单利年化10%，其余1,000 U年化1%，一年合计多少？",
+        "answer": "100 + 10 = 110 U，按2,000本金计算是5.5%，不是整笔资金都享有10%。这是教学假设。"
+      }
+    },
+    {
+      "slug": "digitalyoming-xrex-withdraw-usd",
+      "title": "XREX 美元出金：把换汇和汇款分开看",
+      "original_title": "XREX 美元出金教學，肉身實測出金 5000 USD！",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/xrex-withdraw-usd/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "资金与安全",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "作者记录把加密资产换成美元，再汇入本人银行账户的流程与经历。可借此整理出金材料和费用清单。",
+      "takeaways": [
+        "提领前需要账户核验、银行绑定及可提领的美元余额。",
+        "交易所操作完成与收款银行最终入账是不同环节。"
+      ],
+      "caveats": [
+        "文章关于海外所得及免税额度的判断不能直接套用；税务取决于个人税收居民身份、所得性质与适用规则。作者一次到账经历也不是时效保证。"
+      ],
+      "related": [
+        "transfer",
+        "fees",
+        "review"
+      ],
+      "official_sources": [
+        {
+          "title": "XREX：美元提领官方说明",
+          "url": "https://support.xrex.io/en/articles/4722024-how-to-withdraw-us-dollar-from-the-xrex-exchange"
+        }
+      ],
+      "exercise": {
+        "title": "想一想：把换汇和汇款分开看",
+        "prompt": "假设美元余额1,000，汇出费20，中转和收款费共10，最终收到多少？",
+        "answer": "若这些费用都从该笔款项扣除，收到970 USD。还需单独记录卖币换汇成本，不能只看汇出按钮的金额。"
+      }
+    },
+    {
+      "slug": "digitalyoming-how-to-buy-btc-with-twd",
+      "title": "台币买 BTC：报价兑换与订单簿的区别",
+      "original_title": "怎麼用台幣買 BTC？教你在台灣兌幣所和交易所買比特幣",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/how-to-buy-btc-with-twd/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "现货与订单",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "文章用台湾地区的平台案例比较直接接受报价与在订单簿委托买卖两种方式。重点是交易机制。",
+      "takeaways": [
+        "报价兑换由平台提供买卖价格，订单簿则撮合买卖委托。",
+        "法币入金、买币成交和提币是三个不同步骤。"
+      ],
+      "caveats": [
+        "适用于原文的台湾地区场景，不代表大陆用户能注册或入金。旧平台名单与当年的币价不是当前推荐，零手续费也可能包含报价价差。"
+      ],
+      "related": [
+        "orders",
+        "fees",
+        "transfer"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance Academy：现货交易的通用原理",
+          "url": "https://www.binance.com/en/academy/articles/your-guide-to-binance-spot-trading"
+        }
+      ],
+      "exercise": {
+        "title": "想一想：报价兑换与订单簿的区别",
+        "prompt": "假设两种渠道都买到0.01 BTC，A总付1,020，B总付1,000加手续费5，哪个成本低？",
+        "answer": "B总成本1,005，比A少15。比较实际支付金额和到账数量，不能只比较手续费标签。"
+      }
+    },
+    {
+      "slug": "digitalyoming-taiwan-cryptocurrency-exchange",
+      "title": "台湾交易所旧名单：练习看比较维度",
+      "original_title": "台灣虛擬貨幣交易所排名，8 間合法/推薦/評價/手續費/比較",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/taiwan-cryptocurrency-exchange/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "活动与旧资讯",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "原文是一份旧平台比较表，涉及交易模式、银行服务、费用和功能。可用来学习该比较哪些项目。",
+      "takeaways": [
+        "对比表把报价兑换、订单簿及法币通道列为不同维度。",
+        "作者同时比较交易成本、功能和平台背景。"
+      ],
+      "caveats": [
+        "旧表中的排名、平台状态与“合法”用语均不能代表当前情况。登记、托管或银行合作也不等于本金与收益得到保证。"
+      ],
+      "related": [
+        "safety",
+        "binance-map",
+        "fees"
+      ],
+      "official_sources": [
+        {
+          "title": "MaiCoin：虚拟资产风险声明",
+          "url": "https://assets.maicoin.com/maicoin/risk.html"
+        }
+      ],
+      "exercise": {
+        "title": "想一想：练习看比较维度",
+        "prompt": "A平台手续费低，B平台支持你的账户资格；仅凭费用能选A吗？",
+        "answer": "不能。先确认当前资格、服务状态和资金通道，再比较总成本。旧榜单不能替你确认这些条件。"
+      }
+    },
+    {
+      "slug": "digitalyoming-okx-web3-wallet",
+      "title": "OKX Web3 钱包：多链资产与备份责任",
+      "original_title": "OKX Web3 錢包教學，如何註冊/入金/出金？功能特色及應用",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/okx-web3-wallet/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "资金与安全",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "文章介绍钱包创建方式、多链管理及链上应用入口。先理解钱包和交易所账户的区别，再看操作图。",
+      "takeaways": [
+        "不同创建方式对应不同的密钥、备份与恢复流程。",
+        "进入链上应用时，要分别确认网络、签名内容和授权范围。"
+      ],
+      "caveats": [
+        "文章列出的支持链数与界面可能已变。聚合入口或安全提示不保证合约安全；助记词不能发给客服，备份也不要交给陌生网站验证。"
+      ],
+      "related": [
+        "safety",
+        "transfer",
+        "api"
+      ],
+      "official_sources": [
+        {
+          "title": "MetaMask：私钥与助记词安全的通用原则",
+          "url": "https://support.metamask.io/stay-safe/safety-in-web3/basic-safety-and-security-tips-for-metamask"
+        }
+      ],
+      "exercise": {
+        "title": "想一想：多链资产与备份责任",
+        "prompt": "有人自称客服，要你把助记词发过去“修复充值”，是否合理？",
+        "answer": "不合理。拥有助记词的人可能控制资产。钱包恢复资料应由自己保管，不能因为对方会说出交易记录就交出密钥。"
+      }
+    },
+    {
+      "slug": "digitalyoming-top-cryptocurrency-exchange",
+      "title": "全球交易所旧排名：排名能说明什么",
+      "original_title": "虛擬貨幣交易所排名戰況如何？2023 全球加密貨幣交易所比一比",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/top-cryptocurrency-exchange/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "活动与旧资讯",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "文章按现货、衍生品和平台特点比较交易所。把它当作历史比较样本，学习区分流动性与安全性。",
+      "takeaways": [
+        "榜单使用交易量、费用、访问量等不同指标。",
+        "原文也列出大型平台曾经倒闭的例子。"
+      ],
+      "caveats": [
+        "原文标题和表格属于旧年度，不能据此确认当前排名、可用地区或偿付能力。交易量大并不自动证明平台安全。"
+      ],
+      "related": [
+        "safety",
+        "data",
+        "review"
+      ],
+      "official_sources": [
+        {
+          "title": "MaiCoin：虚拟资产风险声明",
+          "url": "https://assets.maicoin.com/maicoin/risk.html"
+        }
+      ],
+      "exercise": {
+        "title": "想一想：排名能说明什么",
+        "prompt": "假设一个平台交易量第一，这足以证明你能随时提回全部资产吗？",
+        "answer": "不足以。交易量只描述交易活动，无法单独证明储备、负债、资产隔离、运营状况和你的账户资格。"
+      }
+    },
+    {
+      "slug": "digitalyoming-bitget-copy-trading",
+      "title": "Bitget 跟单：复制订单也会复制风险",
+      "original_title": "Bitget 跟單交易是什麼？4 個常見的跟單小技巧分享",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/bitget-copy-trading/",
+      "language": "繁体中文",
+      "topic": "策略",
+      "category": "机器人与策略",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "文章以合约跟单为主，展示选择交易员、分配跟单金额和设置止盈止损的过程。",
+      "takeaways": [
+        "跟单仓位会参考交易员的开平仓行为，仍使用自己的账户资金。",
+        "不同仓位和止损设置会让跟单者与带单者结果不同。"
+      ],
+      "caveats": [
+        "原文的分润比例、费率与最高收益展示不代表当前结果。延迟、滑点和仓位差异可能让带单者盈利而跟单者亏损。"
+      ],
+      "related": [
+        "strategies",
+        "drawdown",
+        "sizing"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance Academy：滑点的通用含义",
+          "url": "https://www.binance.com/en/academy/glossary/slippage"
+        }
+      ],
+      "exercise": {
+        "title": "想一想：复制订单也会复制风险",
+        "prompt": "假设带单者在100买入、101卖出，你因延迟在102买入、101卖出，忽略费用各自赚亏多少？",
+        "answer": "同样1个单位，带单者赚1，你亏1。复制买卖方向不等于复制成交价或收益。"
+      }
+    },
+    {
+      "slug": "digitalyoming-max-taiwan-dollar-withdrawal-tutorial",
+      "title": "MAX 台币提领：卖币成交后再核对到账",
+      "original_title": "MAX 台幣出金教學，如何將 USDT 轉換台幣並提領到銀行帳戶",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/max-taiwan-dollar-withdrawal-tutorial/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "资金与安全",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "文章说明如何先将USDT换成台币，再通过已绑定的银行账户提领。适合认识法币出金的先后关系。",
+      "takeaways": [
+        "法币提领依赖可用台币余额，挂着卖单不等于已经卖出。",
+        "银行绑定与平台账户验证是原文流程中的前置条件。"
+      ],
+      "caveats": [
+        "这是台湾地区场景，旧手续费、额度和到账时间不能套用到其他地区。也不要把收款人已显示为自己当作无需复核银行信息的理由。"
+      ],
+      "related": [
+        "transfer",
+        "orders",
+        "fees"
+      ],
+      "official_sources": [
+        {
+          "title": "MAX：费用与限额",
+          "url": "https://max.maicoin.com/docs/limits?lang=en"
+        }
+      ],
+      "exercise": {
+        "title": "想一想：卖币成交后再核对到账",
+        "prompt": "假设卖出200 USDT到账6,000 TWD，提领扣20 TWD，银行无额外收费，实收多少？",
+        "answer": "5,980 TWD。账本应分别记录卖币成交和银行到账，尚未成交的卖单不能计入可提领余额。"
+      }
+    },
+    {
+      "slug": "digitalyoming-max-fees",
+      "title": "MAX 手续费：一次操作可能有几笔成本",
+      "original_title": "MAX 手續費怎麼算？交易/出金手續費，20% 折抵/轉帳/優惠/計算",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/max-fees/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "资金与安全",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "原文把费用分为法币转账、链上充提和撮合交易，便于逐项建立成本表。",
+      "takeaways": [
+        "不同网络的提币费用需要分开比较。",
+        "Maker与Taker的成交费用和提领费用属于不同项目。"
+      ],
+      "caveats": [
+        "具体网络费、VIP费率和折抵活动随时可能变；选网络先确认收款端支持，再比较成本，不能只挑最便宜的一条。"
+      ],
+      "related": [
+        "fees",
+        "transfer",
+        "profit"
+      ],
+      "official_sources": [
+        {
+          "title": "MAX：费用与限额",
+          "url": "https://max.maicoin.com/docs/limits?lang=en"
+        }
+      ],
+      "exercise": {
+        "title": "想一想：一次操作可能有几笔成本",
+        "prompt": "假设一轮交易毛赚4 U，买卖手续费各1 U，最后提币费3 U，净赚多少？",
+        "answer": "4 − 1 − 1 − 3 = −1 U。看上去赚了价差，结算全流程成本后仍可能亏钱。"
+      }
+    },
+    {
+      "slug": "digitalyoming-bitget-dual-investment-tutorial",
+      "title": "Bitget 双币：结算会拿回哪一种币",
+      "original_title": "Bitget 雙幣投資教學，低買高賣賺取利息，高收益的風險是什麼？",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/bitget-dual-investment-tutorial/",
+      "language": "繁体中文",
+      "topic": "策略",
+      "category": "理财与产品",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "文章按投币与投稳定币分别说明双币产品的结算结果，关键是目标价、到期日与回款币种。",
+      "takeaways": [
+        "高卖与低买对应不同的投入资产及换币方向。",
+        "原文讨论不能提前取回资金时需要承担的价格风险。"
+      ],
+      "caveats": [
+        "“保息”不等于法币计价保本。回款可能换成下跌的资产；各平台的边界条件和赎回条款需单独核对，不能互相套用。"
+      ],
+      "related": [
+        "profit",
+        "spot-futures",
+        "sizing"
+      ],
+      "official_sources": [
+        {
+          "title": "OKX：双币产品原理与提前赎回风险（其他平台须另核对条款）",
+          "url": "https://www.okx.com/en-gb/help/dual-currency-win-faq"
+        }
+      ],
+      "exercise": {
+        "title": "想一想：结算会拿回哪一种币",
+        "prompt": "假设1,000 U在目标价100换成10枚币，到期市场价80；暂不计利息，价值多少？",
+        "answer": "10 × 80 = 800 U。尽管数量按约定结算，折算价值仍比投入少200 U；利息未必足以弥补。"
+      }
+    },
+    {
+      "slug": "digitalyoming-okx-futures-copy-trading",
+      "title": "OKX 合约跟单：先看仓位，再看收益榜",
+      "original_title": "OKX 合約跟單教學，一鍵跟隨交易牛人，手續費/風險/優缺點評價",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/okx-futures-copy-trading/",
+      "language": "繁体中文",
+      "topic": "策略",
+      "category": "机器人与策略",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "原文展示跟单金额上限、高级参数与交易员资料，适合用来练习读一份跟单风险清单。",
+      "takeaways": [
+        "单笔跟单金额与当前跟单总保证金额度上限是两种不同限制。",
+        "费用不仅可能有分润，还包括交易成本和永续资金费。"
+      ],
+      "caveats": [
+        "原文关于滑点较小的经验不能作保证。停止新增跟单也不能想当然地视为已平完所有仓位，需要核对持仓和撤单结果。"
+      ],
+      "related": [
+        "drawdown",
+        "sizing",
+        "leverage"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance Academy：滑点的通用含义",
+          "url": "https://www.binance.com/en/academy/glossary/slippage"
+        }
+      ],
+      "exercise": {
+        "title": "想一想：先看仓位，再看收益榜",
+        "prompt": "假设你给两个交易员各分配500 U，他们都满仓做多同一种币，这算分散了币价风险吗？",
+        "answer": "未必。名义上跟了两个人，实际仍可能同时暴露在同一方向；需要合并看总仓位、实际杠杆和相关性。"
+      }
+    },
+    {
+      "slug": "digitalyoming-bybit-fees",
+      "title": "Bybit 手续费：按产品建立费用清单",
+      "original_title": "Bybit 手續費計算，現貨/合約/跟單交易及出入金手續費各是多少？",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/bybit-fees/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "资金与安全",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "文章把现货、合约、期权、网格、跟单和充提费用分别整理，适合避免漏算成本。",
+      "takeaways": [
+        "提供或消耗盘口流动性，会影响Maker与Taker分类。",
+        "使用机器人或跟单工具，不能直接推导出每笔成交免费。"
+      ],
+      "caveats": [
+        "原文费率表和分润上限是旧记录，按你实际账户与交易产品的官方页面核对。限价单立即成交也可能收Taker费用。"
+      ],
+      "related": [
+        "fees",
+        "orders",
+        "profit"
+      ],
+      "official_sources": [
+        {
+          "title": "Bybit：费用类型与官方费率入口",
+          "url": "https://www.bybit.com/en/help-center/article/Bybit-Fees-You-Need-to-Know"
+        }
+      ],
+      "exercise": {
+        "title": "想一想：按产品建立费用清单",
+        "prompt": "假设1,000 U成交额按0.1%收费，买卖各一次且成交额相同，总费用多少？",
+        "answer": "每次1 U，两次合计2 U。若还有资金费、滑点或分润，需继续列入，不能用2 U概括全部成本。"
+      }
+    },
+    {
+      "slug": "digitalyoming-bybit-deposit-and-withdrawal",
+      "title": "Bybit 出入金：四种渠道的成本来源",
+      "original_title": "Bybit 入金出金教學，加密貨幣轉帳/銀行轉帳/快捷買幣/P2P",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/bybit-deposit-and-withdrawal/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "资金与安全",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "文章比较链上转账、银行汇款、P2P和快捷买币，重点是这些渠道承担的费用和操作环节并不相同。",
+      "takeaways": [
+        "链上转账先核对幣种、网络及收款地址。",
+        "法币买币还需看实际汇率、支付服务费和到账数量。"
+      ],
+      "caveats": [
+        "旧文支持的支付渠道、收费和资格不代表你当前可用。P2P支付凭证也不等于资金到账，更不能离开平台按陌生人指令付款。"
+      ],
+      "related": [
+        "transfer",
+        "fees",
+        "safety"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：链上充值的网络核对原则",
+          "url": "https://www.binance.com/en/support/faq/detail/115003764971"
+        }
+      ],
+      "exercise": {
+        "title": "想一想：四种渠道的成本来源",
+        "prompt": "假设A渠道花1,000元到账100 U，B花1,000元到账98 U且标称免手续费，哪个实际价格低？",
+        "answer": "A每U成本10元；B约10.20元。免手续费标签不能替代实际到账比较。"
+      }
+    },
+    {
+      "slug": "digitalyoming-bybit-dual-investment-tutorial",
+      "title": "Bybit 双币：高年化不是一周翻倍",
+      "original_title": "Bybit 雙幣投資是什麼？ 最高年化收益真的有 100% 以上嗎？",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/bybit-dual-investment-tutorial/",
+      "language": "繁体中文",
+      "topic": "策略",
+      "category": "理财与产品",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "原文解释高卖与低买产品，以及到期时可能换成另一种币的结算方式。",
+      "takeaways": [
+        "年化收益率需要换算到实际期限，不能直接当作本期收益。",
+        "自动复投会重新进入下一期产品，需要重新评估条件。"
+      ],
+      "caveats": [
+        "高年化伴随非保本和换币风险；原文APY与APR表述及计息公式需按具体产品核对。不能用上一期参数预测下一期。"
+      ],
+      "related": [
+        "profit",
+        "fees",
+        "sizing"
+      ],
+      "official_sources": [
+        {
+          "title": "OKX：双币产品原理与提前赎回风险（其他平台须另核对条款）",
+          "url": "https://www.okx.com/en-gb/help/dual-currency-win-faq"
+        }
+      ],
+      "exercise": {
+        "title": "想一想：高年化不是一周翻倍",
+        "prompt": "假设某产品写的是单利APR100%，期限7天，本金1,000，忽略换币与费用，利息是1,000吗？",
+        "answer": "不是，1,000 × 100% × 7 ÷ 365约19.18。若页面是APY，则还要按其复利定义计算。"
+      }
+    },
+    {
+      "slug": "digitalyoming-what-is-kryptogo-compliance",
+      "title": "KryptoGO 合作文章：认识平台背后的KYC",
+      "original_title": "KryptoGO Compliance 金融合規方案，公司 KYC 防洗錢流程不再繁瑣",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/what-is-kryptogo-compliance/",
+      "language": "繁体中文",
+      "topic": "实操",
+      "category": "概念与工具",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "作者从身份审核体验引出企业KYC系统，介绍身份核验和风险审查流程。适合理解为什么平台会索取材料。",
+      "takeaways": [
+        "KYC不只是上传证件，还可能包含尽职调查和风险筛查。",
+        "文章明确提到合作邀约，阅读时应识别其中的产品宣传。"
+      ],
+      "caveats": [
+        "做了KYC不能证明平台绝对安全，也不能保证获得地区服务资格。个人证件只在核验过的官方入口提交，不通过博客表单或陌生私聊提交。"
+      ],
+      "related": [
+        "safety",
+        "binance-map",
+        "api"
+      ],
+      "official_sources": [
+        {
+          "title": "KryptoGO：身份核验与风险审核文档",
+          "url": "https://docs.kryptogo.com/docs/studio/compliance"
+        }
+      ],
+      "exercise": {
+        "title": "想一想：认识平台背后的KYC",
+        "prompt": "某平台通过了你的KYC，这能证明平台保本、所有产品都适合你吗？",
+        "answer": "不能。核验主要确认身份和相关条件，平台安全、产品风险和可用资格仍是独立的问题。"
+      }
+    },
+    {
+      "slug": "digitalyoming-okx-loan-tutorial",
+      "title": "OKX 质押借币：借款到账不等于赚到钱",
+      "original_title": "OKX 質押借幣教學，質押率跟利息是多少？有啥風險好處？",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/okx-loan-tutorial/",
+      "language": "繁体中文",
+      "topic": "策略",
+      "category": "合约与杠杆",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "文章介绍以加密资产抵押借币，并说明借款利息和LTV变化。借款资产与相应负债要一起记录。",
+      "takeaways": [
+        "LTV比较借款价值和抵押物价值，价格下跌会使比例升高。",
+        "借款产生利息，抵押物不足还可能触发处置。"
+      ],
+      "caveats": [
+        "旧文的可借比例、强平阈值和币种数量不是当前规则。多币抵押也不能保证分散风险，因为多个币可能同时下跌。"
+      ],
+      "related": [
+        "leverage",
+        "sizing",
+        "profit"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance Academy：杠杆与保证金的通用原理",
+          "url": "https://www.binance.com/en/academy/articles/what-is-leverage-in-crypto-trading"
+        }
+      ],
+      "exercise": {
+        "title": "想一想：借款到账不等于赚到钱",
+        "prompt": "假设抵押物价值1,000 U，债务500 U；抵押物跌到800 U且债务不变，LTV是多少？",
+        "answer": "从50%升到62.5%。没有新增借款，风险也会因抵押物跌价而增加；此计算不代表平台的实际强平线。"
+      }
+    },
+    {
+      "slug": "digitalyoming-okx-dual-investment-turorial",
+      "title": "OKX 双币赢：提前赎回也可能亏损",
+      "original_title": "OKX 雙幣贏是什麼？可賺幣生息，也可提前贖回",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/okx-dual-investment-turorial/",
+      "language": "繁体中文",
+      "topic": "策略",
+      "category": "理财与产品",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "原文介绍低买、高卖及提前赎回入口。阅读时要区分到期结算规则与提前结束的估值。",
+      "takeaways": [
+        "投入币种与最终收到的币种不一定相同。",
+        "目标价格、结算时点和赎回安排共同决定资金的去向。"
+      ],
+      "caveats": [
+        "可提前赎回不等于随时原额取回。官方FAQ说明提前赎回存在损失可能，查看实际报价与条款后才知道能取回多少。"
+      ],
+      "related": [
+        "profit",
+        "fees",
+        "review"
+      ],
+      "official_sources": [
+        {
+          "title": "OKX：双币产品原理与提前赎回风险（其他平台须另核对条款）",
+          "url": "https://www.okx.com/en-gb/help/dual-currency-win-faq"
+        }
+      ],
+      "exercise": {
+        "title": "想一想：提前赎回也可能亏损",
+        "prompt": "假设投入1,000 U，提前赎回的可得报价只有970 U，是否因为标有利息就能记盈利？",
+        "answer": "不能。若接受并最终收到970 U，这一段相对投入亏30 U；应以实际资金流和结算币种记账。"
+      }
+    },
+    {
+      "slug": "digitalyoming-okx-shark-fin-introduction",
+      "title": "OKX 鲨鱼鳍旧教程：先看收益曲线",
+      "original_title": "OKX 鯊魚鰭是什麼？看漲看跌皆有收益？8 項優缺點分析",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/okx-shark-fin-introduction/",
+      "language": "繁体中文",
+      "topic": "策略",
+      "category": "理财与产品",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "文章用看涨、看跌两类结构说明价格区间与产品收益的关系，可作为认识结构化产品的例子。",
+      "takeaways": [
+        "收益取决于条款中的价格区间与观察方式，不是猜对涨跌就一定拿最高档。",
+        "产品期限会限制资金使用，年化展示需要折算持有天数。"
+      ],
+      "caveats": [
+        "原文“保本”要核对计价币种、到期条件及平台履约风险，不能当成银行保本存款。不同平台的观察时点和触碰区间规则不能混用。"
+      ],
+      "related": [
+        "profit",
+        "fees",
+        "spot-futures"
+      ],
+      "official_sources": [
+        {
+          "title": "Bitget：结构化产品的信用与运营风险（其他平台条款须另核对）",
+          "url": "https://www.bitget.com/support/articles/12560603775365"
+        }
+      ],
+      "exercise": {
+        "title": "想一想：先看收益曲线",
+        "prompt": "假设同一7天产品有单利年化2%和12%两档，本金1,000 U，各对应多少利息？",
+        "answer": "低档约0.38 U，高档约2.30 U。能拿哪档取决于完整条款和价格路径，并非投入后必拿高档。"
+      }
+    },
+    {
+      "slug": "digitalyoming-max-yield-tutorial",
+      "title": "MAX 闲置资产收益：开关背后是借贷",
+      "original_title": "MAX 閒置資產收益，啟用步驟教學與收益歷史查詢",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/max-yield-tutorial/",
+      "language": "繁体中文",
+      "checked": "2026-09-23",
+      "category": "理财与产品",
+      "topic": "实操",
+      "level": "进阶",
+      "summary": "原文用手机截图介绍如何启用闲置资产收益、查看每日记录，并说明收益来自将资产出借。适合认识“账户里多了利息”背后的资金用途。",
+      "takeaways": [
+        "收益开关代表参与特定服务，先理解资产会如何被使用。",
+        "将每日到账记录与实际计息资产对上，不能只看展示的年化数字。"
+      ],
+      "caveats": [
+        "原文采用“当天最小可用余额”的旧口径；当前官方说明已有可用余额乘收益比例等规则，应以当前收益说明核对。",
+        "原文利率、币种与开关限制是写作时信息；借贷和平台风险不会因为名称含“闲置”而消失。"
+      ],
+      "related": [
+        "money",
+        "fees",
+        "review"
+      ],
+      "exercise": {
+        "title": "年化 1% 放一个月有多少？",
+        "prompt": "教学假设：1000 U 全额计息，单利年化 1%，连续计息 30 天，一年按 365 天。忽略费用，收益是多少？",
+        "answer": "1000 × 1% × 30 ÷ 365，约 0.82 U。不是 10 U；10 U 是同一假设下放满一年的金额。实际还要核对计息资产范围和收益比例。"
+      },
+      "official_sources": [
+        {
+          "title": "MAX：当前收益计算说明",
+          "url": "https://support.maicoin.com/zh-TW/support/solutions/articles/32000030546-max-%E6%94%B6%E7%9B%8A%E7%9B%B8%E9%97%9C%E5%95%8F%E9%A1%8C"
+        }
+      ]
+    },
+    {
+      "slug": "digitalyoming-bitget-shark-fin-introduction",
+      "title": "Bitget 鲨鱼鳍：高利率要满足什么条件",
+      "original_title": "Bitget 鯊魚鰭是什麼？運作方式與風險介紹，有機會獲得高收益！",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/bitget-shark-fin-introduction/",
+      "language": "繁体中文",
+      "checked": "2026-09-23",
+      "category": "理财与产品",
+      "topic": "策略",
+      "level": "进阶",
+      "summary": "这篇文章把鲨鱼鳍产品拆成观察区间、期限和两种收益情形，配合申购界面解释它为什么不是看到最高年化就能拿到最高利息。",
+      "takeaways": [
+        "观察期内是否碰到区间边界，会影响最后采用哪种收益规则。",
+        "认购、起息、到期和到账是不同时间，要逐项读清。"
+      ],
+      "caveats": [
+        "原文“保本、适合保守派”需要限定：以投入币种计量的产品安排，不等于法币价值不跌，也不消除平台或稳定币风险。",
+        "产品期限、是否可赎回和收益区间均看实际条款；不能把历史展示的最高 APR 当作预期结果。"
+      ],
+      "related": [
+        "expectancy",
+        "sizing",
+        "money"
+      ],
+      "exercise": {
+        "title": "七天的 12% 是赚 120 U 吗？",
+        "prompt": "教学假设：投入 1000 U，最终满足条件的单利 APR 为 12%，计息 7 天，按 365 天。忽略费用。",
+        "answer": "收益约为 1000 × 12% × 7 ÷ 365 = 2.30 U。12% 是年化尺度，不是这七天的收益率；未满足条件时还可能采用更低的收益规则。"
+      },
+      "official_sources": [
+        {
+          "title": "Bitget：鲨鱼鳍产品及风险说明",
+          "url": "https://www.bitget.com/support/articles/12560603775365"
+        }
+      ]
+    },
+    {
+      "slug": "digitalyoming-max-borrowing",
+      "title": "MAX 借满益：先看资产负债比",
+      "original_title": "MAX 借滿益是什麼？A/D 比率怎麼看？借款與還款教學",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/max-borrowing/",
+      "language": "繁体中文",
+      "checked": "2026-09-23",
+      "category": "合约与杠杆",
+      "topic": "实操",
+      "level": "进阶",
+      "summary": "原文介绍借款账户、借币买卖、还款和 A/D 比率。用它可以理解：借来的资金会扩大仓位，也会带来持续利息和清算条件。",
+      "takeaways": [
+        "A/D 是资产除以债务，债务中还要考虑利息。",
+        "结束交易不自动等于还清借款，要分别检查持仓和负债。"
+      ],
+      "caveats": [
+        "原文清算阈值、可借额度和利率表须对照当前官方规则，不能直接当作你的账户条件。",
+        "抵押物跌价或借入币种涨价，都可能使资产负债比恶化；不只是买入方向猜错才有风险。"
+      ],
+      "related": [
+        "leverage",
+        "spot-futures",
+        "sizing"
+      ],
+      "exercise": {
+        "title": "资产跌 20%，本金为什么少了 60%？",
+        "prompt": "教学假设：自有 500 U、借入 1000 U，共买入价值 1500 U 的资产。资产后来值 1200 U，忽略利息与费用。",
+        "answer": "资产负债比从 1.5 降到 1.2；净资产从 500 U 降到 200 U，自有本金亏了 60%。这是借贷放大盈亏的效果，例子不代表某账户的实际清算规则。"
+      },
+      "official_sources": [
+        {
+          "title": "MAX：A/D 比率与清算机制",
+          "url": "https://blog.maicoin.com/2022/01/20/ad-ratio/"
+        }
+      ]
+    },
+    {
+      "slug": "digitalyoming-pionex-dual-investment-tutorial",
+      "title": "派网双币理财：先接受结算币种，再谈利息",
+      "original_title": "Pionex 派網雙幣理財是什麼？風險/評價/優缺點/圖解教學",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/pionex-dual-investment-tutorial/",
+      "language": "繁体中文",
+      "checked": "2026-09-23",
+      "category": "理财与产品",
+      "topic": "策略",
+      "level": "进阶",
+      "summary": "作者分别用“投币”和“投 U”解释双币产品如何按目标价结算，以及为什么拿到利息，折算后的资产价值仍可能下降。",
+      "takeaways": [
+        "到期拿回哪种资产，由产品条件和结算价格决定。",
+        "比较最终资产市值和初始投入，不能只统计收到多少利息。"
+      ],
+      "caveats": [
+        "原文“保息”是描述产品计息安排，不能理解为平台违约等情况下仍有无条件保证。",
+        "目标价不是保证买在市场最低价；平台当前官方资料明确这类产品不保本金。"
+      ],
+      "related": [
+        "money",
+        "profit",
+        "expectancy"
+      ],
+      "exercise": {
+        "title": "赚了利息，也可能亏本金",
+        "prompt": "教学假设：投入 1000 U，在到期条件满足时按 100 U 买入某币。先忽略利息；到期市价是 80 U。",
+        "answer": "会得到 10 个币，按市价只值 800 U，亏损 200 U。即使另有一些利息，也要一起折算后才知道最终盈亏。"
+      },
+      "official_sources": [
+        {
+          "title": "Pionex：双币产品的结算与本金风险",
+          "url": "https://www.pionex.com/blog/tutorials-for-dual-investment/"
+        }
+      ]
+    },
+    {
+      "slug": "digitalyoming-max-spot-grid-trading",
+      "title": "MAX 网格：格子赚钱和账户赚钱是两回事",
+      "original_title": "MAX 網格機器人教學，網格參數怎設定？交易手續費是多少？",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/max-spot-grid-trading/",
+      "language": "繁体中文",
+      "checked": "2026-09-23",
+      "category": "机器人与策略",
+      "topic": "策略",
+      "level": "进阶",
+      "summary": "原文介绍 MAX 网格的价格区间、格数、订单记录和关闭流程。适合把网格理解成一组自动执行的买卖规则，观察已实现利润之外的剩余持币。",
+      "takeaways": [
+        "价格区间和格数决定订单如何分布，也决定每格毛利空间。",
+        "看网格明细时，同时查看持币浮亏、手续费和停止后的资产。"
+      ],
+      "caveats": [
+        "原文支持市场、格数和止盈止损功能是历史描述，使用前须看当前界面与服务协议。",
+        "单边下跌可能留下持续贬值的持仓；自动参数、自动复投和长期运行都不保证盈利。"
+      ],
+      "related": [
+        "strategies",
+        "fees",
+        "drawdown",
+        "quant-rules"
+      ],
+      "exercise": {
+        "title": "网格显示赚了，账户为什么亏？",
+        "prompt": "教学假设：已成交网格毛利 12 U，剩余持币浮亏 45 U，累计费用 3 U。总盈亏是多少？",
+        "answer": "12 - 45 - 3 = -36 U。只展示网格毛利会漏掉未卖出资产的损失；比较策略必须统一使用扣成本后的总权益。"
+      },
+      "official_sources": [
+        {
+          "title": "MAX：机器人交易服务协议",
+          "url": "https://assets.maicoin.com/max/robot-trading-service-agreement.html"
+        }
+      ]
+    },
+    {
+      "slug": "digitalyoming-mexc-demo-trading",
+      "title": "MEXC 模拟盘：练流程，分清虚拟盈利",
+      "original_title": "MEXC 模擬交易，用 50000 USDT 模擬金輕鬆體驗合約交易",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/mexc-demo-trading/",
+      "language": "繁体中文",
+      "checked": "2026-09-23",
+      "category": "入门与账户",
+      "topic": "实操",
+      "level": "入门",
+      "summary": "这篇文章展示合约模拟盘入口和模拟金领取流程。读它的重点是辨认模拟环境、练习订单与仓位操作，并理解虚拟资产与真实资金的区别。",
+      "takeaways": [
+        "下单前确认页面属于模拟盘，记录虚拟本金和开始时间。",
+        "把成交、手续费和仓位记录保存下来，比只看收益截图更有用。"
+      ],
+      "caveats": [
+        "原文模拟金额和入口可能调整，应对照官方当前教程与账户资格；不要为学习而充值真实资金。",
+        "模拟行情和成交机制不完全等同实盘，模拟获利不能提现，也不能证明实盘可以复制。"
+      ],
+      "related": [
+        "demo",
+        "paper",
+        "review"
+      ],
+      "exercise": {
+        "title": "账户多了 1000 U，能算真实收入吗？",
+        "prompt": "模拟盘从 10000 U 变成 11000 U，没有任何真实资金投入或提现。模拟赚了多少？真实收入是多少？",
+        "answer": "模拟盈利为 1000 U、收益率 10%；真实收入为 0。记录时应明确写“模拟盈利”，并注明是否扣除了模拟费用。"
+      },
+      "official_sources": [
+        {
+          "title": "MEXC：如何进入合约模拟交易",
+          "url": "https://support.mexc.com/hc/en-001/articles/5705980230169-How-to-Access-Demo-Trading-in-MEXC-Futures"
+        }
+      ]
+    },
+    {
+      "slug": "digitalyoming-max-staking",
+      "title": "MAX 锁仓：多拿了币，不一定多了钱",
+      "original_title": "MAX 鎖倉收益是什麼？如何鎖倉？獎勵報酬率有多少？",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/max-staking/",
+      "language": "繁体中文",
+      "checked": "2026-09-23",
+      "category": "理财与产品",
+      "topic": "实操",
+      "level": "进阶",
+      "summary": "作者区分链上与链下锁仓，介绍奖励来源、申购和解锁流程。适合学习把币数量的增加与资产价格的变化分别记录。",
+      "takeaways": [
+        "先分辨奖励来自链上验证，还是平台安排，风险来源不同。",
+        "锁定与解锁等待会影响资金可用时间，不能只比较年化数字。"
+      ],
+      "caveats": [
+        "原文预计 APR、支持币种、奖励币种和费率不代表当前条件，以最新产品协议为准。",
+        "锁仓不是银行存款：币价、平台、链上机制及不能及时退出等风险仍存在。"
+      ],
+      "related": [
+        "money",
+        "drawdown",
+        "sizing"
+      ],
+      "exercise": {
+        "title": "币数量增长 5%，资产价值呢？",
+        "prompt": "教学假设：最初持有 10 个币，每币 100 U；锁仓后变成 10.5 个币，但每币价格降到 70 U。忽略费用。",
+        "answer": "最初价值 1000 U，后来价值 735 U，下降 26.5%。币数量确实增加了，但按 U 计量的资产仍亏损。"
+      },
+      "official_sources": [
+        {
+          "title": "MAX：锁仓服务协议",
+          "url": "https://assets.maicoin.com/max/staking_service_zh.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "digitalyoming-bitgin-exchange-deposit-and-withdrawal",
+      "title": "BITGIN 资金进出：比较实际到账金额",
+      "original_title": "BITGIN 幣竟手續費是多少？交易買賣、出金與入金教學",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/bitgin-exchange-deposit-and-withdrawal/",
+      "language": "繁体中文",
+      "checked": "2026-09-23",
+      "category": "资金与安全",
+      "topic": "实操",
+      "level": "入门",
+      "summary": "原文分别展示台币、加密货币出入金和买卖报价，提示不同动作可能涉及银行费用、链上费用或报价内的处理成本。",
+      "takeaways": [
+        "链上转币与用法币买币是不同流程，费用项目也不同。",
+        "记录付出金额和实际收到数量，才能比较两种渠道的真实成本。"
+      ],
+      "caveats": [
+        "这是台湾银行与账户场景，不能直接套用于大陆身份或银行卡；原文 KYC、费用和额度均待当前平台确认。",
+        "“处理费含在报价”不等于没有成本；通用网络说明也不能证明 BITGIN 当前支持某条链。"
+      ],
+      "related": [
+        "transfer",
+        "fees",
+        "safety"
+      ],
+      "exercise": {
+        "title": "转出 100 个，为什么只收到 98 个？",
+        "prompt": "教学假设：转出页面显示从 100 个币中扣除 2 个币费用，收款端没有其他扣费。对方应收到多少？",
+        "answer": "应收到 98 个币。若计划让对方收到整整 100 个，还需要按平台的费用扣除方式重新计算，不能只看“转出数量”。"
+      },
+      "official_sources": [
+        {
+          "title": "OKX：充值地址与 Memo 通用原理，非其他平台现行费率证明",
+          "url": "https://www.okx.com/en-us/help/how-do-i-find-my-deposit-address-and-tag-memos"
+        }
+      ]
+    },
+    {
+      "slug": "digitalyoming-bitgin-moving-brick-arbitrage-bot",
+      "title": "BITGIN 搬砖：价差还要扣掉成本和失败风险",
+      "original_title": "BITGIN 幣竟搬磚套利機器人，可拿 6~17% 年化報酬？",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/bitgin-moving-brick-arbitrage-bot/",
+      "language": "繁体中文",
+      "checked": "2026-09-23",
+      "category": "机器人与策略",
+      "topic": "策略",
+      "level": "进阶",
+      "summary": "这篇文章用 BITGIN 与 MAX 的组合解释跨平台价差交易、两边预放资金及 API 对接。适合研究套利的执行链路，而不是照抄收益预估或授权范围。",
+      "takeaways": [
+        "预放两边资金可以减少临时转账等待，却会占用两边资金并承担两家平台风险。",
+        "一边成交、另一边失败时会留下敞口，套利程序也需要异常处理。"
+      ],
+      "caveats": [
+        "原文预期年化、免费和资金门槛是历史宣传，不能当作当前可得收益。",
+        "旧文要求钱包读写等较宽 API 权限；当前学习 Agent 只需公开行情，不应照抄授权、更不应把密钥粘贴到网页或聊天。",
+        "官方 API 链接仅用于理解权限，未证明这款第三方机器人当前仍可用或可靠。"
+      ],
+      "related": [
+        "api",
+        "agent",
+        "fees",
+        "validation"
+      ],
+      "exercise": {
+        "title": "有价差就能赚吗？",
+        "prompt": "教学假设：买入成本 1000 U，同一数量可卖出 1003 U，双边交易与调拨成本合计 4 U。忽略其他风险。",
+        "answer": "净结果是 1003 - 1000 - 4 = -1 U。展示出来的 3 U 价差不足以覆盖成本；实际还要考虑某一边未能成交。"
+      },
+      "official_sources": [
+        {
+          "title": "MAX：API 官方文档（原文所列入口）",
+          "url": "https://max.maicoin.com/documents/api"
+        }
+      ]
+    },
+    {
+      "slug": "digitalyoming-pionex-spot-futures-arbitrage",
+      "title": "旧资料：派网期现套利与下架后的学习重点",
+      "original_title": "Pionex 派網期現套利機器人，約 5% 以上年化/自動監控/開單教學",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/pionex-spot-futures-arbitrage/",
+      "language": "繁体中文",
+      "checked": "2026-09-23",
+      "category": "活动与旧资讯",
+      "topic": "策略",
+      "level": "进阶",
+      "summary": "原文用买入现货、做空永续合约解释资金费率套利。但文中旧套利机器人已有官方下架公告，本页保留原理导读与旧产品入口，不将开单截图当作当前操作步骤。",
+      "takeaways": [
+        "方向对冲只是减少一类价格风险，还要管理合约保证金和两边仓位。",
+        "资金费率是会变化的现金流，正负变化可能改变收益方向。"
+      ],
+      "caveats": [
+        "官方已公告下架文中旧套利机器人，不能据此承诺现在还能创建该机器人。",
+        "原文把固定结算间隔与费率作长期推算；实际间隔、费率和费用须按具体合约核对，不能把历史年化当保证。",
+        "等量现货和合约仍有基差、强平、平台和执行风险。"
+      ],
+      "related": [
+        "spot-futures",
+        "leverage",
+        "fees",
+        "strategies"
+      ],
+      "exercise": {
+        "title": "同一个空单，资金费收入会变支出吗？",
+        "prompt": "教学假设：线性永续空头名义仓位 5000 U。本次资金费率 +0.01%，下一次变成 -0.01%；仓位价值不变。",
+        "answer": "按常见多空支付约定，空头本次收取 0.5 U，下一次支付 0.5 U，合计为 0，尚未扣手续费。这是原理算例，结算规则以具体合约为准。"
+      },
+      "official_sources": [
+        {
+          "title": "Pionex：旧套利机器人下架公告",
+          "url": "https://support.pionex.com/hc/en-us/articles/28251680519065-Pionex-Will-Delist-Arbitrage-Bot"
+        }
+      ]
+    },
+    {
+      "slug": "digitalyoming-pionex-withdraw-tutorial",
+      "title": "派网提币：先核对收款要求，再确认数量",
+      "original_title": "Pionex 派網出金提幣教學，錢包轉錢包多久到帳？手續費是多少？",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/pionex-withdraw-tutorial/",
+      "language": "繁体中文",
+      "checked": "2026-09-23",
+      "category": "资金与安全",
+      "topic": "实操",
+      "level": "入门",
+      "summary": "原文同时展示网页和手机端提币步骤，并把币种、网络、地址、数量与 Memo/Tag 列为需要核对的信息。适合学习一次转账应该留下哪些记录。",
+      "takeaways": [
+        "收款平台生成的充值信息，是转出端填写信息的依据。",
+        "平台已完成提币与收款平台已入账，是两个不同状态。"
+      ],
+      "caveats": [
+        "原文到账时间、费用和限额不是当前承诺，维护、审核或区块确认都可能改变时间。",
+        "地址白名单仍需复核；先小额检查也不代表之后的每笔转账无风险。"
+      ],
+      "related": [
+        "transfer",
+        "safety",
+        "fees"
+      ],
+      "exercise": {
+        "title": "最低到账 50，转出 50 够吗？",
+        "prompt": "教学假设：收款平台最低入账 50 个币，转出平台从输入的 50 个币中扣 1 个币费用。",
+        "answer": "实际只到 49 个币，低于收款要求。应先确认最低入账标准和费用扣除方式，不能只根据输入数量判断。"
+      },
+      "official_sources": [
+        {
+          "title": "Pionex：网页端提币说明（原文所列官方入口）",
+          "url": "https://support.pionex.com/hc/zh-tw/articles/4407439202585-%E5%A6%82%E4%BD%95%E6%8F%90%E5%87%BA%E5%8A%A0%E5%AF%86%E8%B2%A8%E5%B9%A3-Web-"
+        }
+      ]
+    },
+    {
+      "slug": "digitalyoming-pionex-deposit-tutorial",
+      "title": "派网入金：把汇率和手续费放在一起比较",
+      "original_title": "Pionex 派網入金教學，充幣與買幣共 4 種方法手續費優劣分析",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/pionex-deposit-tutorial/",
+      "language": "繁体中文",
+      "checked": "2026-09-23",
+      "category": "资金与安全",
+      "topic": "实操",
+      "level": "入门",
+      "summary": "这篇文章按链上充币、C2C、第三方买币和银行转账比较入金路径。作者的台湾使用体验可帮助列比较项，但不能直接代表其他地区的可用渠道。",
+      "takeaways": [
+        "已有加密资产转入与花法币买币，是不同资金来源。",
+        "相同法币预算最终能收到多少币，比单看“零手续费”更直观。"
+      ],
+      "caveats": [
+        "原文的地区、渠道、支付工具和汇率优劣均有时效，不据此判断你当前可使用哪条渠道。",
+        "对方要求脱离平台付款、代验证或提供虚假身份时，应停止操作；模拟学习不需要这些入金流程。"
+      ],
+      "related": [
+        "transfer",
+        "fees",
+        "safety"
+      ],
+      "exercise": {
+        "title": "零手续费一定便宜吗？",
+        "prompt": "教学假设：同样支付 1000 单位法币，渠道 A 扣完所有费用收到 98 个币；渠道 B 宣称零手续费，却只收到 95 个同种币。",
+        "answer": "在到账时间与其他条件相同的假设下，A 多收到 3 个币。B 可能把成本放进报价差，不能仅凭“零手续费”判断更划算。"
+      },
+      "official_sources": [
+        {
+          "title": "Pionex：充值说明（原文所列官方入口）",
+          "url": "https://support.pionex.com/hc/zh-tw/articles/4407283127577-%E5%A6%82%E4%BD%95%E5%85%85%E5%80%BC%E5%8A%A0%E5%AF%86%E8%B2%A8%E5%B9%A3-APP-"
+        }
+      ]
+    },
+    {
+      "slug": "digitalyoming-bitget-spot-trading-tutorial",
+      "title": "Bitget 现货：普通委托与条件委托",
+      "original_title": "Bitget 現貨交易教學，如何委託下單？",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/bitget-spot-trading-tutorial/",
+      "language": "繁体中文",
+      "checked": "2026-09-23",
+      "category": "现货与订单",
+      "topic": "实操",
+      "level": "入门",
+      "summary": "作者从交易对、盘口和订单记录介绍现货界面，再对比普通委托与计划委托。适合把“触发条件”和“最终成交条件”分开理解。",
+      "takeaways": [
+        "条件订单先等触发，触发以后仍要遵守实际订单类型的成交规则。",
+        "核对实际成交价格与数量，不能把提交订单当作全部成交。"
+      ],
+      "caveats": [
+        "原文费率、折扣与界面范围可能调整，当前官方说明已有更多订单功能。",
+        "市价单可能有滑点或受成交保护条件限制；限价单也可能立即吃单，不能只根据名字判断 Maker/Taker。"
+      ],
+      "related": [
+        "orders",
+        "fees",
+        "candles"
+      ],
+      "exercise": {
+        "title": "触发价不是成交保证",
+        "prompt": "教学假设：卖出计划单触发价 95 U，触发后提交限价 94 U。价格跳到 92 U，最高买价也是 92 U。",
+        "answer": "订单已触发，但不会按 92 U 成交，因为你要求至少卖 94 U。保护限价与立即成交不能同时被当作保证。"
+      },
+      "official_sources": [
+        {
+          "title": "Bitget：现货交易与市价单滑点",
+          "url": "https://www.bitget.com/support/articles/12560603820568"
+        },
+        {
+          "title": "Bitget：触发单与其他高级订单",
+          "url": "https://www.bitget.com/support/articles/12560603884156"
+        }
+      ]
+    },
+    {
+      "slug": "digitalyoming-okx-deposit-tutorial",
+      "title": "OKX 充值：网络与 Memo 都是收款信息",
+      "original_title": "OKX 入金教學，錢包轉帳/P2P/信用卡入金圖解",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/okx-deposit-tutorial/",
+      "language": "繁体中文",
+      "checked": "2026-09-23",
+      "category": "资金与安全",
+      "topic": "实操",
+      "level": "入门",
+      "summary": "原文用图解比较链上充值、第三方购币与 P2P。链上部分适合用来认识充值地址、网络、Memo 以及区块确认后入账的流程。",
+      "takeaways": [
+        "从收款端取得币种、网络和必要的 Memo，再到转出端逐项填写。",
+        "充值到资金账户后，是否还需内部划转，要看后续交易功能使用哪个账户。"
+      ],
+      "caveats": [
+        "原文“所有人都可以”等说法不能越过实际地区、身份和服务限制。",
+        "刷卡、P2P 与链上充值的费用和争议风险不同，原文台湾经验不能直接用于大陆账户。"
+      ],
+      "related": [
+        "transfer",
+        "binance-map",
+        "safety"
+      ],
+      "exercise": {
+        "title": "地址相同，可以省略 Memo 吗？",
+        "prompt": "教学假设：交易所为多人使用同一个收款地址，你的充值页面另给了 Memo 12345。只填地址是否完整？",
+        "answer": "不完整。Memo 用来把共享地址收到的资产归到正确账户，必须按收款方要求填写。不要从其他币种或旧教程推断可以省略。"
+      },
+      "official_sources": [
+        {
+          "title": "OKX：充值网络必须与转出端一致",
+          "url": "https://www.okx.com/en-gb/help/how-do-i-make-a-deposit-app"
+        },
+        {
+          "title": "OKX：充值地址与 Memo 通用原理，非其他平台现行费率证明",
+          "url": "https://www.okx.com/en-us/help/how-do-i-find-my-deposit-address-and-tag-memos"
+        }
+      ]
+    },
+    {
+      "slug": "digitalyoming-okx-earn",
+      "title": "OKX 赚币全貌：收益来自借贷、质押还是结构产品",
+      "original_title": "OKX 賺幣理財項目有哪些？簡單賺幣/鏈上賺幣/結構化產品",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/okx-earn/",
+      "language": "繁体中文",
+      "checked": "2026-09-23",
+      "category": "理财与产品",
+      "topic": "策略",
+      "level": "进阶",
+      "summary": "原文把赚币入口下的产品分组，介绍借贷、链上质押与结构化产品。适合先建立产品地图，再逐个判断收益来源与退出条件。",
+      "takeaways": [
+        "相同的“赚币”栏目，不代表各产品承担相同风险。",
+        "对每个产品追问：谁支付收益、什么情况下亏钱、什么时候能取回。"
+      ],
+      "caveats": [
+        "产品名称、供应币种和申购入口可能变化；原文活动和奖励不代表当前有效。",
+        "活期也不等于银行活期存款。官方明确简单赚币不保本金，链上或结构化产品还需阅读各自协议。"
+      ],
+      "related": [
+        "money",
+        "expectancy",
+        "sizing"
+      ],
+      "exercise": {
+        "title": "先辨认收益来源",
+        "prompt": "三个教学例子：A 把币借给交易者收利息，B 参与链上验证收奖励，C 收益与结算币种取决于价格条件。它们属于同一类风险吗？",
+        "answer": "不是。A 先看借款和平台风险，B 还要看链上运行与解锁条件，C 要看结算和转换风险。不能因为都展示年化数字就只按高低排序。"
+      },
+      "official_sources": [
+        {
+          "title": "OKX：活期简单赚币的资金用途与风险",
+          "url": "https://www.okx.com/en-gb/help/introduction-to-okx-simple-earn-flexible"
+        },
+        {
+          "title": "OKX：定期简单赚币的起息、赎回与本金风险",
+          "url": "https://www.okx.com/en-gb/help/how-do-i-use-simple-earn-fixed"
+        }
+      ]
+    },
+    {
+      "slug": "digitalyoming-okx-fixed-income",
+      "title": "OKX 定期赚币：先看什么时候起息和何时能退",
+      "original_title": "OKX 定期賺幣介紹，申購風險與利息來源是什麼？它值得申購嗎？",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/okx-fixed-income/",
+      "language": "繁体中文",
+      "checked": "2026-09-23",
+      "category": "理财与产品",
+      "topic": "实操",
+      "level": "进阶",
+      "summary": "原文把定期赚币解释为出借数字资产，介绍订单、期限和借款人还款。阅读时应把“已提交”“已开始计息”和“可赎回”当成不同状态。",
+      "takeaways": [
+        "资金等待匹配时，不一定已经开始按展示利率赚息。",
+        "定期期限限制退出，延期还款还可能影响实际取回时间。"
+      ],
+      "caveats": [
+        "原文弱化了本金回收风险；当前官方明确借款人无法还款、抵押物不足等情况下可能损失本金。",
+        "旧文产品币种、期限和利率表不代表当前供应。官方规则对尚未起息与已起息资金的赎回处理不同。"
+      ],
+      "related": [
+        "money",
+        "fees",
+        "sizing"
+      ],
+      "exercise": {
+        "title": "等了三天，利息应从哪天算？",
+        "prompt": "教学假设：1000 U 提交后等待匹配 3 天，随后真正计息 10 天，单利年化 3.65%。等待期不计息。",
+        "answer": "利息是 1000 × 3.65% × 10 ÷ 365 = 1 U，不能把等待的 3 天也算进去。实际开始时间以订单记录为准。"
+      },
+      "official_sources": [
+        {
+          "title": "OKX：定期简单赚币的起息、赎回与本金风险",
+          "url": "https://www.okx.com/en-gb/help/how-do-i-use-simple-earn-fixed"
+        }
+      ]
+    },
+    {
+      "slug": "digitalyoming-btcc-exchange-deposit-and-withdrawal",
+      "title": "BTCC 充提币：把两边平台的信息对齐",
+      "original_title": "BTCC 出金入金教學，圖解轉帳流程，手續費與充提幣額度說明 – 數位小幫手",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/btcc-exchange-deposit-and-withdrawal/",
+      "language": "繁体中文",
+      "checked": "2026-09-23",
+      "category": "资金与安全",
+      "topic": "实操",
+      "level": "入门",
+      "summary": "原文用多个交易所之间的转账截图说明 BTCC 充提币。可重点学习收款地址、区块链网络和确认记录如何在两边对应起来。",
+      "takeaways": [
+        "同叫 USDT 的资产也可能走不同网络，转出和收款必须匹配。",
+        "保存转出记录和交易哈希，才能追踪停在哪一个环节。"
+      ],
+      "caveats": [
+        "原文监管、安全经营等宣传不等于所有地区均可使用或资金有无条件保障。",
+        "支持币种、最低金额和费用看当前平台；Memo/Tag 是否必填由收款端决定。"
+      ],
+      "related": [
+        "transfer",
+        "safety",
+        "fees"
+      ],
+      "exercise": {
+        "title": "链上成功了，为什么账户还没到账？",
+        "prompt": "教学假设：转出端显示成功，区块浏览器也有交易，但收款平台要求 12 次确认，现在只有 3 次。能把它写成“资金丢失”吗？",
+        "answer": "不能仅凭这一点判断丢失。它可能仍在等待确认，应继续核对网络、地址、Memo 和平台入账要求；记录“已上链、待入账”比直接记成到账更准确。"
+      },
+      "official_sources": [
+        {
+          "title": "BTCC：充值网络、费用与最低金额",
+          "url": "https://www.btcc.com/en-US/support-center/detail/48947536755481"
+        },
+        {
+          "title": "BTCC：充值地址和 Destination Tag",
+          "url": "https://www.btcc.com/en-US/support-center/detail/48947718611993"
+        }
+      ]
+    },
+    {
+      "slug": "digitalyoming-max-exchange-deposits-and-withdrawals",
+      "title": "MAX 交易与出入金：台币流程和链上流程分开看",
+      "original_title": "MAX 交易教學，如何出金與入金？手續費是多少？",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/max-exchange-deposits-and-withdrawals/",
+      "language": "繁体中文",
+      "checked": "2026-09-23",
+      "category": "资金与安全",
+      "topic": "实操",
+      "level": "入门",
+      "summary": "原文把台币银行出入金、加密资产转账和现货交易串起来，适合学习资金到账后如何选择交易对、下单与查成交记录。",
+      "takeaways": [
+        "银行转账、链上转账和站内成交，分别有自己的状态与成本。",
+        "限价单可以等待，也可能立即成交；实际成交方式会影响费用。"
+      ],
+      "caveats": [
+        "这是台湾银行账户场景，不能由此判断大陆用户资格或银行渠道。",
+        "原文对 TRC20 费用出现“免费”和“1 USDT”的不同描述，应以当前官方费用表和确认页为准。",
+        "旧文到账时间、额度、认证等级和推荐折扣，不是当前账户的承诺。"
+      ],
+      "related": [
+        "transfer",
+        "orders",
+        "fees"
+      ],
+      "exercise": {
+        "title": "一次流程里有几种费用？",
+        "prompt": "教学假设：卖币成交金额 2000 单位法币，交易费 2，提到银行再收 5，其他费用为零。银行最后收到多少？",
+        "answer": "2000 - 2 - 5 = 1993。交易成交金额与最终到银行的金额不同，复盘要把两种费用都记入。"
+      },
+      "official_sources": [
+        {
+          "title": "MAX：实际费用表（原文所列官方入口）",
+          "url": "https://max.maicoin.com/docs/fees"
+        },
+        {
+          "title": "MAX：实际额度表（原文所列官方入口）",
+          "url": "https://max.maicoin.com/docs/limits"
+        }
+      ]
+    },
+    {
+      "slug": "digitalyoming-terra-station-wallet-registration-tutorial",
+      "title": "旧资料：Terra Station 钱包与助记词安全",
+      "original_title": "Terra Station 錢包註冊教學，安裝 Chrome 外掛與手機 APP",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/terra-station-wallet-registration-tutorial/",
+      "language": "繁体中文",
+      "checked": "2026-09-23",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "入门",
+      "summary": "这是一篇旧版 Terra Station 建钱包和恢复钱包图解。本页主要保留助记词、密码与钱包地址的区别；原文 LUNA、UST 和软件入口不能当作今天的操作依据。",
+      "takeaways": [
+        "助记词可以恢复控制权，泄露后的风险与普通登录密码不同。",
+        "收款地址可以用于接收资产，恢复材料则必须单独保护。"
+      ],
+      "caveats": [
+        "UST 曾发生崩溃，旧截图中的“稳定币”标签不能证明如今仍锚定美元。",
+        "不要照旧文链接安装扩展或导入真实助记词；先从当前官方渠道核对软件、链和资产版本。"
+      ],
+      "related": [
+        "safety",
+        "money",
+        "transfer"
+      ],
+      "exercise": {
+        "title": "哪一种信息能给别人收款？",
+        "prompt": "教学假设：你有钱包地址、设备解锁密码、助记词三样信息。朋友只想向你转账，需要你提供助记词吗？",
+        "answer": "不需要。接收资产通常提供正确网络下的收款地址及必要 Memo；助记词属于恢复控制权的秘密，不应提供给转账人、客服或学习页面。"
+      },
+      "official_sources": [
+        {
+          "title": "SEC：Terraform 与 UST 崩溃相关案件记录",
+          "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-25692"
+        }
+      ]
+    },
+    {
+      "slug": "digitalyoming-binance-withdrawal-to-terra-station",
+      "title": "旧资料：币安转 Terra 的 UST 案例哪里不能照抄",
+      "original_title": "如何從幣安提現到 Terra Station？4 個步驟搞定它",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-withdrawal-to-terra-station/",
+      "language": "繁体中文",
+      "checked": "2026-09-23",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "入门",
+      "summary": "原文记录了从币安向旧 Terra Station 发送 UST 的流程。保留它是为了学习币种、网络、地址与验证步骤，同时识别旧教程在资产和 Memo 判断上的失效风险。",
+      "takeaways": [
+        "相似的钱包名称和地址外观，不能替代对具体资产和网络的核对。",
+        "提交前按当前收款方说明复核完整信息，不能依赖自动匹配或旧截图。"
+      ],
+      "caveats": [
+        "原文把 UST 当稳定币并列出旧费用表；UST 崩溃后，这些资产、网络和数量信息不能当作当前转账依据。",
+        "原文“MEMO 不用填”只描述当时特定收款钱包，不能推广到交易所共享地址或其他资产；应按收款方要求填写。",
+        "小额曾经成功不保证后续转账正确，充值渠道与地址规则可能变化。"
+      ],
+      "related": [
+        "transfer",
+        "safety",
+        "money"
+      ],
+      "exercise": {
+        "title": "旧教程说免填，当前页面却要求 Memo",
+        "prompt": "教学假设：一篇旧文写“Memo 留空”，你的当前收款页面明确提供 Memo 67890 并要求填写。应遵循哪个？",
+        "answer": "遵循当前收款方的完整要求；不要用旧文章覆盖实际充值规则。若币种或网络无法确认，就先停止转账核对，本练习不需要发送任何资金。"
+      },
+      "official_sources": [
+        {
+          "title": "SEC：Terraform 与 UST 崩溃相关案件记录",
+          "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-25692"
+        },
+        {
+          "title": "OKX：充值地址与 Memo 通用原理，非其他平台现行费率证明",
+          "url": "https://www.okx.com/en-us/help/how-do-i-find-my-deposit-address-and-tag-memos"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2104 @@
+{
+  "posts": [
+    {
+      "slug": "digitalyoming-binance-campaign-2026-9-year-anniversary-lucky-draw",
+      "title": "九周年抽奖案例：任务、抽奖和兑奖是三件事",
+      "original_title": "幣安九週年慶典，快來抽旅遊基金及美股等大獎！",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-campaign-2026-9-year-anniversary-lucky-draw/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "原文记录周年活动的任务入口、抽奖次数与卡券领取流程，可用来学习活动条款怎么读。",
+      "takeaways": [
+        "完成任务后还需领取抽奖次数，再进行抽奖。",
+        "代币券中奖后还要在奖励专区使用，且有有效期。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "原活动期限已经结束，页面中的奖品与抽中截图不能代表你的获奖概率。"
+      ],
+      "related": [
+        "binance-map",
+        "profit",
+        "sizing"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：原文所引公告或产品规则",
+          "url": "https://www.binance.com/support/announcement/detail/a48e5ce1e11944c2a2af34ce99bb498b"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：任务、抽奖和兑奖是三件事",
+        "prompt": "假设为获得一次抽奖机会，交易手续费花了3 U；最后获得1 U奖励，净结果是多少？",
+        "answer": "净亏2 U。奖励要减去完成任务的成本，不能只看中奖金额。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-binance-new-listing-re-protocol-re",
+      "title": "RE 上币案例：治理代币不等于保险收益权",
+      "original_title": "幣安新上架 Re Protocol（$RE）代幣是什麼？",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-new-listing-re-protocol-re/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "这篇从再保险融资介绍 Re Protocol，再说明 RE 的治理用途与现货查找方式。",
+      "takeaways": [
+        "协议募集的抵押资金与RE治理代币是不同角色。",
+        "原文明确RE不是股权或债权，不赋予保险现金流请求权。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "“总量固定所以没有稀释压力”的推论不完整；未流通代币解锁仍会增加可交易供给。"
+      ],
+      "related": [
+        "orders",
+        "candles",
+        "profit"
+      ],
+      "official_sources": [
+        {
+          "title": "Re Protocol：原文列出的项目文档",
+          "url": "https://docs.re.xyz/"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：治理代币不等于保险收益权",
+        "prompt": "假设总量固定为100个，目前只流通20个，又解锁10个，流通量增加了多少？",
+        "answer": "增加50%，从20变成30。总量没变不代表流通供给没变，也不能据此预测价格。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-binance-new-listing-opengradient-opg",
+      "title": "OPG 上币案例：先分清 AI 服务与代币用途",
+      "original_title": "幣安新上架 OpenGradient（$OPG）代幣是什麼？",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-new-listing-opengradient-opg/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "原文介绍 OpenGradient 的AI推理架构，区分推理、数据、验证节点，并整理OPG用途。",
+      "takeaways": [
+        "HACA把模型执行与链上验证分开描述。",
+        "OPG在文中用于服务支付、质押、治理和模型托管。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "原文的性能、模型数和采用数据只是截稿时描述；技术可行不等于代币价格一定上涨。"
+      ],
+      "related": [
+        "orders",
+        "candles",
+        "profit"
+      ],
+      "official_sources": [
+        {
+          "title": "OpenGradient：原文链接的项目官网",
+          "url": "https://www.opengradient.ai/"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：先分清 AI 服务与代币用途",
+        "prompt": "一个平台使用人数翻倍，但代币流通量也大增，能直接推断代币价格翻倍吗？",
+        "answer": "不能。使用需求、代币实际捕获的价值、流通供给和买卖压力都需要分别核对。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-binance-pay-dollargame",
+      "title": "一美元游戏：活动名称不等于实际付款额",
+      "original_title": "幣安一美元遊戲，只需 1 USDT 即可參加抽獎！沒中獎還能全額退款",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-pay-dollargame/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "文章讲解 Binance Pay 抽奖的付款、开奖结果和退款，名称仍叫一美元游戏，文中门槛却已发生变化。",
+      "takeaways": [
+        "文章同时保留旧的一美元叫法与较新的小额付款说明。",
+        "中奖兑换奖品与未中奖退款，是两种不同的结算结果。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "金额、退款时限和能否参加要看该期官方条款，旧奖品列表不能说明活动当前开放。"
+      ],
+      "related": [
+        "binance-map",
+        "profit",
+        "sizing"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：原文所引公告或产品规则",
+          "url": "https://www.binance.com/zh-TC/support/faq/detail/02b71fdfef0b4c5a96345f0a18bb9bc0"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：活动名称不等于实际付款额",
+        "prompt": "假设支付0.2 U参加抽奖，未中奖后原额退回0.2 U，能把退款算作盈利吗？",
+        "answer": "不能。只是拿回自己的钱，净收益为0；如产生额外转账费用，还要扣除。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-binance-hodler-airdrop-usdai-chip",
+      "title": "CHIP 空投案例：治理权与贷款收益要分开",
+      "original_title": "幣安 HODLer 空投項目 USD.AI（$CHIP）是什麼？",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-hodler-airdrop-usdai-chip/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "原文用GPU抵押融资介绍USD.AI，再讲CHIP的治理角色和历史空投查询。",
+      "takeaways": [
+        "借款方以基础设施融资，存款方提供资金。",
+        "文中把CHIP界定为治理代币，不直接赋予收益权。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "同页表格写最大供应100亿，正文却写总量240亿，存在口径或录入矛盾，应以项目原始资料核对。"
+      ],
+      "related": [
+        "binance-map",
+        "profit",
+        "sizing"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：HODLer空投资格与快照机制",
+          "url": "https://www.binance.com/en/support/faq/detail/78006ff26d5e4362a4f5c82d3f449f1f"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：治理权与贷款收益要分开",
+        "prompt": "看到“协议获得利息”和“持有治理代币”两句话，能算出你的利息收入吗？",
+        "answer": "不能。要先证明代币有明确收益分配权及满足其条件；治理投票权本身不是分红。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-binance-hodler-airdrop-midnight-night",
+      "title": "NIGHT 空投案例：币与网络资源的区别",
+      "original_title": "幣安 HODLer 空投項目 Midnight（$NIGHT）是什麼？",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-hodler-airdrop-midnight-night/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "文章介绍Midnight的隐私与选择性披露设计，并把NIGHT和DUST分开解释。",
+      "takeaways": [
+        "NIGHT被描述为可持有的代币，DUST为使用网络的资源。",
+        "空投资格依据此前的指定持仓快照，而非读文章当天买入。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "不可转让的网络资源不能直接按可交易代币估值；隐私技术描述也不保证市场价格稳定。"
+      ],
+      "related": [
+        "binance-map",
+        "profit",
+        "sizing"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：HODLer空投资格与快照机制",
+          "url": "https://www.binance.com/en/support/faq/detail/78006ff26d5e4362a4f5c82d3f449f1f"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：币与网络资源的区别",
+        "prompt": "假设钱包显示10个可交易代币和100点不可转让资源，能把两者相加写成110个币吗？",
+        "answer": "不能。单位、用途与是否可转让不同，应分别记录。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-binance-referral",
+      "title": "读懂推荐返佣：折扣券与现金奖励的区别",
+      "original_title": "2026 幣安推薦邀請碼的 4 個好處，如何查詢推薦人與返佣？",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-referral/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "原文围绕注册推广、手续费返佣、新户任务及返佣记录查询展开，属于带商业推广的操作文章。",
+      "takeaways": [
+        "返佣采用先收费用、再返还部分的描述。",
+        "新户礼包含有任务条件的手续费券，不全是可提现现金。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "宣传的折扣比例、叠加方式和补填条件不能当通用规则；实际适用范围应查看账户与官方条款。"
+      ],
+      "related": [
+        "fees",
+        "spot-futures",
+        "leverage"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：原文所引公告或产品规则",
+          "url": "https://www.binance.com/zh-TC/support/faq/detail/a502d59af1f74566a983a6a011aec371"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：折扣券与现金奖励的区别",
+        "prompt": "假设先支付20 U手续费，再返4 U，最终成本和返佣比例是多少？",
+        "answer": "最终成本16 U，返佣比例20%。如果只是拿到4 U手续费券，则还要确认使用条件，不能直接记作现金到账。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-binance-hodler-airdrop-brevis-brev",
+      "title": "BREV 空投案例：证明者与委托人的不同风险",
+      "original_title": "幣安 HODLer 空投項目 Brevis（$BREV）是什麼？",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-hodler-airdrop-brevis-brev/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "文章用“链下计算、链上验证”解释Brevis，并介绍Pico zkVM、数据协处理器与ProverNet。",
+      "takeaways": [
+        "BREV被用于证明任务支付、治理和质押。",
+        "委托人可参与证明者收益，同时也可能承担违规罚没。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "文中的提速倍数依赖比较条件；参与质押不是无风险存款，空投到账也不等于长期获利。"
+      ],
+      "related": [
+        "binance-map",
+        "profit",
+        "sizing"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：HODLer空投资格与快照机制",
+          "url": "https://www.binance.com/en/support/faq/detail/78006ff26d5e4362a4f5c82d3f449f1f"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：证明者与委托人的不同风险",
+        "prompt": "假设委托100个代币，收到3个奖励却被罚没8个，代币数量净变动是多少？",
+        "answer": "净减少5个，剩95个。奖励率需要连同罚没风险一起看。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-binance-launchpad",
+      "title": "Launchpad 入门：认购额度、投入与实际扣款",
+      "original_title": "幣安 Launchpad 是什麼？新幣申購教學與歷史收益率分析",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-launchpad/",
+      "language": "繁体中文",
+      "category": "理财与产品",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "这篇把Launchpad分成持仓、申购、计算和分发阶段，并用历史项目演示比例配售。",
+      "takeaways": [
+        "持仓影响可投入额度，仍需在申购阶段主动操作。",
+        "投入的BNB与最终扣除的BNB不一定相同。"
+      ],
+      "caveats": [
+        "历史短期收益年化不能当全年承诺；为了认购买入或借入BNB，还需计入价格变化与借款成本。",
+        "阅读整理日只表示本页资料收集时间，不表示产品、地区资格或文章中的费率已重新核实有效。"
+      ],
+      "related": [
+        "profit",
+        "fees",
+        "sizing"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：BNB每日持仓统计规则",
+          "url": "https://www.binance.com/zh-TC/support/announcement/detail/360031505011"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：认购额度、投入与实际扣款",
+        "prompt": "假设投入价值1000 U的BNB，最终扣20 U换得新币，余下980 U退回；新币卖得30 U且其余资产不变，收益是多少？",
+        "answer": "收益10 U，即30减20；不能把退回的980 U算收益。实际还需扣除费用并计算BNB价格变化。"
+      },
+      "tags": [
+        "产品机制",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-binance-hodler-airdrop-apro-at",
+      "title": "AT 空投案例：预言机怎样把外部数据带上链",
+      "original_title": "幣安 HODLer 空投項目 APRO（$AT）是什麼？",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-hodler-airdrop-apro-at/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "文章介绍APRO以推送和拉取方式提供外部信息，并讨论AI处理非结构化资料的用途。",
+      "takeaways": [
+        "预言机连接链外数据与链上合约。",
+        "AT在文中承担节点质押、治理及奖惩作用。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "加入AI和交叉验证并不能证明输入永远正确；应区分技术目标、实际覆盖范围与代币投资回报。"
+      ],
+      "related": [
+        "binance-map",
+        "profit",
+        "sizing"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：HODLer空投资格与快照机制",
+          "url": "https://www.binance.com/en/support/faq/detail/78006ff26d5e4362a4f5c82d3f449f1f"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：预言机怎样把外部数据带上链",
+        "prompt": "假设多个节点都引用同一家错误价格源，多数一致能证明价格真实吗？",
+        "answer": "不能。来源可能共享同一错误，需要检查数据独立性、异常过滤和更新时效。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-binance-hodler-airdrop-momentum-mmt",
+      "title": "MMT 空投案例：治理锁仓与项目规划怎么读",
+      "original_title": "幣安 HODLer 空投項目 Momentum（$MMT）是什麼？",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-hodler-airdrop-momentum-mmt/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "原文介绍Sui上的Momentum，并解释把MMT锁定为veMMT参与治理与费用分配的方式。",
+      "takeaways": [
+        "锁仓数量与时长会影响治理权。",
+        "文章同时包含已有功能和未来平台规划。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "最大供应量与当前总供应量不是同一概念，文中的无限与10亿不能直接判为矛盾；应核对发行上限及后续增发机制。项目规划也不能当成已实现功能。"
+      ],
+      "related": [
+        "binance-map",
+        "profit",
+        "sizing"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：HODLer空投资格与快照机制",
+          "url": "https://www.binance.com/en/support/faq/detail/78006ff26d5e4362a4f5c82d3f449f1f"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：治理锁仓与项目规划怎么读",
+        "prompt": "两个产品都宣传年化20%，一个随时可退、一个要锁90天，能只按年化比较吗？",
+        "answer": "不能。还要比较退出限制、价格波动、收益来源及兑现条件，锁仓期间可能无法及时降低风险。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-binance-hodler-airdrop-euler-eul",
+      "title": "EUL 空投案例：模块化借贷与奖励解锁",
+      "original_title": "幣安 HODLer 空投項目 Euler（$EUL）是什麼？",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-hodler-airdrop-euler-eul/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "这篇介绍Euler的独立借贷市场工具，并区分EUL治理、费用拍卖和锁定奖励。",
+      "takeaways": [
+        "EVK用于创建借贷金库，EVC连接抵押与市场状态。",
+        "原文提及rEUL按规则解锁，提前退出可能损失未解锁部分。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "独立市场不表示所有风险都被消除；抵押资产、预言机、合约与解锁条款仍需分别核对。"
+      ],
+      "related": [
+        "leverage",
+        "sizing",
+        "drawdown"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：HODLer空投资格与快照机制",
+          "url": "https://www.binance.com/en/support/faq/detail/78006ff26d5e4362a4f5c82d3f449f1f"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：模块化借贷与奖励解锁",
+        "prompt": "假设获得100个锁定奖励，已解锁20个；提前退出会销毁余下部分，最多能按多少个可用奖励记账？",
+        "answer": "按已解锁并实际可领取的20个记录，未解锁的80个不能视作确定现金。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-binance-hodler-airdrop-enso-enso",
+      "title": "ENSO 空投案例：治理不一定分配收入",
+      "original_title": "幣安 HODLer 空投項目 Enso（$ENSO）是什麼？",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-hodler-airdrop-enso-enso/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "文章介绍Enso整合多链协议的开发方式，并把ENSO的治理、验证和委托功能拆开讲。",
+      "takeaways": [
+        "锁仓治理与验证抵押有不同目的。",
+        "原文明说治理范围不包含资产奖励分配，投票本身不产生收益。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "不能把“能投票”自动理解为“有分红”；委托收益也需要额外参与并承担相应风险。"
+      ],
+      "related": [
+        "binance-map",
+        "profit",
+        "sizing"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：HODLer空投资格与快照机制",
+          "url": "https://www.binance.com/en/support/faq/detail/78006ff26d5e4362a4f5c82d3f449f1f"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：治理不一定分配收入",
+        "prompt": "如果持币者能投票升级软件，却没有收入分配条款，买币就获得平台利润的一部分吗？",
+        "answer": "没有这个依据。需要找到明确且有效的经济权利条款，不能由治理权推导分红权。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-binance-hodler-airdrop-walrus-wal",
+      "title": "WAL 空投案例：存储付费与代币持有是两回事",
+      "original_title": "幣安 HODLer 空投項目 Walrus（$WAL）是什麼？",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-hodler-airdrop-walrus-wal/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "这篇围绕Walrus的数据存储网络展开，介绍存储费用、委托质押和治理用途。",
+      "takeaways": [
+        "付费存储按期限使用，费用分给提供服务的参与者。",
+        "Quilt、Seal和Sites分别面向存储、访问控制与站点托管。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "成本倍数依赖比较对象；存储可用性和数据真实性不同，存得住不代表内容可信。"
+      ],
+      "related": [
+        "binance-map",
+        "profit",
+        "sizing"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：HODLer空投资格与快照机制",
+          "url": "https://www.binance.com/en/support/faq/detail/78006ff26d5e4362a4f5c82d3f449f1f"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：存储付费与代币持有是两回事",
+        "prompt": "假设文件被可靠保存了十份，但原文件内容就是假的，多副本能使内容变真实吗？",
+        "answer": "不能。副本改善可用性，真实性需要额外证据和验证过程。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-binance-hodler-airdrop-morpho-morpho",
+      "title": "MORPHO 空投案例：别把不同借贷架构混在一起",
+      "original_title": "幣安 HODLer 空投項目 Morpho（$MORPHO）是什麼？",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-hodler-airdrop-morpho-morpho/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "原文同时讨论Morpho的点对点匹配、独立借贷市场及MORPHO治理。",
+      "takeaways": [
+        "借贷利率和市场风险是理解协议的核心。",
+        "治理代币可影响协议决策，并非直接代表存款。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "点对点优化器与独立市场属于不同架构，阅读时要核对所指版本；文中借贷双方收益与成本表述也需辨清。"
+      ],
+      "related": [
+        "leverage",
+        "sizing",
+        "drawdown"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：HODLer空投资格与快照机制",
+          "url": "https://www.binance.com/en/support/faq/detail/78006ff26d5e4362a4f5c82d3f449f1f"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：别把不同借贷架构混在一起",
+        "prompt": "假设存入借贷池100 U，另花10 U买治理代币，两者能合并成同一笔保本存款吗？",
+        "answer": "不能。存款请求权和代币价格敞口不同，应分开记账与评估。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-binance-hodler-airdrop-linea-linea",
+      "title": "LINEA 空投案例：原生代币未必支付 Gas",
+      "original_title": "幣安 HODLer 空投項目 Linea（$LINEA）是什麼？",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-hodler-airdrop-linea-linea/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "文章介绍Linea的以太坊扩容方案，再讨论LINEA激励和回购销毁的设计。",
+      "takeaways": [
+        "原文强调网络手续费使用ETH。",
+        "文中LINEA不承担治理与Gas支付，而用于生态激励。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "“销毁强化价值”是经济推论，不能保证价格上涨；桥接和提现速度也受具体路径与条件影响。"
+      ],
+      "related": [
+        "binance-map",
+        "profit",
+        "sizing"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：HODLer空投资格与快照机制",
+          "url": "https://www.binance.com/en/support/faq/detail/78006ff26d5e4362a4f5c82d3f449f1f"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：原生代币未必支付 Gas",
+        "prompt": "假设要在某网络转账，钱包有100个生态代币但没有所需Gas币，能只凭生态代币余额发出吗？",
+        "answer": "不一定。要先核对该网络实际用哪种币支付Gas及是否有代付服务。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-binance-hodler-airdrop-0g-0g",
+      "title": "0G 空投案例：AI 项目的多层结构",
+      "original_title": "幣安 HODLer 空投項目 0G（$0G）是什麼？",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-hodler-airdrop-0g-0g/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "原文把0G拆成链、数据可用性、存储、计算和节点服务，并整理0G代币的支付与治理用途。",
+      "takeaways": [
+        "存储模型与执行模型是不同工作。",
+        "代币用途横跨交易费、计算服务、存储与治理。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "“无限扩展”和性能数字属于技术宣传口径，需查看测试条件与真实使用数据，不可直接用于估值。"
+      ],
+      "related": [
+        "binance-map",
+        "profit",
+        "sizing"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：HODLer空投资格与快照机制",
+          "url": "https://www.binance.com/en/support/faq/detail/78006ff26d5e4362a4f5c82d3f449f1f"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：AI 项目的多层结构",
+        "prompt": "假设网络能保存模型文件，但没有足够GPU，能因此认定它能高效运行模型吗？",
+        "answer": "不能。存储容量、计算资源和响应速度需要分别验证。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-binance-hodler-airdrop-succinct-prove",
+      "title": "PROVE 空投案例：证明市场也有履约成本",
+      "original_title": "幣安 HODLer 空投項目 Succinct（$PROVE）是什麼？",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-hodler-airdrop-succinct-prove/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "文章介绍Succinct的请求者、证明者和任务匹配机制，并讲解PROVE支付、质押与委托。",
+      "takeaways": [
+        "请求者为证明服务付费，证明者完成工作取得报酬。",
+        "证明者未按时交付可能损失质押。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "委托不是自动无风险生息；协议治理阶段和奖励补贴也需核对当前规则。"
+      ],
+      "related": [
+        "binance-map",
+        "profit",
+        "sizing"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：HODLer空投资格与快照机制",
+          "url": "https://www.binance.com/en/support/faq/detail/78006ff26d5e4362a4f5c82d3f449f1f"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：证明市场也有履约成本",
+        "prompt": "假设完成任务获得6 U，却支付4 U运算费和1 U其他成本，净收益是多少？",
+        "answer": "净收益1 U。收到的代币报酬不是利润，仍需扣除资源和履约成本。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-binance-hodler-airdrop-towns-towns",
+      "title": "TOWNS 空投案例：社区资产、消息与治理",
+      "original_title": "幣安 HODLer 空投項目 Towns（$TOWNS）是什麼？",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-hodler-airdrop-towns-towns/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "原文介绍Towns的去中心化通信、可编程社区空间，以及节点委托机制。",
+      "takeaways": [
+        "社区准入与权限规则可以用合约配置。",
+        "消息加密与公开的成员关系是不同层面的隐私。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "“不会被关闭或夺去”过于绝对；还需考虑管理员权限、合约漏洞、节点可用性与客户端限制。"
+      ],
+      "related": [
+        "binance-map",
+        "profit",
+        "sizing"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：HODLer空投资格与快照机制",
+          "url": "https://www.binance.com/en/support/faq/detail/78006ff26d5e4362a4f5c82d3f449f1f"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：社区资产、消息与治理",
+        "prompt": "假设聊天内容加密，但成员名单公开，能说所有社交信息都隐私吗？",
+        "answer": "不能。内容与关系元数据的可见性不同，隐私判断应逐项检查。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-binance-hodler-airdrop-treehouse-tree",
+      "title": "TREE 空投案例：固定收益协议不等于保本",
+      "original_title": "幣安 HODLer 空投項目 Treehouse（$TREE）是什麼？",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-hodler-airdrop-treehouse-tree/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "文章用tAssets与DOR解释Treehouse，希望通过链上资产和报价形成利率基础设施。",
+      "takeaways": [
+        "tAssets结合质押和其他链上策略。",
+        "DOR通过参与者提交数据及规则形成参考利率。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "固定收益的产品定位不代表本金无损；原文高抵押率会压缩安全余量，不能只看可借金额。"
+      ],
+      "related": [
+        "leverage",
+        "sizing",
+        "drawdown"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：HODLer空投资格与快照机制",
+          "url": "https://www.binance.com/en/support/faq/detail/78006ff26d5e4362a4f5c82d3f449f1f"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：固定收益协议不等于保本",
+        "prompt": "假设抵押品值100 U、负债90 U，抵押品跌到90 U时，未计费用的权益剩多少？",
+        "answer": "权益为0。高抵押借款比例会让很小的价格变化吞掉缓冲，实际清算可能更早。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-binance-hodler-airdrop-stakestone-sto",
+      "title": "STO 空投案例：流动性资产与治理锁仓",
+      "original_title": "幣安 HODLer 空投第 17 期 $STO 分析",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-hodler-airdrop-stakestone-sto/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "原文介绍StakeStone为跨链资产流动性提供的服务，并说明STO锁仓为veSTO的治理用途。",
+      "takeaways": [
+        "STONE等收益型资产与STO治理代币有不同角色。",
+        "veSTO用于参与参数和激励分配的投票。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "跨链和多协议组合会叠加依赖；流动性更灵活不表示风险更低，锁仓治理也可能限制退出。"
+      ],
+      "related": [
+        "binance-map",
+        "profit",
+        "sizing"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：HODLer空投资格与快照机制",
+          "url": "https://www.binance.com/en/support/faq/detail/78006ff26d5e4362a4f5c82d3f449f1f"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：流动性资产与治理锁仓",
+        "prompt": "假设你持有一种收益凭证和一种治理币，哪一个能直接说明你对底层存款的请求权？",
+        "answer": "要查收益凭证的赎回规则，不能因为治理币属于同一品牌就认定它代表底层存款。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-2025-binance-launchpool-nil",
+      "title": "NIL 挖矿案例：不同奖励池要分别计算",
+      "original_title": "幣安 Launchpool 第 65 期新幣挖礦，輕鬆獲得 $NIL 新幣獎勵！",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/2025-binance-launchpool-nil/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "这篇介绍Nillion的隐私计算思路，并记录NIL历史Launchpool的三个参与池。",
+      "takeaways": [
+        "BNB、USDC与FDUSD池分别分配奖励。",
+        "隐私计算以避免暴露敏感输入为目标。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "每个池子的奖励总量与参与规模不同，不能只比较总奖池；文中活动已经结束。"
+      ],
+      "related": [
+        "profit",
+        "fees",
+        "sizing"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：原文所引公告或产品规则",
+          "url": "https://www.binance.com/zh-TC/support/announcement/detail/2608d3a348a44a33b04a133b90d45dc2"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：不同奖励池要分别计算",
+        "prompt": "假设A池奖1000枚、有100万元参与，B池奖500枚、有10万元参与；同投1000元且规则相同，哪池分得多？",
+        "answer": "A池约1枚，B池约5枚。比较的是个人占池比例乘该池奖量，而非总奖量。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-binance-hodler-airdrop-goplus-security-gps",
+      "title": "GPS 空投案例：安全工具不能替代独立判断",
+      "original_title": "幣安 HODLer 空投第 11 期，總共三億枚 GPS 代幣已發放完畢！",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-hodler-airdrop-goplus-security-gps/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "原文介绍GoPlus的Web3安全服务与GPS用途，再说明历史空投记录的查询路径。",
+      "takeaways": [
+        "GPS被描述为服务支付与生态贡献激励工具。",
+        "到账数量可在空投记录及现货账户交叉查看。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "检测覆盖量和合作数量是历史统计，不能推出零漏报；安全代币本身也存在市场风险。"
+      ],
+      "related": [
+        "safety",
+        "transfer",
+        "profit"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：HODLer空投资格与快照机制",
+          "url": "https://www.binance.com/en/support/faq/detail/78006ff26d5e4362a4f5c82d3f449f1f"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：安全工具不能替代独立判断",
+        "prompt": "一个地址被扫描工具显示低风险，可以直接授予无限额度吗？",
+        "answer": "不能。还需核对合约、额度与操作目的；扫描结果无法覆盖所有未来风险。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-binance-hodler-airdrop-myshell-shell",
+      "title": "SHELL 空投案例：AI 产品热度与持币收益",
+      "original_title": "幣安 HODLer 空投第 10 期獎勵已發放，總空投量 2500 萬枚 $SHELL",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-hodler-airdrop-myshell-shell/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "这篇列出MyShell的代理、语音与模型工具，并区分SHELL的平台功能和历史空投规则。",
+      "takeaways": [
+        "OpenVoice、MeloTTS等工具承担不同AI能力。",
+        "SHELL在文章中用于产品访问、推广、交易和治理。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "下载量、代码热度及用户量不直接等于代币收入；具体资格上限与快照仍需查原始公告。"
+      ],
+      "related": [
+        "binance-map",
+        "profit",
+        "sizing"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：原文所引公告或产品规则",
+          "url": "https://www.binance.com/zh-TC/support/announcement/detail/525a49627f0f4ad8989bbbc6922fc78d"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：AI 产品热度与持币收益",
+        "prompt": "假设开源工具被很多人免费下载，能直接把下载量乘代币价格算平台收入吗？",
+        "answer": "不能。免费下载不是付费收入，需要找到实际收费、成本和代币参与方式。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-binance-hodler-airdrop-movement-move",
+      "title": "MOVE 空投案例：公告之后买入来不及追溯",
+      "original_title": "幣安 HODLer 空投第 3 期已降臨，$MOVE 代幣驚喜大放送！",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-hodler-airdrop-movement-move/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "文章以Movement介绍Move相关链上生态，并记录按此前BNB持仓回溯发放MOVE的案例。",
+      "takeaways": [
+        "原文列出Move与EVM互操作的设计目标。",
+        "该次快照先于公告，到账后才开放交易。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "旧架构、性能与安全承诺可能变化；安全语言和并行执行不能保证应用无漏洞。"
+      ],
+      "related": [
+        "binance-map",
+        "profit",
+        "sizing"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：原文所引公告或产品规则",
+          "url": "https://www.binance.com/zh-TC/support/announcement/detail/8a585286abc547d293e269beeb6b9bf3"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：公告之后买入来不及追溯",
+        "prompt": "假设活动按前一周快照分奖励，你在公告当天才买BNB，能补上前一周资格吗？",
+        "answer": "不能。回溯快照记录的是已发生的持仓，当前买入无法改变过去。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-2024-binance-launchpool-usual",
+      "title": "USUAL 挖矿案例：三种资产不要混认",
+      "original_title": "幣安 Launchpool 第 61 期 USUAL 新幣挖礦快來參加！",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/2024-binance-launchpool-usual/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "原文区分Usual的USD0、USD0++与USUAL，随后介绍历史新币挖矿和盘前交易。",
+      "takeaways": [
+        "USD0是稳定币，USD0++是相关收益型资产。",
+        "USUAL承担治理功能，属于本次奖励代币。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "稳定币、收益凭证和治理币有不同风险；国债支持也不等于任何时刻都能按一美元卖出。"
+      ],
+      "related": [
+        "binance-map",
+        "profit",
+        "sizing"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：Launchpool入门与参与规则",
+          "url": "https://www.binance.com/zh-CN/support/faq/detail/94ed108ce89d44ab8602aa3c476dfb04"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：三种资产不要混认",
+        "prompt": "名称相近的稳定币、锁定凭证、治理币，哪个可以默认价格永远等于1美元？",
+        "answer": "都不能这样默认。稳定币也可能脱锚，另外两种更需分别查看定价和赎回条款。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-2024-binance-launchpool-scroll",
+      "title": "SCR 挖矿案例：盘前价格只是一个参考",
+      "original_title": "幣安 Launchpool 第 60 期 SCR 新幣挖礦帶你參加！",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/2024-binance-launchpool-scroll/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "文章介绍Scroll扩容方案、SCR分配，并记录两天的Launchpool与盘前市场。",
+      "takeaways": [
+        "奖励池按BNB与FDUSD分开计算。",
+        "文中用盘前报价估测上市价格。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "盘前成交的流动性与正式市场不同，“上市不会差太多”只是作者预测，不能当成交保证。"
+      ],
+      "related": [
+        "orders",
+        "candles",
+        "profit"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：原文所引公告或产品规则",
+          "url": "https://www.binance.com/zh-TC/support/announcement/%E5%B9%A3%E5%AE%89launchpool%E5%92%8C%E7%9B%A4%E5%89%8D%E4%BA%A4%E6%98%93%E4%B8%8A%E7%B7%9Ascroll-scr-22df1ba38f4a4033924a1adecf93735e"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：盘前价格只是一个参考",
+        "prompt": "假设盘前报价2 U，正式开盘买盘仅愿出1.2 U，手上10枚新币应按哪个数估算可卖收入？",
+        "answer": "若10枚都能以1.2 U成交，毛收入12 U；盘前20 U只是旧估值，实际还需扣费用和滑点。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-binance-launchpool",
+      "title": "Launchpool 入门：奖励怎样分，收益怎样算",
+      "original_title": "幣安 Launchpool 是什麼？幣安新幣挖礦收益與風險分析",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-launchpool/",
+      "language": "繁体中文",
+      "category": "理财与产品",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "这篇整理Launchpool的参与方式、历史收益率及本金币种风险，适合与Launchpad对照阅读。",
+      "takeaways": [
+        "参加者用指定币种获取新代币奖励。",
+        "奖励取决于池内份额和时间，历史表还会将短期收益年化。"
+      ],
+      "caveats": [
+        "短期高年化不代表全年可重复获得；本金币价、稳定币折溢价、费用与借款利息都应入账。",
+        "阅读整理日只表示本页资料收集时间，不表示产品、地区资格或文章中的费率已重新核实有效。"
+      ],
+      "related": [
+        "profit",
+        "fees",
+        "sizing"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：Launchpool入门与参与规则",
+          "url": "https://www.binance.com/zh-CN/support/faq/detail/94ed108ce89d44ab8602aa3c476dfb04"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：奖励怎样分，收益怎样算",
+        "prompt": "假设1000 U资金三天获得6 U奖励且本金价格不变，真实三天收益率是多少？",
+        "answer": "0.6%。把它换成年化只是比较口径，不能承诺未来每三天都能重复赚6 U。"
+      },
+      "tags": [
+        "产品机制",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-binance-hodler-airdrop",
+      "title": "HODLer 入门：回溯快照与未来奖励的不确定性",
+      "original_title": "幣安 HODLer 空投怎麼拿？3 步驟參與攻略",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-hodler-airdrop/",
+      "language": "繁体中文",
+      "category": "理财与产品",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "原文把HODLer与事先公告的挖矿活动区分开，解释按历史BNB指定持仓发放奖励。",
+      "takeaways": [
+        "看到公告时，对应快照可能早已结束。",
+        "查询时要分别看快照数量和实际收到的新币。"
+      ],
+      "caveats": [
+        "买入BNB等待空投要承担币价与平台风险；文章列出的资格范围不是所有地区、所有产品都适用。",
+        "阅读整理日只表示本页资料收集时间，不表示产品、地区资格或文章中的费率已重新核实有效。"
+      ],
+      "related": [
+        "profit",
+        "fees",
+        "sizing"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：HODLer空投资格与快照机制",
+          "url": "https://www.binance.com/en/support/faq/detail/78006ff26d5e4362a4f5c82d3f449f1f"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：回溯快照与未来奖励的不确定性",
+        "prompt": "假设为等空投买入1000 U的BNB，期间跌80 U，后来收到15 U空投，总结果如何？",
+        "answer": "未计费用亏65 U。收到空投不等于整个持仓计划赚钱。"
+      },
+      "tags": [
+        "产品机制",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-2024-binance-launchpool-not",
+      "title": "NOT 挖矿案例：全流通不等于没人会卖",
+      "original_title": "2024 幣安 Launchpool 新專案 NOT 新幣挖礦攻略",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/2024-binance-launchpool-not/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "文章从Telegram点击游戏介绍Notcoin，并记录BNB和FDUSD参与的历史挖矿。",
+      "takeaways": [
+        "原文讨论NOT上市时的流通状态。",
+        "玩家领取与卖出奖励仍可能分批发生。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "全流通描述不能消除卖压和需求变化；网页中的参与时间已结束，不是当前新手奖励。"
+      ],
+      "related": [
+        "orders",
+        "candles",
+        "profit"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：原文所引公告或产品规则",
+          "url": "https://www.binance.com/zh-TC/support/announcement/detail/b78921ecf7c94e50973850fc47f497b9"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：全流通不等于没人会卖",
+        "prompt": "假设所有代币已经可流通，但一批玩家今天才决定卖出，会不会增加今天的卖压？",
+        "answer": "会。是否存在新增解锁与现有持有者何时卖出是两件事。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-binance-megadrop",
+      "title": "Megadrop 入门：积分和奖励不是固定汇率",
+      "original_title": "幣安 Megadrop 介紹與教學，手把手帶你賺積分換新幣空投",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-megadrop/",
+      "language": "繁体中文",
+      "category": "理财与产品",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "原文用BNB锁定与Web3任务介绍Megadrop积分，并展示任务验证与领取流程。",
+      "takeaways": [
+        "总分由锁定积分、任务乘数及任务奖励组合。",
+        "最终奖励还取决于个人积分占所有合格用户总分的比例。"
+      ],
+      "caveats": [
+        "原文“必须开Web3钱包”过于绝对；官方FAQ允许符合资格者仅通过BNB定期产品参与，具体任务乘数也会不同。",
+        "阅读整理日只表示本页资料收集时间，不表示产品、地区资格或文章中的费率已重新核实有效。"
+      ],
+      "related": [
+        "profit",
+        "fees",
+        "sizing"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：Megadrop资格、积分和任务规则",
+          "url": "https://www.binance.com/zh-TC/support/faq/detail/fb007363c6db4d15976fcdd09f6161da"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：积分和奖励不是固定汇率",
+        "prompt": "假设锁定积分200、任务乘数2、附加积分50，总分是多少？能据此直接知道奖励值多少美元吗？",
+        "answer": "总分450。还不知道总合格积分、奖池和代币成交价，因此不能直接换算美元收益。"
+      },
+      "tags": [
+        "产品机制",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-2024-binance-launchpool-rez",
+      "title": "REZ 挖矿案例：治理币与再质押凭证分开看",
+      "original_title": "2024 幣安 Launchpool 新專案 REZ 新幣挖礦攻略",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/2024-binance-launchpool-rez/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "这篇介绍Renzo简化再质押操作的定位，区分ezETH与REZ，再记录历史Launchpool。",
+      "takeaways": [
+        "ezETH在文中用于表示再质押资产的流动性。",
+        "REZ用于协议治理，和ezETH功能不同。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "“自动平衡收益和风险”不代表消除风险；凭证折价、赎回等待和底层罚没均需考虑。"
+      ],
+      "related": [
+        "leverage",
+        "sizing",
+        "drawdown"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：原文所引公告或产品规则",
+          "url": "https://www.binance.com/zh-TC/support/announcement/detail/b1e64410cc9c4ab29687392f5581a61b"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：治理币与再质押凭证分开看",
+        "prompt": "假设你以100 U买入收益凭证，市场买价跌到95 U但底层账面仍是100 U，可以立即无损退出吗？",
+        "answer": "不能确定。即时卖出可能只得95 U；按底层赎回则要看资格、等待时间和实际可收回资产。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-2024-binance-launchpool-omni",
+      "title": "OMNI 挖矿案例：跨链便利与安全依赖",
+      "original_title": "2024 幣安 Launchpool 新專案 OMNI 新幣挖礦攻略",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/2024-binance-launchpool-omni/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "原文介绍Omni整合Rollup交互的定位，并说明OMNI的费用、质押和治理用途。",
+      "takeaways": [
+        "文中采用OMNI与再质押ETH的双重质押描述。",
+        "跨Rollup消息与Omni EVM承担不同工作。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "跨链互通增加了桥接、验证和执行等依赖，不能把速度快理解为资金没有风险。"
+      ],
+      "related": [
+        "binance-map",
+        "profit",
+        "sizing"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：原文所引公告或产品规则",
+          "url": "https://www.binance.com/zh-TC/support/announcement/detail/3954d04933da443ab539ca38616013de"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：跨链便利与安全依赖",
+        "prompt": "假设跨链操作包含发送、验证、到账三个阶段，发送成功是否意味着目标链已经到账？",
+        "answer": "不意味着。要分别核对各阶段状态，不能只依据源链交易成功判断资产可用。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-2024-binance-launchpool-saga",
+      "title": "SAGA 挖矿案例：用户不付 Gas 也有人承担成本",
+      "original_title": "2024 幣安 Launchpool 新專案 SAGA 新幣挖礦攻略",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/2024-binance-launchpool-saga/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "文章用Chainlet解释Saga的专用应用链，并记录SAGA历史挖矿规则。",
+      "takeaways": [
+        "开发者可配置专用链和用户的付费体验。",
+        "SAGA在文中用于维持Chainlet、质押与治理。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "“用户免Gas”通常说明费用由应用等其他角色承担，不等于网络运行没有成本。"
+      ],
+      "related": [
+        "binance-map",
+        "profit",
+        "sizing"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：原文所引公告或产品规则",
+          "url": "https://www.binance.com/zh-TC/support/announcement/detail/22674210af2b4d35b7ddc62c243d66fa"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：用户不付 Gas 也有人承担成本",
+        "prompt": "假设一款应用替用户支付每天50 U网络费，而当天收入30 U，应用当天盈亏是多少？",
+        "answer": "亏20 U。用户感觉免费，并不能说明服务方无成本或商业模式已盈利。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-2024-binance-launchpool-ethena",
+      "title": "ENA 挖矿案例：中性策略仍有多种风险",
+      "original_title": "2024 幣安 Launchpool 新專案 ENA 新幣挖礦攻略（附新戶活動）",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/2024-binance-launchpool-ethena/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "这篇介绍Ethena的合成美元思路：以现货和空头合约对冲，再说明ENA治理与历史奖励。",
+      "takeaways": [
+        "USDe与ENA是不同资产，不能只看名称关联。",
+        "资金费率在文中是收益来源之一。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "对冲价格方向不等于收益固定；资金费率可转负，也存在基差、交易对手与清算执行风险。"
+      ],
+      "related": [
+        "leverage",
+        "sizing",
+        "drawdown"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：Launchpool入门与参与规则",
+          "url": "https://www.binance.com/zh-CN/support/faq/detail/94ed108ce89d44ab8602aa3c476dfb04"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：中性策略仍有多种风险",
+        "prompt": "假设现货赚20 U、空头亏20 U、资金费还支付3 U，不计其他费用净收益是多少？",
+        "answer": "亏3 U。方向盈亏抵消了，但持仓成本没有消失。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-2024-binance-launchpool-ethfi",
+      "title": "ETHFI 挖矿案例：再质押如何叠加风险",
+      "original_title": "2024 幣安 Launchpool 新專案 ETHFI 新幣挖礦分析與攻略",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/2024-binance-launchpool-ethfi/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "原文从ether.fi与EigenLayer的关系介绍再质押，再讲ETHFI治理和历史Launchpool。",
+      "takeaways": [
+        "底层ETH质押与再次提供安全服务属于不同层次。",
+        "ETHFI是治理用途，不等同于质押ETH的凭证。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "保留部分密钥控制并不免除合约和罚没风险；TVL排名是截稿快照，不能当安全评级。"
+      ],
+      "related": [
+        "leverage",
+        "sizing",
+        "drawdown"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：Launchpool入门与参与规则",
+          "url": "https://www.binance.com/zh-CN/support/faq/detail/94ed108ce89d44ab8602aa3c476dfb04"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：再质押如何叠加风险",
+        "prompt": "假设同一笔抵押资产支持两种服务，能把它记为两份独立本金吗？",
+        "answer": "不能。本金仍是一份，服务叠加可能带来额外奖励，也可能增加共同承担的风险。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-2024-binance-launchpool-aevo",
+      "title": "AEVO 挖矿案例：链下撮合与链上结算",
+      "original_title": "2024 幣安 Launchpool 新專案 AEVO 新幣挖礦分析與攻略",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/2024-binance-launchpool-aevo/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "文章介绍Aevo的衍生品交易架构，并记录AEVO奖励池和代币用途。",
+      "takeaways": [
+        "订单先在链下匹配，再向链上提交结算。",
+        "AEVO在文中用于治理及质押相关优惠。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "持有平台代币和进行期权或永续交易是不同风险；链上结算不保证成交、退出或价格。"
+      ],
+      "related": [
+        "binance-map",
+        "profit",
+        "sizing"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：原文所引公告或产品规则",
+          "url": "https://www.binance.com/zh-TC/support/announcement/detail/3ff4cb81f21346a4a6b1c966e0b797f0"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：链下撮合与链上结算",
+        "prompt": "假设订单在界面显示已匹配，但链上结算尚未完成，是否应直接标为可提现余额？",
+        "answer": "不应。要核对最终结算与余额状态，暂时状态不能代替已确认的资产。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-2024-binance-launchpool-portal",
+      "title": "PORTAL 挖矿案例：游戏平台热度如何核对",
+      "original_title": "2024 幣安 Launchpool 新專案 PORTAL 新幣挖礦分析與攻略",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/2024-binance-launchpool-portal/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "这篇介绍Portal连接不同链上游戏的想法，并整理PORTAL支付、质押及节点用途。",
+      "takeaways": [
+        "统一入口试图降低跨链游戏的使用门槛。",
+        "历史Launchpool按BNB与FDUSD池发放奖励。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "合作游戏数量、顾问名单和融资额不能代替付费用户及收入证据，也不能保证代币回报。"
+      ],
+      "related": [
+        "binance-map",
+        "profit",
+        "sizing"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：原文所引公告或产品规则",
+          "url": "https://www.binance.com/zh-TC/support/announcement/detail/0620f90f55f2420b89158808380b6c9d"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：游戏平台热度如何核对",
+        "prompt": "假设平台列出200款游戏，但只有10款有人持续付费，仅凭游戏数量能估值吗？",
+        "answer": "不能。还需要活跃度、真实付费、留存、费用及代币经济关系。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-2024-binance-launchpool-pixel",
+      "title": "PIXEL 挖矿案例：游戏资产和代币的不同用途",
+      "original_title": "2024 幣安 Launchpool 新專案 PIXEL 新幣挖礦分析與攻略",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/2024-binance-launchpool-pixel/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "原文用土地、资源和代币介绍Pixels农场游戏，并记录PIXEL的历史奖励规则。",
+      "takeaways": [
+        "土地、游戏资源与高级货币承担不同用途。",
+        "文中包含当时的双代币机制及游戏内使用场景。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "游戏经济与代币规则可能已更新；“边玩边赚”还需扣除时间、投入、交易成本与币价损失。"
+      ],
+      "related": [
+        "binance-map",
+        "profit",
+        "sizing"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：原文所引公告或产品规则",
+          "url": "https://www.binance.com/zh-TC/support/announcement/detail/c055fa89dda84402b7b662f13b80fffe"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：游戏资产和代币的不同用途",
+        "prompt": "假设玩游戏获得10 U奖励，支付8 U道具费并用时5小时，未计其他成本的每小时净收益是多少？",
+        "answer": "每小时0.4 U。若奖励没有真正卖出，则仍只是估值。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-binance-activities",
+      "title": "活动汇总页：先看期限，再看奖池",
+      "original_title": "幣安活動 | 抽獎、紅包、周邊、空投、新戶活動獎勵等你拿 (進行中！！！)",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-activities/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "原文集合抽奖、支付游戏、交易排名和新户优惠，属于持续更新但混有旧活动的索引。",
+      "takeaways": [
+        "不同活动分别要求报名、交易或其他指定任务。",
+        "新户手续费券与实物抽奖、现金奖励应分别理解。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "标题写“进行中”不能证明每项仍开放；正文多个项目已过期，陌生表单也应先核对官方来源。"
+      ],
+      "related": [
+        "safety",
+        "transfer",
+        "profit"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：原文所引公告或产品规则",
+          "url": "https://www.binance.com/zh-TC/support/announcement/%E5%B9%A3%E5%AE%89%E6%9C%80%E6%96%B0%E6%B4%BB%E5%8B%95?c=93&navId=93"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：先看期限，再看奖池",
+        "prompt": "看到标题写活动进行中，但正文截止时间已过，你应该按哪个信息判断？",
+        "answer": "先按已过期处理，再到官方公告核对是否延期或重开；不要为了旧活动产生交易成本。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-2024-binance-launchpool-altlayer-tutorial",
+      "title": "ALT 挖矿案例：活动奖池和表格也会写错",
+      "original_title": "幣安 Launchpool 的 ALT 幣想要嗎？新戶都在搶 600,000 ALT 幣空投！(已結束)",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/2024-binance-launchpool-altlayer-tutorial/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "原文同时介绍AltLayer、新户推广空投与Launchpool，末尾附作者个人收益计算。",
+      "takeaways": [
+        "推广空投与新币挖矿是两项不同活动。",
+        "作者将短期奖励按估值换算为年化收益。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "原文正文按5亿奖池分配，表格却少写一个零；个人高年化及借币套利观点不能直接照搬。"
+      ],
+      "related": [
+        "profit",
+        "fees",
+        "sizing"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：Launchpool入门与参与规则",
+          "url": "https://www.binance.com/zh-CN/support/faq/detail/94ed108ce89d44ab8602aa3c476dfb04"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：活动奖池和表格也会写错",
+        "prompt": "假设奖池5亿枚，80%分给A池，A池应为4000万还是4亿？",
+        "answer": "应为4亿。先把单位和比例算清楚，不能直接复制表格。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-2024-binance-launchpool-manta-tutorial",
+      "title": "MANTA 挖矿案例：稳定币溢价会吃掉奖励",
+      "original_title": "2024 幣安 Launchpool 新專案 MANTA 挖礦攻略",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/2024-binance-launchpool-manta-tutorial/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "这篇介绍Manta的不同网络，再记录MANTA挖矿和作者收益经验，特别提到入场成本。",
+      "takeaways": [
+        "Manta Pacific与Manta Atlantic的定位不同。",
+        "原文提醒BNB上涨和FDUSD溢价都可能推高参与成本。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "不要把旧文章的链架构、私募价或两天年化当当前事实；借币还会新增利息和退出风险。"
+      ],
+      "related": [
+        "profit",
+        "fees",
+        "sizing"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：Launchpool入门与参与规则",
+          "url": "https://www.binance.com/zh-CN/support/faq/detail/94ed108ce89d44ab8602aa3c476dfb04"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：稳定币溢价会吃掉奖励",
+        "prompt": "假设花1010 U买入面值1000 U的稳定币，拿到8 U奖励后以1000 U卖回，结果如何？",
+        "answer": "亏2 U，未计手续费。稳定币买入溢价也属于成本。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-2023-binance-launchpad-cyber-tutorial",
+      "title": "CYBER 挖矿案例：奖励比例先验算",
+      "original_title": "2023 幣安 Launchpool 新專案 CyberConnect（$CYBER）攻略",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/2023-binance-launchpad-cyber-tutorial/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "原文介绍CyberConnect的社交身份与数据，并记录BNB、TUSD和FDUSD三个奖励池。",
+      "takeaways": [
+        "CYBER在文中用于治理、身份及账户相关费用。",
+        "同一活动的不同池子有各自奖励和个人上限。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "原文把三个池比例写为80%、20%、5%，合计105%；按其数量计算，中间一池应为15%，仍应对照官方公告。"
+      ],
+      "related": [
+        "profit",
+        "fees",
+        "sizing"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：原文所引公告或产品规则",
+          "url": "https://www.binance.com/zh-TC/support/announcement/detail/7d1f62e7483d406584a754a38094358a"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：奖励比例先验算",
+        "prompt": "假设总奖池300万枚，其中一池45万枚，它占总池多少？",
+        "answer": "15%。比例之和或数量对不上时，应停下来核对原始公告。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-2023-binance-launchpad-sei-tutorial",
+      "title": "SEI 挖矿案例：同时参与不代表奖励翻倍",
+      "original_title": "2023 幣安 Launchpool 新項目 SEI 新幣挖礦攻略",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/2023-binance-launchpad-sei-tutorial/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "文章介绍面向交易的Sei网络，并记录SEI与另一活动同时进行时的参与方式。",
+      "takeaways": [
+        "SEI在文中用于手续费、质押和治理。",
+        "多个项目可能同时分配BNB奖励。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "旧技术性能和网络版本不代表当前状态；自动参与多个项目也不意味着同一资金收益直接翻倍。"
+      ],
+      "related": [
+        "profit",
+        "fees",
+        "sizing"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：原文所引公告或产品规则",
+          "url": "https://www.binance.com/zh-TC/support/announcement/detail/b1d3b4df9cb34f679783a4fdb891f643"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：同时参与不代表奖励翻倍",
+        "prompt": "假设1000 U资金一半分入A活动、一半分入B活动，能按各投入1000 U来算收益吗？",
+        "answer": "不能。应按各自实际分配金额与快照计算，否则会把本金重复计算。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-2023-binance-launchpad-arkham-arkm-tutorial",
+      "title": "ARKM 认购案例：时间表必须前后对得上",
+      "original_title": "2023 幣安 Launchpad 新項目 Arkham（$ARKM）參與申購攻略",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/2023-binance-launchpad-arkham-arkm-tutorial/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "原文介绍Arkham链上分析与情报平台，然后记录ARKM按BNB投入比例认购的过程。",
+      "takeaways": [
+        "持仓记录影响认购投入额度。",
+        "新币认购会扣除部分BNB，不是全部免费赠送。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "原文申购、计算和分发表出现先后矛盾；时间节点只能以该期官方公告为准，案例不可重新参加。"
+      ],
+      "related": [
+        "orders",
+        "candles",
+        "profit"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：BNB每日持仓统计规则",
+          "url": "https://www.binance.com/zh-TC/support/announcement/detail/360031505011"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：时间表必须前后对得上",
+        "prompt": "如果表格写申购尚未结束就已经分发，第一步应该做什么？",
+        "answer": "核对原始公告的时区、日期和阶段，不应自行猜一个时间去操作。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-binance-futures-referral-code",
+      "title": "合约推荐文章：先核对成本，再看优惠",
+      "original_title": "幣安合約邀請碼/推薦碼【推广码已省略】享合約手續費 20% 折扣",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-futures-referral-code/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "入门",
+      "checked": "2026-09-23",
+      "summary": "这篇以合约推荐优惠为主，同时串联身份验证、账户开通、划转和费率说明。",
+      "takeaways": [
+        "账户注册、合约资格与资金划转是不同步骤。",
+        "宣传返佣与合约本身的交易风险属于不同问题。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "折扣与有效期需以账户条款为准；合约还可能产生资金费和强平损失，不能因手续费低就增加杠杆。"
+      ],
+      "related": [
+        "fees",
+        "spot-futures",
+        "leverage"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：原文所引公告或产品规则",
+          "url": "https://www.binance.com/zh-TC/support/faq/%E5%A6%82%E4%BD%95%E8%A8%AD%E7%AB%8B%E5%B9%A3%E5%AE%89%E5%90%88%E7%B4%84%E5%B8%B3%E6%88%B6-360033772992"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：先核对成本，再看优惠",
+        "prompt": "假设某笔交易手续费由5 U降为4 U，但交易亏损50 U，折扣能让这笔交易盈利吗？",
+        "answer": "不能。只节省1 U，仍有交易亏损及其他成本。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-2023-binance-launchpad-open-campus-edu-tutorial",
+      "title": "EDU 认购案例：代币用途不等于课程收益",
+      "original_title": "2023 幣安 Launchpad 新項目 Open Campus（$EDU）參與攻略",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/2023-binance-launchpad-open-campus-edu-tutorial/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "原文介绍Open Campus教育内容协作，再用EDU说明Launchpad的持仓与认购阶段。",
+      "takeaways": [
+        "EDU被描述为支付、治理和内容相关激励工具。",
+        "申购阶段投入BNB后，由系统计算实际扣款与新币分配。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "使用平台、持有EDU和拥有特定内容权利是不同关系；历史发行价不能保证上市后获利。"
+      ],
+      "related": [
+        "orders",
+        "candles",
+        "profit"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：BNB每日持仓统计规则",
+          "url": "https://www.binance.com/zh-TC/support/announcement/detail/360031505011"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：代币用途不等于课程收益",
+        "prompt": "假设认购获得100枚新币花费5 U，之后卖出只得4 U，发行价低是否代表没亏？",
+        "answer": "仍亏1 U，未计费用。盈利要比较自己的真实成本和成交收入。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-2023-binance-launchpad-space-id-tutorial",
+      "title": "SPACE ID 认购案例：持仓、投入与分发",
+      "original_title": "2023 幣安 Launchpad 新項目 SPACE ID 參加領取攻略",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/2023-binance-launchpad-space-id-tutorial/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "文章介绍SPACE ID域名与身份服务，再说明ID的治理用途和历史BNB认购流程。",
+      "takeaways": [
+        "Web3域名服务与ID代币有不同使用角色。",
+        "有持仓额度后仍需在投入阶段完成申购。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "原文时间表把持仓起止写成同一时间，但后文写成多日，存在明显不一致；不能照表执行。"
+      ],
+      "related": [
+        "orders",
+        "candles",
+        "profit"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：BNB每日持仓统计规则",
+          "url": "https://www.binance.com/zh-TC/support/announcement/detail/360031505011"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：持仓、投入与分发",
+        "prompt": "假设账户允许最多投入10个BNB，你只实际确认投入2个，分配应按10还是2来算？",
+        "answer": "按实际确认的2个及当期其他规则计算；最大额度不是已投入金额。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-binance-trial-fund",
+      "title": "体验金旧教程：面额不是能提现的本金",
+      "original_title": "幣安寶體驗金是什麼？500 BUSD 讓我免費領 7 天利息",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/binance-trial-fund/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "原文用币安宝体验金卡券演示如何查看、使用和确认利息，核心是体验额度与自有资金的区别。",
+      "takeaways": [
+        "体验金本身不能交易或提现，到期会被收回。",
+        "用户可能获得的是符合卡券条款的利息。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "文中BUSD、币安宝名称及利率属于旧产品案例；不能据此认定现在注册仍发相同券。"
+      ],
+      "related": [
+        "safety",
+        "transfer",
+        "profit"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：原文所引体验金历史公告",
+          "url": "https://www.binance.com/zh-TC/support/announcement/detail/b82e5eddc72047fda55f720a49a7bdbc"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：面额不是能提现的本金",
+        "prompt": "假设1000 U体验金允许体验5天、简单年化3.65%，不计其他条件，利息约多少？",
+        "answer": "约0.5 U，即1000乘3.65%再乘5除365；1000 U面额不是你的可提现收入。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    },
+    {
+      "slug": "digitalyoming-202312-binance-web3-wallet-airdrop",
+      "title": "Web3 钱包空投旧案例：交换成本不能漏算",
+      "original_title": "2023 幣安 Web3 錢包大空投！總獎池 50 萬鎂最高 1 BTC 等你抽（已結束）",
+      "author": "数位小帮手（站点署名）",
+      "site": "Digitalyoming 数位小帮手",
+      "url": "https://digitalyoming.com/202312-binance-web3-wallet-airdrop/",
+      "language": "繁体中文",
+      "category": "活动与旧资讯",
+      "topic": "实操",
+      "level": "进阶",
+      "checked": "2026-09-23",
+      "summary": "文章记录一次钱包交换抽奖活动，按报名、创建与备份钱包、转入资金、交换的顺序演示。",
+      "takeaways": [
+        "活动报名与实际链上交换是分开的步骤。",
+        "交换涉及授权与网络费，奖品并非人人得到同一金额。"
+      ],
+      "caveats": [
+        "本页按历史活动或推广资料收录。具体快照、奖励与上币安排不代表现在仍可参加，也不是买入建议。",
+        "此活动已结束；原文标题、奖池表述和份数之间有金额矛盾，不能用它们推算中奖收益。"
+      ],
+      "related": [
+        "safety",
+        "transfer",
+        "profit"
+      ],
+      "official_sources": [
+        {
+          "title": "Binance：原文所引历史活动页（可能已归档）",
+          "url": "https://www.binance.com/zh-TC/activity/mission/swap-to-win"
+        }
+      ],
+      "exercise": {
+        "title": "原创练习：交换成本不能漏算",
+        "prompt": "假设为抽奖做一次交换，花2 U网络费和1 U滑点，最终奖励价值0.2 U，净结果是多少？",
+        "answer": "亏2.8 U。最高奖品不是期望收益，实际到账奖励还要减去参与成本。"
+      },
+      "tags": [
+        "历史案例",
+        "个人博客"
+      ]
+    }
+  ]
+}
