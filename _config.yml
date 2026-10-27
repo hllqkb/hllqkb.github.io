@@ -1,7 +1,7 @@
 # Site settings 配置站点
 title: '水啊的博客'
-description: '水啊，前端开发者,葫芦侠，热爱技术&设计。很高兴能在这里与你分享我对技术和生活的思考。'
-keyword: '水啊,水啊的独立博客, 水啊的博客, 前端, 前端开发, 前端博客,php,css,jquery,html,css,mdui,java,javascript, vuejs, nodejs, 设计'
+description: '软件工程在读，后端开发实习中。这里记录写代码、做工具和生活里的思考，也收录几篇授权转载的好文章。'
+keyword: '水啊,水啊的博客,hllqkb,后端开发,Go,搜索推荐,AI 编程,个人博客'
 url: 'https://hllqkb.github.io' # your host
 
 # when build blog on server, if you don't need baseurl, you should leave this value blank.
@@ -29,7 +29,7 @@ footer:
 # Author 配置博主信息
 author: '水啊'
 nickname: '博主'
-bio: '开发者，沙雕，程序员，葫芦侠，热爱技术&动漫&游戏&二次元，简单乐观爱创造'
+bio: '软件工程在读，后端开发实习生。喜欢做小工具，也写点生活。'
 avatar: '/assets/img/profile.jpg'
 
 # Search
@@ -57,7 +57,7 @@ sns:
   weibo: '//weibo.com/androidhtml'
   juejin: '//juejin.im/user/androidhtml'
   instagram: '//www.instagram.com/androidhtml'
-  github: '//github.com/androidhtml'
+  github: '//github.com/hllqkb'
 
 # Tags 设置标签
 recommend-tags: true # whether or not display recommend-tags on the sidebar
@@ -82,4 +82,8 @@ RSS: false
 permalink: /:year/:month/:day/:title.html
 
 # Plugins
-plugins: [jekyll-paginate]
+plugins: [jekyll-paginate, jekyll-feed, jekyll-sitemap]
+
+# jekyll-feed 生成 /feed.xml（Atom）；旧的 /rss.xml 保留给已有订阅
+feed:
+  posts_limit: 20

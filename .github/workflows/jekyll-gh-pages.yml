@@ -2,9 +2,11 @@
 name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 
 on:
-  # Runs on pushes targeting the default branch
+  # master 上推送就构建并发布；PR 只构建检查，不发布
   push:
-    branches: ["master", "publish/quant-academy-2026-09-23", "publish/life-essays-2026-10-27", "publish/all-essays-2026-10-27", "publish/archive-redesign-2026-10-27", "fix/article-layout-2026-10-27", "chore/cleanup-junk", "feat/pages-cms"]
+    branches: ["master"]
+  pull_request:
+    branches: ["master"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -18,8 +20,9 @@ permissions:
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
-  group: "pages"
-  cancel-in-progress: false
+  # PR 的检查构建各自排队，不和正式发布抢同一个队列
+  group: ${{ github.event_name == 'pull_request' && format('pages-pr-{0}', github.ref) || 'pages' }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 jobs:
   # Build job
@@ -51,6 +54,16 @@ jobs:
           grep -Eq '/assets/reading[.]js[?]v=[0-9]+' _site/reading/shotsync-online/index.html
           grep -Eq '/assets/archive[.]css[?]v=[0-9]+' _site/reading/index.html
           grep -Eq '/assets/archive[.]js[?]v=[0-9]+' _site/reading/index.html
+      - name: Verify feeds, sitemap, robots and llms.txt
+        run: |
+          set -x
+          test -s _site/feed.xml
+          test -s _site/sitemap.xml
+          grep -q 'Sitemap: https://hllqkb.github.io/sitemap.xml' _site/robots.txt
+          grep -q '^# ' _site/llms.txt
+          if grep -Eq 'https?://[^/]+//' _site/rss.xml; then echo 'rss.xml has double slashes'; exit 1; fi
+          grep -q 'application/atom+xml' _site/index.html
+          grep -q 'application/atom+xml' _site/reading/index.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 

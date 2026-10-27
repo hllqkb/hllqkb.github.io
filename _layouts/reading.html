@@ -7,6 +7,8 @@
   <meta name="description" content="{{ page.excerpt | default: '技术、阅读与生活随笔' | strip_html | escape }}">
   <meta name="author" content="{{ page.author | default: '水啊' | escape }}">
   {% if page.source_url %}<link rel="canonical" href="{{ page.source_url | escape }}">{% endif %}
+  {% feed_meta %}
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS" href="{{ "/rss.xml" | absolute_url }}">
   <link rel="stylesheet" href="{{ '/assets/essays.css' | relative_url }}?v={{ site.time | date: '%s' }}">
   <script src="{{ '/assets/reading.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
 </head>
