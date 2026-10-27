@@ -1,0 +1,22 @@
+---
+layout: null
+---
+# {{ site.title }}
+
+> {{ site.description }}
+
+站点主页 {{ "/" | absolute_url }} ，订阅：{{ "/feed.xml" | absolute_url }}（Atom）、{{ "/rss.xml" | absolute_url }}（RSS）。
+
+## 原创文章
+{% for post in site.posts %}{% unless post.source_url %}
+- [{{ post.title }}]({{ post.url | absolute_url }}){% if post.subtitle %}：{{ post.subtitle }}{% endif %}{% endunless %}{% endfor %}
+
+## 授权转载
+以下文章转载自他人博客，引用请以原文为准。
+{% for post in site.posts %}{% if post.source_url %}
+- [{{ post.title }}]({{ post.url | absolute_url }})，原文 {{ post.source_url }}{% endif %}{% endfor %}
+
+## 栏目
+- [文章归档]({{ "/reading/" | absolute_url }})
+- [量化学习]({{ "/learn/collections/digitalyoming/" | absolute_url }})
+- [标签]({{ "/tags.html" | absolute_url }})

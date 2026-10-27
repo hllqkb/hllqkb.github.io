@@ -13,6 +13,8 @@
     <meta property="og:site_name" content="{{ site.title }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css">
     <link rel="stylesheet" href="//at.alicdn.com/t/font_271755_rdxzzo2kqwk.css">
+    {% feed_meta %}
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS" href="{{ "/rss.xml" | absolute_url }}">
     <link rel="stylesheet" href="{{ "/assets/css/github-markdown.css" | relative_url }}">
     <link rel="stylesheet" href="{{ "/assets/css/prism.css" | relative_url }}">
     <link rel="stylesheet" href="{{ "/assets/css/share.min.css" | relative_url }}">

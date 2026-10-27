@@ -68,3 +68,8 @@ content:
         type: rich-text
         options:
           format: markdown
+
+settings:
+  content:
+    # 保存时保留 front matter 里没在上面配置的字段（如旧文章的 music-id、source_url）
+    merge: true
