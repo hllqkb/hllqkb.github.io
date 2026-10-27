@@ -24,10 +24,6 @@
       <div class="post-meta">
         <span class="post-meta-item"><i class="iconfont icon-author"></i>{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</span>
         <time class="post-meta-item" datetime="{{ page.date | date:"%y-%m-%d" }}"><i class="iconfont icon-date"></i>{{ page.date | date_to_string }}</time>
-        <!-- pv的方式，单个用户点击1篇文章，本篇文章记录1次阅读量 -->
-<span class="post-meta-item" id="busuanzi_container_page_pv">
-  本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-</span>
       </div>
     </div>
     {% if page.cover %}
@@ -40,12 +36,7 @@
     {% if page.subtitle %}
     <h2 class="post-subtitle">{{ page.subtitle }}</h2>
     {% endif %}
-    
-  <!-- 在正文开头添加网易云音乐插件 -->
-  {% if page.music-id %}
-    {% include cloud-music.html %}
-  {% endif %}
-    
+
     <article class="markdown-body">
       {{ page.content }}
     </article>
@@ -107,34 +98,8 @@
       </div>
       {% endif %}
     </section>
-    {% if site.comments.disqus %}
-    <section class="post-footer-item comment">
-        <div id="disqus_thread"></div>
-    </section>
-    {% endif %}
   </section>
-  
-  <!-- 自定义评论 -->
-  <!-- 安装代码 -->
-<!-- CSS -->
-<link href="https://unpkg.com/artalk@2.3.4/dist/Artalk.css" rel="stylesheet">
 
-<!-- JS -->
-<script src="https://unpkg.com/artalk@2.3.4/dist/Artalk.js"></script>
-
-<!-- Artalk -->
-<div id="Comments"></div>
-<script>
-  new Artalk({
-    emoticons: "https://cdn.jsdelivr.net/gh/outlookthe/chinese-artalk-emoji@main/grps/default.json",
-    el:        '#Comments',              // 绑定元素的 Selector
-    pageKey:   '',                // 固定链接 (留空自动获取)
-    pageTitle: '', // 页面标题 (留空自动获取)
-    server:    'https://talk.shuia.tk/',  // 后端地址
-    site:      '水啊的博客',           // 你的站点名
-  })
-</script>
-<!-- 安装代码已完成 -->
   {% include footer.html %}
 
   <script src="{{ "/assets/js/social-share.min.js" | relative_url }}"></script>
@@ -152,27 +117,7 @@
     });
   </script>
 
-  {% if site.comments.disqus %}
-  <script>
-    /**
-     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-    /*var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };*/
-    (function() { // DON'T EDIT BELOW THIS LINE
-      var d = document, s = d.createElement('script');
-      s.src = '{{ site.comments.disqus_url }}';
-      s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
-    })();
-  </script>
-  {% endif %}
-
   <script src="{{ "/assets/js/prism.js" | relative_url }}"></script>
-  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
-</script>
   <script src="{{ "/assets/js/index.min.js" | relative_url }}"></script>
 </body>
 
