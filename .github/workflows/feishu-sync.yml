@@ -1,0 +1,65 @@
+name: Sync posts from Feishu
+
+on:
+  schedule:
+    # 每小时一次（UTC），飞书里写完最多等一小时上线
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: feishu-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Pull docs from Feishu
+        env:
+          FEISHU_TYPE: ${{ vars.FEISHU_TYPE }}
+          FEISHU_FOLDER_TOKEN: ${{ secrets.FEISHU_FOLDER_TOKEN }}
+          FEISHU_WIKI_ID: ${{ secrets.FEISHU_WIKI_ID }}
+          FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
+          FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
+        run: |
+          if [ -z "$FEISHU_APP_ID" ] || [ -z "$FEISHU_APP_SECRET" ]; then
+            echo "::error::缺少 FEISHU_APP_ID / FEISHU_APP_SECRET，请在仓库 Settings → Secrets 里配置"
+            exit 1
+          fi
+          npx --yes @elog/cli@0.14.7 sync -a elog.cache.json
+
+      - name: Build _posts/feishu
+        run: bash .github/scripts/feishu-to-posts.sh
+
+      - name: Commit changes
+        id: commit
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Sync posts from Feishu"
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      # GITHUB_TOKEN 推的提交不会触发 push 事件，手动触发一次部署
+      - name: Trigger Pages deploy
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run jekyll-gh-pages.yml --ref master

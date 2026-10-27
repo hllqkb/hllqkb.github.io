@@ -81,7 +81,17 @@ recommend-condition-size: 12 # a tag will be recommended if the size of it is mo
 # Build settings
 paginate: 6
 paginate_path: 'page:num'
-exclude: ['node_modules', 'dev', 'package.json', 'gulpfile.js', '.gitignore', 'README.md']
+exclude: ['node_modules', 'dev', 'package.json', 'gulpfile.js', '.gitignore', 'README.md', 'elog.config.js', 'elog.cache.json']
+
+# 飞书同步来的文章（.github/workflows/feishu-sync.yml）默认用文章模板
+defaults:
+  - scope:
+      path: "_posts/feishu"
+      type: posts
+    values:
+      layout: post
+      author: 水啊
+      tags: 飞书
 
 # Markdown
 markdown: kramdown
