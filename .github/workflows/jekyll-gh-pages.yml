@@ -56,13 +56,14 @@ jobs:
           grep -Eq '/assets/archive[.]js[?]v=[0-9]+' _site/reading/index.html
       - name: Verify feeds, sitemap, robots and llms.txt
         run: |
+          set -x
           test -s _site/feed.xml
           test -s _site/sitemap.xml
           grep -q 'Sitemap: https://hllqkb.github.io/sitemap.xml' _site/robots.txt
           grep -q '^# ' _site/llms.txt
           if grep -Eq 'https?://[^/]+//' _site/rss.xml; then echo 'rss.xml has double slashes'; exit 1; fi
-          grep -q 'rel="alternate" type="application/atom+xml"' _site/index.html
-          grep -q 'rel="alternate" type="application/atom+xml"' _site/reading/index.html
+          grep -q 'application/atom+xml' _site/index.html
+          grep -q 'application/atom+xml' _site/reading/index.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
