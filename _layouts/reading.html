@@ -7,8 +7,8 @@
   <meta name="description" content="{{ page.excerpt | default: '技术、阅读与生活随笔' | strip_html | escape }}">
   <meta name="author" content="{{ page.author | default: '水啊' | escape }}">
   {% if page.source_url %}<link rel="canonical" href="{{ page.source_url | escape }}">{% endif %}
-  <link rel="stylesheet" href="{{ '/assets/essays.css' | relative_url }}">
-  <script src="{{ '/assets/reading.js' | relative_url }}" defer></script>
+  <link rel="stylesheet" href="{{ '/assets/essays.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+  <script src="{{ '/assets/reading.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#content">跳到正文</a>
