@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | escape }} · 水啊的博客</title>
+  <meta name="description" content="{{ page.excerpt | default: '技术、阅读与生活随笔' | strip_html | escape }}">
+  <meta name="author" content="{{ page.author | default: '水啊' | escape }}">
+  {% if page.source_url %}<link rel="canonical" href="{{ page.source_url | escape }}">{% endif %}
+  <link rel="stylesheet" href="{{ '/assets/essays.css' | relative_url }}">
+  <script src="{{ '/assets/reading.js' | relative_url }}" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#content">跳到正文</a>
+<header class="site-header"><a class="wordmark" href="{{ '/' | relative_url }}">水啊的博客<span>阅读与生活</span></a><nav aria-label="主导航"><a href="{{ '/reading/' | relative_url }}" {% if page.reading_archive %}aria-current="page"{% endif %}>文章归档</a><a href="{{ '/' | relative_url }}">博客首页</a></nav></header>
+<div class="reading-shell">
+<aside class="sidebar" aria-label="阅读导航">
+<a class="all-articles" href="{{ '/reading/' | relative_url }}">全部文章</a>
+{% if page.reading_article and page.reading_toc.size > 0 %}
+<details class="chapter-menu" open><summary>本篇目录</summary><nav class="toc" aria-label="文章章节">{% for heading in page.reading_toc %}<a class="level-{{ heading.level }}" href="#{{ heading.id | escape }}">{{ heading.title | escape }}</a>{% endfor %}</nav></details>
+{% endif %}
+<div class="sidebar-note"><p>让思考有处安放。</p><span>文 / Defiabell<br>听风闲语 · 授权转载</span></div>
+</aside>
+<main id="content" class="reading-main" tabindex="-1">
+{% if page.reading_article %}
+<header class="article-head"><p class="kicker">{{ page.category | escape }}<span>·</span><time datetime="{{ page.original_date }}">{{ page.original_date | replace: '-', ' / ' }}</time></p><h1>{{ page.title | escape }}</h1><div class="byline">Defiabell <span>·</span> 授权转载 <span>·</span> <a href="{{ page.source_url | escape }}">阅读原文</a></div></header>
+<article class="prose">{{ content }}</article>
+<footer class="article-footer"><a href="{{ '/reading/' | relative_url }}">返回文章归档</a><a href="#content">回到页首</a></footer>
+{% else %}{{ content }}{% endif %}
+</main>
+</div>
+<footer class="site-footer"><span>水啊的博客 · 阅读与记录</span><span>白鹭楷 · 字里行间</span></footer>
+</body></html>
