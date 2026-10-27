@@ -1,0 +1,70 @@
+# Pages CMS 配置：在 https://app.pagescms.org 用 GitHub 登录后编辑本仓库。
+# 保存即提交到 master，jekyll-gh-pages.yml 自动构建发布。
+# 文档：https://pagescms.org/docs/configuration/
+
+# 先存在仓库里，方便本地预览；以后换图床再改
+media:
+  input: assets/img/posts
+  output: /assets/img/posts
+  rename: safe
+  categories: [image]
+
+content:
+  - name: posts
+    label: 文章
+    type: collection
+    path: _posts
+    # 只管 .md 文章；_posts 里转载的 .html 文章不会出现在列表里
+    filename:
+      template: "{year}-{month}-{day}-{fields.slug}.md"
+      field: false
+    view:
+      primary: title
+      fields: [title, date, tags]
+      sort: [date, title]
+      search: [title]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: layout
+        type: string
+        hidden: true
+        default: post
+      - name: title
+        label: 标题
+        type: string
+        required: true
+      - name: slug
+        label: 英文短链
+        description: 用作文件名和网址，只写小写英文、数字和连字符，如 my-first-post；创建后不要再改
+        type: string
+        required: true
+        pattern:
+          regex: "^[a-z0-9]+(-[a-z0-9]+)*$"
+          message: 只能用小写英文、数字和连字符
+      - name: date
+        label: 发布时间
+        type: date
+        options:
+          time: true
+          format: "yyyy-MM-dd HH:mm:ss"
+      - name: subtitle
+        label: 副标题
+        type: string
+      - name: author
+        label: 作者
+        type: string
+        default: 水啊
+      - name: cover
+        label: 封面图
+        type: image
+      - name: tags
+        label: 标签
+        type: string
+        list: true
+      - name: body
+        label: 正文
+        type: rich-text
+        options:
+          format: markdown
