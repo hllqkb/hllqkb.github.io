@@ -1,0 +1,64 @@
+---
+layout: "reading"
+title: "早睡打卡第二天：搭了一套手机到电脑的笔记同步方案"
+date: "2026-10-27 22:49:28 +0800"
+author: "Defiabell"
+tags: ["转载", "随笔"]
+permalink: "/reading/早睡打卡第二天搭了一套手机到电脑的笔记同步方案/"
+excerpt: "第二天打卡。睡眠数据回顾，用 Obsidian + 坚果云实现手机电脑双端同步，附完整配置步骤。"
+reading_article: true
+original_date: "2026-05-31"
+category: "随笔"
+source_url: "https://defiabell.github.io/posts/%E6%97%A9%E7%9D%A1%E6%89%93%E5%8D%A1%E7%AC%AC%E4%BA%8C%E5%A4%A9%E6%90%AD%E4%BA%86%E4%B8%80%E5%A5%97%E6%89%8B%E6%9C%BA%E5%88%B0%E7%94%B5%E8%84%91%E7%9A%84%E7%AC%94%E8%AE%B0%E5%90%8C%E6%AD%A5%E6%96%B9%E6%A1%88/"
+reading_toc: [{"id": "昨日睡眠回顾", "title": "昨日睡眠回顾", "level": 2}, {"id": "今天", "title": "今天", "level": 2}, {"id": "如何用-obsidian-实现手机和电脑的双端同步", "title": "如何用 Obsidian 实现手机和电脑的双端同步", "level": 2}, {"id": "工具准备", "title": "工具准备", "level": 3}, {"id": "第一步安装-obsidian", "title": "第一步：安装 Obsidian", "level": 3}, {"id": "第二步注册坚果云", "title": "第二步：注册坚果云", "level": 3}, {"id": "第三步安装坚果云同步插件", "title": "第三步：安装坚果云同步插件", "level": 3}, {"id": "第四步登录并同步", "title": "第四步：登录并同步", "level": 3}, {"id": "验证", "title": "验证", "level": 3}]
+---
+{% raw %}
+<h2 id="昨日睡眠回顾">昨日睡眠回顾</h2>
+<p>昨天 12:16 上床睡觉，手环显示 12:41 睡着，10:00 醒，总共睡了 8 小时 40 分钟。</p>
+<h2 id="今天">今天</h2>
+<p>今天是平淡的一天。还是有大量的时间浪费在了无意义的刷手机上。</p>
+<p>下午 3 点左右比较困，躺下 10 分钟后就起来了。看书大概 20 分钟。</p>
+<p>晚上配置了下 Obsidian，实现了手机和电脑端的同步。</p>
+<p>因为日常生活中手机是最方便的，当我有一些临时的想法和感悟时，可以随时打开手机将其记录下来，等到了晚上再进行总结。</p>
+<p>为此，我需要一个能在手机上记录，并且能在电脑端直接同步的工具。虽然有很多文档工具可以实现这个功能，但它们不能直接在我的 Mac 本地实现同步。</p>
+<p>而且，如果想要通过 API 直接获取或更新文档内容，通常面临两个问题：</p>
+<ol>
+<li>需要付费订阅</li>
+<li>没有公开的 API 文档</li>
+</ol>
+<p>经过查询，我发现 Obsidian 是一个比较好用的方案。下面是完整的配置步骤。</p>
+<hr>
+<h2 id="如何用-obsidian-实现手机和电脑的双端同步">如何用 Obsidian 实现手机和电脑的双端同步</h2>
+<h3 id="工具准备">工具准备</h3>
+<ul>
+<li><strong>Obsidian</strong>：免费，iPhone / Mac 均可从 App Store 或 <a href="https://obsidian.md">obsidian.md</a> 下载</li>
+<li><strong>坚果云</strong>：国内网盘，免费版每月 1GB 上传流量，纯文字笔记几乎用不完，国内访问稳定</li>
+</ul>
+<h3 id="第一步安装-obsidian">第一步：安装 Obsidian</h3>
+<ul>
+<li><strong>Mac</strong>：前往 <a href="https://obsidian.md">obsidian.md</a> 下载安装</li>
+<li><strong>iPhone</strong>：App Store 搜索「Obsidian」安装</li>
+</ul>
+<p>两端分别新建一个笔记库（Vault），<strong>名字保持一致</strong>，比如都叫 <code>notes</code>。</p>
+<h3 id="第二步注册坚果云">第二步：注册坚果云</h3>
+<p>前往 <a href="https://www.jianguoyun.com">jianguoyun.com</a> 注册账号，用邮箱注册即可，免费。</p>
+<h3 id="第三步安装坚果云同步插件">第三步：安装坚果云同步插件</h3>
+<p>Mac 和 iPhone <strong>两端都要做</strong>，步骤一样：</p>
+<ol>
+<li>打开 Obsidian → <strong>设置</strong> → <strong>第三方插件</strong> → 关闭「安全模式」</li>
+<li>点击<strong>浏览</strong>，搜索 <code>Nutstore Sync</code>（坚果云官方插件）</li>
+<li>安装并<strong>启用</strong></li>
+</ol>
+<h3 id="第四步登录并同步">第四步：登录并同步</h3>
+<p>进入 Nutstore Sync 插件设置，点击<strong>登录坚果云</strong>，用账号密码登录，选择一个同步文件夹，点击<strong>立即同步</strong>。</p>
+<p>两端登录<strong>同一个坚果云账号</strong>、选择<strong>同一个文件夹</strong>，即配置完成。</p>
+<h3 id="验证">验证</h3>
+<p>手机新建一个测试文件 → 点同步 → Mac 打开 Obsidian 点同步 → 文件出现，成功。</p>
+<blockquote>
+<p>💡 iPhone 不会后台自动同步，每次打开 Obsidian 手动点一下同步按钮即可，或在插件设置里开启「启动时自动同步」。</p>
+</blockquote>
+<hr>
+<p>时间又来到了 11:40，这个时间理论上我应该在冥想，但我现在在写这篇文章。再给自己 5 分钟，整理一下文章，把文章发出去。</p>
+<p>接着去洗漱，12 点之前上床睡觉。作息调整打卡第二天。</p>
+
+{% endraw %}

@@ -1,0 +1,35 @@
+---
+layout: "reading"
+title: "搭建个人博客"
+date: "2026-10-27 22:49:28 +0800"
+author: "Defiabell"
+tags: ["转载", "随笔"]
+permalink: "/reading/搭建个人博客/"
+excerpt: "搭建个人博客"
+reading_article: true
+original_date: "2023-12-02"
+category: "随笔"
+source_url: "https://defiabell.github.io/posts/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"
+reading_toc: [{"id": "起因", "title": "起因", "level": 1}, {"id": "遇到的问题", "title": "遇到的问题", "level": 2}, {"id": "优化", "title": "优化", "level": 2}]
+---
+{% raw %}
+<h1 id="起因">起因</h1>
+<p>老大一直有关注我的个人 IP 建设。作为一个技术方向的后端工程师，以架构师为目标的职业路线还是要尽早建设自己的个人 IP。</p>
+<p>工作了五年多，焦虑在逐渐加重，终于在今天（2024.03.29）再次捡起个人博客。</p>
+<h2 id="遇到的问题">遇到的问题</h2>
+<p>问题1：hugo server 命令启动的服务显示 page not found。</p>
+<blockquote>
+<p>查询发现说没有配置 theme，但我确实有在 config.toml 配置了 theme 参数。然后使用命令 hugo server -t Blogpaper 启动后发现是有界面的。</p>
+</blockquote>
+<p>问题2：hugo 命令执行后没有生成对应的静态页面。</p>
+<blockquote>
+<p>后来意识到我的 hugo 是很早之前就安装了，到现在已有半年之久了，版本更新可能带了一些不一样的变化，所以尝试更新到最新版试试。</p>
+</blockquote>
+<blockquote>
+<p>升级 hugo 版本后重新执行 hugo 命令，但 content 目录下创建的文件还是没有生成。
+经过多次尝试，发现居然是命名问题，默认content文件夹下生成的 index.md 改为 _index.md，然后重新生成一下就好了</p>
+</blockquote>
+<h2 id="优化">优化</h2>
+<p>强大的 AI Agent 大大简化了网站搭建过程。只需要自己写文章和提示，Agent 就能帮你完成绝大多数代码工作。</p>
+
+{% endraw %}
