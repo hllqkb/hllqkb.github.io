@@ -2,11 +2,12 @@
 # 保存即提交到 master，jekyll-gh-pages.yml 自动构建发布。
 # 文档：https://pagescms.org/docs/configuration/
 
-# 先存在仓库里，方便本地预览；以后换图床再改
+# 图片存仓库，本地预览可用；发布到 master 时由 workflow 同步到 R2 并改写地址（见 IMAGE_CDN_BASE）
 media:
   input: assets/img/posts
   output: /assets/img/posts
-  rename: safe
+  # 随机文件名：同名图片不会互相覆盖，R2 上可以放心长期缓存
+  rename: random
   categories: [image]
 
 content:

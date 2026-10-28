@@ -66,6 +66,42 @@ jobs:
           grep -q 'application/atom+xml' _site/reading/index.html
           grep -q 'project-card' _site/projects/index.html
           grep -q 'latest-card' _site/index.html
+      - name: Check site size
+        # GitHub Pages 站点上限 1GB
+        run: |
+          size_mb=$(du -sm _site | cut -f1)
+          echo "_site is ${size_mb} MB"
+          if [ "$size_mb" -gt 950 ]; then echo "::error::_site ${size_mb} MB，接近 1GB 上限"; exit 1; fi
+          if [ "$size_mb" -gt 800 ]; then echo "::warning::_site ${size_mb} MB，超过 800MB，考虑压缩或清理图片"; fi
+      - name: Dry-run image URL rewrite
+        run: |
+          check="$RUNNER_TEMP/site-check"
+          cp -R _site "$check"
+          python3 .github/scripts/rewrite_image_urls.py "$check" https://img.example.test https://hllqkb.github.io
+          if grep -rEl --include='*.html' '(^|[^A-Za-z0-9_.:/])/assets/img/posts/' "$check"; then
+            echo "::error::rewrite left local image paths"; exit 1
+          fi
+      # 仓库变量 IMAGE_CDN_BASE（如 https://img.hllqk.cn）为空时跳过，图片仍由 Pages 提供
+      - name: Publish post images to R2
+        if: github.ref == 'refs/heads/master' && github.event_name != 'pull_request' && vars.IMAGE_CDN_BASE != ''
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: auto
+          # AWS CLI 2.23+ 默认附带的校验和 R2 不支持
+          AWS_REQUEST_CHECKSUM_CALCULATION: when_required
+          AWS_RESPONSE_CHECKSUM_VALIDATION: when_required
+          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+          R2_BUCKET: ${{ secrets.R2_BUCKET }}
+        run: |
+          aws --version
+          aws s3 sync assets/img/posts "s3://${R2_BUCKET}/posts" \
+            --endpoint-url "https://${R2_ACCOUNT_ID}.r2.cloudflarestorage.com" \
+            --size-only --exclude ".gitkeep" \
+            --cache-control "public, max-age=31536000, immutable"
+      - name: Point post images at R2
+        if: github.ref == 'refs/heads/master' && github.event_name != 'pull_request' && vars.IMAGE_CDN_BASE != ''
+        run: python3 .github/scripts/rewrite_image_urls.py _site "${{ vars.IMAGE_CDN_BASE }}" https://hllqkb.github.io
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
