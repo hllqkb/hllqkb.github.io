@@ -79,6 +79,16 @@ description: 天若有情天亦老 人间正道是沧桑
                 {% endif %}
             </section>
 
+            <section class="latest-card">
+                <h4>最新文章</h4>
+                <ul>
+                    {% for post in site.posts limit:3 %}
+                    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%Y-%m-%d' }}</time></li>
+                    {% endfor %}
+                </ul>
+                <div class="feed-links"><a href="{{ '/feed.xml' | relative_url }}">订阅</a><a href="{{ '/projects/' | relative_url }}">项目</a><a href="{{ '/reading/' | relative_url }}">全部文章</a></div>
+            </section>
+
             {% if site.recommend-tags and site.tags.size>0 %}
             <section class="tags-card">
                 {% for tag in site.tags %}

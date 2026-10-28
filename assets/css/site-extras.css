@@ -1,0 +1,55 @@
+/* 主题之外新增的组件：首页「最新」卡片、项目页。配色跟随 H2O 主题与 .night-mode。 */
+
+.latest-card {
+  margin-top: 20px;
+  padding-top: 18px;
+  border-top: 1px solid #eef0f3;
+}
+.latest-card h4 {
+  margin: 0 0 10px;
+  font-size: 14px;
+  color: #4e4e4e;
+  font-weight: 500;
+}
+.latest-card ul { margin: 0; padding: 0; list-style: none; }
+.latest-card li { margin: 0 0 10px; line-height: 20px; }
+.latest-card li a { color: #555; font-size: 14px; }
+.latest-card li a:hover { color: #222; }
+.latest-card time { display: block; font-size: 12px; color: #a6abb2; }
+.latest-card .feed-links { margin-top: 12px; font-size: 12px; }
+.latest-card .feed-links a { color: #a6abb2; margin-right: 10px; }
+
+.projects-content { max-width: 960px; margin: 0 auto; padding: 30px 16px 60px; box-sizing: border-box; }
+.projects-intro { color: #868a94; margin: 0 0 20px; }
+.projects-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.project-card {
+  position: relative;
+  padding: 18px 20px;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .06);
+  transition: box-shadow .2s;
+}
+.project-card:hover { box-shadow: 0 4px 14px rgba(0, 0, 0, .1); }
+.project-link { position: absolute; inset: 0; z-index: 1; }
+.project-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.project-head h3 { margin: 0; font-size: 17px; color: #333; }
+.project-year { font-size: 12px; color: #a6abb2; }
+.project-card p { margin: 10px 0 12px; font-size: 14px; line-height: 22px; color: #666; }
+.project-meta { display: flex; justify-content: space-between; font-size: 12px; }
+.project-stack { color: #a6abb2; }
+.project-note { position: relative; z-index: 2; color: #5d9bd2; }
+
+.night-mode .latest-card { border-top-color: rgba(255, 255, 255, .1); }
+.night-mode .latest-card h4,
+.night-mode .latest-card li a,
+.night-mode .project-head h3 { color: #c3c6cc; }
+.night-mode .project-card { background: #2d313a; box-shadow: none; }
+.night-mode .project-card p { color: #868a94; }

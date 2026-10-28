@@ -64,6 +64,8 @@ jobs:
           if grep -Eq 'https?://[^/]+//' _site/rss.xml; then echo 'rss.xml has double slashes'; exit 1; fi
           grep -q 'application/atom+xml' _site/index.html
           grep -q 'application/atom+xml' _site/reading/index.html
+          grep -q 'project-card' _site/projects/index.html
+          grep -q 'latest-card' _site/index.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 

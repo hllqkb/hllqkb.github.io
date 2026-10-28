@@ -19,6 +19,7 @@ nav:
   主页: '/'
   文章归档: '/reading/'
   量化学习: '/learn/collections/digitalyoming/'
+  项目: '/projects/'
   标签: '/tags.html'
   一图: 'https://api-seven-teal.vercel.app/'
 
