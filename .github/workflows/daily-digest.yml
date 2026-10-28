@@ -1,0 +1,62 @@
+name: Daily digest
+
+on:
+  schedule:
+    # 每天北京时间 09:00
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "生成哪一天（YYYY-MM-DD，留空为北京时间今天）"
+        required: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: daily-digest
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate digest
+        id: gen
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          DIGEST_DATE: ${{ inputs.date }}
+        run: |
+          if [ -z "$GEMINI_API_KEY" ]; then
+            echo "::notice::未配置 GEMINI_API_KEY，跳过"
+            exit 0
+          fi
+          python3 .github/scripts/daily_digest.py _daily _data/digest_seen.json
+          if [ -n "$(git status --porcelain _daily _data)" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "day=$(ls -t _daily/*.md | head -1 | xargs basename -s .md)" >> "$GITHUB_OUTPUT"
+          fi
+
+      # 先人工看：开 PR，合并后由 jekyll-gh-pages.yml 发布。
+      # 需在仓库 Settings → Actions → General 勾选「Allow GitHub Actions to create and approve pull requests」。
+      - name: Open pull request
+        if: steps.gen.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DAY: ${{ steps.gen.outputs.day }}
+        run: |
+          branch="daily/${DAY}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$branch"
+          git add _daily _data/digest_seen.json
+          git commit -m "Daily digest ${DAY}"
+          git push -u origin "$branch"
+          gh pr create --base master --head "$branch" \
+            --title "每日速递 ${DAY}" \
+            --body "AI 生成的每日速递，请检查后合并：链接是否对得上、摘要有没有编造细节、「为什么值得看」是不是空话。不合适的条目直接在 PR 里删掉再合。"

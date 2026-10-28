@@ -1,0 +1,31 @@
+---
+title: 每日速递
+layout: default
+permalink: /daily/
+---
+
+{% include header.html %}
+
+<div class="g-banner tags-banner {{ site.postPatterns | prepend: 'post-pattern-' }} {{ site.theme-color | prepend: 'bgcolor-' }}" data-theme="{{ site.theme-color }}">
+    <h2>每日速递</h2>
+</div>
+
+<main class="projects-content">
+    <p class="projects-intro">搜索、推荐、3D 生成和 Agent 方向的每日动态，AI 整理、人工过目，链接为准。</p>
+    {% assign issues = site.daily | sort: "date" | reverse %}
+    {% if issues.size == 0 %}
+    <p class="projects-intro">还没有内容。</p>
+    {% else %}
+    <ul class="projects-list">
+        {% for d in issues %}
+        <li class="project-card">
+            <a class="project-link" href="{{ d.url | relative_url }}" aria-label="{{ d.title }}"></a>
+            <div class="project-head"><h3>{{ d.date | date: "%Y-%m-%d" }}</h3></div>
+            <p>{{ d.subtitle }}</p>
+        </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</main>
+
+{% include footer.html %}

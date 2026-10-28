@@ -20,6 +20,7 @@ nav:
   文章归档: '/reading/'
   量化学习: '/learn/collections/digitalyoming/'
   项目: '/projects/'
+  速递: '/daily/'
   标签: '/tags.html'
   一图: 'https://api-seven-teal.vercel.app/'
 
@@ -88,3 +89,18 @@ plugins: [jekyll-paginate, jekyll-feed, jekyll-sitemap]
 # jekyll-feed 生成 /feed.xml（Atom）；旧的 /rss.xml 保留给已有订阅
 feed:
   posts_limit: 20
+  collections:
+    daily:
+      path: "/daily/feed.xml"
+
+# 每日速递（.github/workflows/daily-digest.yml 生成，人工合并）
+collections:
+  daily:
+    output: true
+    permalink: /daily/:name/
+defaults:
+  - scope:
+      path: ""
+      type: daily
+    values:
+      layout: post
