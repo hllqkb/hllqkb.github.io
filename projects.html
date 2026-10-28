@@ -1,0 +1,33 @@
+---
+title: 项目
+layout: default
+permalink: /projects/
+---
+
+{% include header.html %}
+
+<div class="g-banner tags-banner {{ site.postPatterns | prepend: 'post-pattern-' }} {{ site.theme-color | prepend: 'bgcolor-' }}" data-theme="{{ site.theme-color }}">
+    <h2>项目</h2>
+</div>
+
+<main class="projects-content">
+    <p class="projects-intro">自己做的工具和练手项目，点卡片看源码。</p>
+    <ul class="projects-list">
+        {% for p in site.data.projects %}
+        <li class="project-card">
+            <a class="project-link" href="{{ p.repo }}" target="_blank" rel="noopener" aria-label="{{ p.name }} 源码"></a>
+            <div class="project-head">
+                <h3>{{ p.name }}</h3>
+                <span class="project-year">{{ p.year }}</span>
+            </div>
+            <p>{{ p.summary }}</p>
+            <div class="project-meta">
+                <span class="project-stack">{{ p.stack }}</span>
+                {% if p.note %}<a class="project-note" href="{{ p.note | relative_url }}">制作手记 →</a>{% endif %}
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</main>
+
+{% include footer.html %}

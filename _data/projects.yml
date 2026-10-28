@@ -1,0 +1,41 @@
+# 项目页数据（/projects/）。新增项目往最前面加；note 写在哪篇文章里讲过它（可选，填文章网址）。
+- name: Claudio
+  summary: 个人化 AI 音乐电台：网易云歌单 + Claude 编排 + TTS 播报。
+  stack: TypeScript
+  year: 2026
+  repo: https://github.com/hllqkb/Claudio
+- name: 以撒网页版一键配置
+  summary: 以撒的结合网页版的全成就存档、mod 和 EID 中文一键配置脚本。
+  stack: JavaScript
+  year: 2026
+  repo: https://github.com/hllqkb/isaac-web-setup
+- name: 禾智灌
+  summary: 面向育秧场景的物联网环境监测与节水灌溉原型系统。
+  stack: JavaScript
+  year: 2026
+  repo: https://github.com/hllqkb/hezhi-irrigation
+- name: GroupFlow
+  summary: 拼团交易系统。
+  stack: Java
+  year: 2026
+  repo: https://github.com/hllqkb/GroupFlow
+- name: Spring AI Alibaba 最佳实践
+  summary: 基于个人知识库的 AI 问答：SSE 流式、Agent、知识图谱 RAG、Function Call、图片生成与理解。
+  stack: Java
+  year: 2025
+  repo: https://github.com/hllqkb/Spring-AI-Ailibaba-Best-Practices
+- name: neko-ai
+  summary: 有持久记忆的 AI 助手 API，FastAPI + Neo4j 图数据库。
+  stack: Python
+  year: 2025
+  repo: https://github.com/hllqkb/neko-ai
+- name: 智慧果园检测系统
+  summary: YOLO 检测、视频分析与农业预测，带人脸识别登录。
+  stack: Python
+  year: 2025
+  repo: https://github.com/hllqkb/smart-orchard-system
+- name: Visual-Vision-RAG
+  summary: 视频 RAG 实验。
+  stack: Jupyter Notebook
+  year: 2025
+  repo: https://github.com/hllqkb/Visual-Vision-RAG
